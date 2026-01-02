@@ -1,0 +1,5001 @@
+shipping_id,order_id,shipping_provider,shipping_status,delivery_days,delivery_priority
+1,1,USPS,Delivered,3,Standard
+2,2,FedEx,Returned,4,Express
+3,3,UPS,Delayed,2,Overnight
+4,4,USPS,Returned,1,Standard
+5,5,UPS,In Transit,12,Express
+6,6,UPS,In Transit,8,Standard
+7,7,DHL,Delivered,13,Overnight
+8,8,DHL,Returned,7,Express
+9,9,DHL,In Transit,2,Standard
+10,10,DHL,Returned,1,Standard
+11,11,USPS,In Transit,14,Express
+12,12,FedEx,In Transit,12,Standard
+13,13,USPS,Returned,13,Overnight
+14,14,FedEx,Delayed,4,Express
+15,15,UPS,In Transit,4,Standard
+16,16,DHL,Delivered,8,Standard
+17,17,UPS,In Transit,3,Standard
+18,18,UPS,Delayed,4,Overnight
+19,19,UPS,In Transit,13,Express
+20,20,FedEx,Delivered,4,Overnight
+21,21,USPS,Delivered,13,Standard
+22,22,UPS,Delayed,2,Overnight
+23,23,FedEx,Delivered,2,Overnight
+24,24,FedEx,In Transit,14,Express
+25,25,USPS,Delayed,4,Overnight
+26,26,USPS,Returned,13,Overnight
+27,27,UPS,Delivered,8,Express
+28,28,UPS,Delayed,5,Express
+29,29,FedEx,Returned,12,Express
+30,30,DHL,Delivered,5,Express
+31,31,UPS,Returned,8,Overnight
+32,32,DHL,In Transit,14,Express
+33,33,USPS,Returned,13,Express
+34,34,UPS,In Transit,4,Standard
+35,35,DHL,Returned,1,Overnight
+36,36,UPS,Delayed,14,Express
+37,37,DHL,In Transit,4,Express
+38,38,DHL,In Transit,13,Standard
+39,39,DHL,Delivered,6,Standard
+40,40,FedEx,Delivered,10,Standard
+41,41,UPS,Delivered,10,Standard
+42,42,FedEx,Returned,2,Overnight
+43,43,UPS,In Transit,11,Express
+44,44,UPS,Delayed,9,Standard
+45,45,DHL,Delivered,2,Overnight
+46,46,UPS,Delayed,9,Standard
+47,47,UPS,Returned,1,Express
+48,48,DHL,Returned,11,Express
+49,49,UPS,Returned,10,Standard
+50,50,DHL,Returned,8,Overnight
+51,51,FedEx,Returned,13,Overnight
+52,52,USPS,Delivered,10,Standard
+53,53,DHL,Delivered,3,Standard
+54,54,DHL,Delayed,13,Standard
+55,55,UPS,In Transit,2,Overnight
+56,56,USPS,Delivered,9,Overnight
+57,57,FedEx,Delayed,3,Overnight
+58,58,USPS,Delivered,9,Express
+59,59,USPS,Delivered,1,Express
+60,60,USPS,Returned,7,Overnight
+61,61,FedEx,Delayed,9,Overnight
+62,62,USPS,Returned,10,Express
+63,63,UPS,In Transit,13,Standard
+64,64,DHL,Returned,4,Express
+65,65,DHL,In Transit,6,Overnight
+66,66,DHL,In Transit,11,Express
+67,67,DHL,Returned,7,Overnight
+68,68,UPS,In Transit,3,Overnight
+69,69,UPS,In Transit,14,Standard
+70,70,USPS,Delayed,12,Overnight
+71,71,USPS,Delayed,6,Express
+72,72,USPS,In Transit,7,Overnight
+73,73,USPS,Delayed,12,Standard
+74,74,UPS,Delivered,1,Express
+75,75,USPS,Delayed,11,Express
+76,76,DHL,Returned,9,Express
+77,77,DHL,Returned,5,Express
+78,78,UPS,In Transit,7,Overnight
+79,79,USPS,Delivered,14,Standard
+80,80,DHL,Returned,14,Express
+81,81,UPS,In Transit,10,Express
+82,82,UPS,Delayed,9,Standard
+83,83,FedEx,Delayed,2,Overnight
+84,84,FedEx,Delayed,9,Express
+85,85,DHL,Returned,6,Standard
+86,86,USPS,Delivered,3,Overnight
+87,87,DHL,Returned,8,Overnight
+88,88,UPS,Delivered,12,Standard
+89,89,USPS,Returned,12,Standard
+90,90,FedEx,In Transit,11,Overnight
+91,91,DHL,Returned,6,Standard
+92,92,DHL,In Transit,2,Standard
+93,93,USPS,Delivered,12,Standard
+94,94,USPS,In Transit,12,Express
+95,95,USPS,Returned,9,Express
+96,96,DHL,Delivered,8,Overnight
+97,97,FedEx,Delayed,4,Overnight
+98,98,DHL,In Transit,6,Express
+99,99,UPS,In Transit,2,Overnight
+100,100,DHL,Delivered,8,Express
+101,101,USPS,Delayed,2,Standard
+102,102,UPS,Delivered,4,Standard
+103,103,DHL,Delivered,13,Express
+104,104,FedEx,Delayed,7,Standard
+105,105,FedEx,Delayed,4,Overnight
+106,106,USPS,Returned,13,Express
+107,107,FedEx,Delivered,2,Standard
+108,108,DHL,Returned,10,Overnight
+109,109,USPS,Delayed,14,Standard
+110,110,UPS,Returned,10,Express
+111,111,FedEx,Delayed,13,Express
+112,112,USPS,Returned,1,Standard
+113,113,FedEx,Delayed,6,Standard
+114,114,USPS,Delayed,1,Express
+115,115,FedEx,In Transit,8,Overnight
+116,116,UPS,In Transit,1,Overnight
+117,117,UPS,In Transit,6,Express
+118,118,DHL,Returned,4,Express
+119,119,UPS,Returned,6,Express
+120,120,UPS,In Transit,11,Express
+121,121,DHL,Delayed,9,Overnight
+122,122,DHL,Returned,4,Express
+123,123,FedEx,Delivered,2,Express
+124,124,FedEx,In Transit,10,Overnight
+125,125,DHL,In Transit,4,Express
+126,126,FedEx,Returned,3,Standard
+127,127,UPS,Returned,9,Standard
+128,128,UPS,Returned,11,Express
+129,129,UPS,In Transit,3,Express
+130,130,DHL,In Transit,6,Overnight
+131,131,DHL,In Transit,6,Overnight
+132,132,FedEx,Returned,12,Overnight
+133,133,USPS,Returned,14,Overnight
+134,134,FedEx,In Transit,7,Express
+135,135,FedEx,Delayed,2,Express
+136,136,FedEx,In Transit,8,Overnight
+137,137,USPS,In Transit,9,Express
+138,138,USPS,Delivered,3,Standard
+139,139,FedEx,In Transit,5,Express
+140,140,FedEx,Delivered,8,Overnight
+141,141,DHL,In Transit,3,Express
+142,142,USPS,Delivered,14,Express
+143,143,USPS,Returned,10,Express
+144,144,UPS,Returned,10,Overnight
+145,145,USPS,In Transit,14,Overnight
+146,146,FedEx,In Transit,4,Express
+147,147,DHL,Delivered,6,Overnight
+148,148,UPS,Delayed,7,Overnight
+149,149,UPS,Returned,2,Express
+150,150,FedEx,Returned,9,Standard
+151,151,UPS,Delivered,14,Express
+152,152,DHL,In Transit,3,Express
+153,153,USPS,Delayed,6,Express
+154,154,DHL,Delivered,5,Standard
+155,155,USPS,Delivered,7,Overnight
+156,156,UPS,Delivered,4,Express
+157,157,UPS,In Transit,12,Overnight
+158,158,UPS,Delivered,7,Overnight
+159,159,USPS,Delayed,7,Express
+160,160,UPS,Delivered,14,Standard
+161,161,FedEx,In Transit,1,Standard
+162,162,DHL,In Transit,5,Standard
+163,163,UPS,Delivered,12,Overnight
+164,164,USPS,Delayed,1,Standard
+165,165,UPS,Delayed,9,Overnight
+166,166,DHL,In Transit,4,Express
+167,167,UPS,Delivered,14,Express
+168,168,USPS,Returned,4,Express
+169,169,DHL,Delivered,5,Overnight
+170,170,FedEx,Delivered,10,Express
+171,171,FedEx,Delayed,14,Standard
+172,172,UPS,Returned,5,Overnight
+173,173,UPS,Delayed,7,Overnight
+174,174,USPS,In Transit,8,Overnight
+175,175,UPS,Delivered,6,Express
+176,176,DHL,Delayed,11,Express
+177,177,DHL,Delivered,3,Standard
+178,178,USPS,In Transit,8,Overnight
+179,179,UPS,In Transit,1,Overnight
+180,180,UPS,Delivered,7,Overnight
+181,181,USPS,Returned,14,Express
+182,182,USPS,Returned,12,Overnight
+183,183,UPS,In Transit,5,Overnight
+184,184,FedEx,Delivered,14,Standard
+185,185,DHL,Delayed,6,Standard
+186,186,FedEx,Returned,3,Standard
+187,187,UPS,Delayed,13,Standard
+188,188,UPS,Returned,13,Overnight
+189,189,DHL,Returned,3,Express
+190,190,FedEx,Delayed,11,Express
+191,191,DHL,Delivered,3,Standard
+192,192,USPS,In Transit,10,Overnight
+193,193,FedEx,In Transit,13,Express
+194,194,FedEx,Returned,4,Overnight
+195,195,FedEx,Delivered,9,Overnight
+196,196,DHL,Delayed,6,Overnight
+197,197,UPS,Delayed,14,Standard
+198,198,USPS,In Transit,3,Overnight
+199,199,UPS,In Transit,6,Express
+200,200,DHL,Delayed,14,Overnight
+201,201,FedEx,In Transit,10,Standard
+202,202,UPS,Delayed,6,Express
+203,203,USPS,Returned,5,Express
+204,204,UPS,In Transit,10,Overnight
+205,205,DHL,Returned,14,Overnight
+206,206,FedEx,In Transit,9,Express
+207,207,UPS,Delivered,7,Standard
+208,208,FedEx,Returned,3,Express
+209,209,DHL,Delayed,2,Express
+210,210,DHL,Returned,7,Standard
+211,211,USPS,Delivered,1,Overnight
+212,212,FedEx,In Transit,6,Express
+213,213,FedEx,Delivered,11,Express
+214,214,UPS,Returned,11,Standard
+215,215,DHL,Returned,10,Express
+216,216,FedEx,Returned,5,Standard
+217,217,FedEx,In Transit,14,Overnight
+218,218,UPS,Delayed,6,Standard
+219,219,FedEx,Returned,1,Standard
+220,220,DHL,In Transit,3,Express
+221,221,USPS,Delayed,10,Overnight
+222,222,DHL,Delayed,9,Standard
+223,223,UPS,Delayed,1,Overnight
+224,224,USPS,In Transit,5,Express
+225,225,FedEx,Delivered,2,Overnight
+226,226,DHL,In Transit,9,Standard
+227,227,UPS,Returned,11,Standard
+228,228,USPS,In Transit,11,Standard
+229,229,DHL,Delayed,7,Standard
+230,230,UPS,In Transit,2,Express
+231,231,FedEx,Delivered,14,Overnight
+232,232,FedEx,Delayed,7,Standard
+233,233,FedEx,Delayed,13,Overnight
+234,234,FedEx,In Transit,2,Express
+235,235,DHL,Returned,14,Standard
+236,236,FedEx,Delayed,8,Standard
+237,237,UPS,Delivered,11,Overnight
+238,238,UPS,Delivered,7,Overnight
+239,239,FedEx,Returned,6,Overnight
+240,240,USPS,In Transit,7,Express
+241,241,DHL,Returned,5,Overnight
+242,242,UPS,Returned,2,Standard
+243,243,UPS,Returned,1,Standard
+244,244,UPS,In Transit,6,Overnight
+245,245,USPS,Returned,13,Overnight
+246,246,DHL,Returned,3,Express
+247,247,FedEx,In Transit,4,Standard
+248,248,UPS,In Transit,9,Standard
+249,249,DHL,Returned,10,Overnight
+250,250,DHL,Delayed,14,Express
+251,251,DHL,Returned,1,Standard
+252,252,UPS,Delivered,11,Overnight
+253,253,FedEx,In Transit,4,Express
+254,254,UPS,Delayed,9,Standard
+255,255,UPS,Delivered,11,Express
+256,256,UPS,Returned,4,Express
+257,257,FedEx,Delayed,14,Express
+258,258,FedEx,Delivered,2,Express
+259,259,FedEx,In Transit,1,Standard
+260,260,FedEx,Delayed,5,Standard
+261,261,FedEx,Returned,2,Express
+262,262,UPS,In Transit,3,Standard
+263,263,UPS,Delivered,13,Standard
+264,264,DHL,Delivered,5,Overnight
+265,265,USPS,Delivered,7,Express
+266,266,UPS,Returned,4,Standard
+267,267,USPS,Returned,7,Express
+268,268,FedEx,Delayed,7,Express
+269,269,FedEx,Delivered,13,Express
+270,270,UPS,Returned,1,Overnight
+271,271,FedEx,Returned,5,Standard
+272,272,DHL,Returned,8,Express
+273,273,DHL,Delivered,4,Standard
+274,274,DHL,Returned,4,Overnight
+275,275,UPS,Returned,2,Express
+276,276,DHL,Delayed,12,Express
+277,277,DHL,Returned,9,Standard
+278,278,USPS,Delivered,10,Express
+279,279,USPS,Delayed,8,Overnight
+280,280,UPS,Delivered,9,Express
+281,281,FedEx,Delayed,13,Overnight
+282,282,DHL,Returned,9,Standard
+283,283,USPS,Returned,10,Express
+284,284,DHL,Delayed,7,Standard
+285,285,UPS,Returned,5,Standard
+286,286,UPS,Delayed,5,Overnight
+287,287,DHL,Delivered,9,Express
+288,288,DHL,In Transit,6,Standard
+289,289,USPS,In Transit,7,Express
+290,290,DHL,Delivered,12,Overnight
+291,291,USPS,Delayed,6,Overnight
+292,292,FedEx,Delivered,9,Express
+293,293,DHL,In Transit,10,Standard
+294,294,DHL,Delayed,4,Standard
+295,295,DHL,Returned,9,Standard
+296,296,FedEx,Delayed,1,Overnight
+297,297,FedEx,In Transit,3,Overnight
+298,298,FedEx,Returned,3,Express
+299,299,FedEx,In Transit,9,Overnight
+300,300,UPS,Returned,5,Overnight
+301,301,USPS,Returned,8,Express
+302,302,USPS,In Transit,6,Standard
+303,303,UPS,Delayed,5,Standard
+304,304,USPS,Delayed,4,Express
+305,305,USPS,Delivered,10,Express
+306,306,UPS,Delivered,14,Express
+307,307,USPS,Delivered,8,Standard
+308,308,USPS,In Transit,1,Express
+309,309,USPS,In Transit,1,Standard
+310,310,DHL,In Transit,4,Standard
+311,311,DHL,Returned,7,Overnight
+312,312,FedEx,Returned,9,Express
+313,313,FedEx,Returned,14,Express
+314,314,DHL,Returned,6,Overnight
+315,315,UPS,In Transit,5,Express
+316,316,DHL,In Transit,9,Standard
+317,317,DHL,Delayed,4,Standard
+318,318,FedEx,Delivered,5,Overnight
+319,319,FedEx,Delayed,1,Standard
+320,320,FedEx,Returned,12,Overnight
+321,321,UPS,Returned,2,Express
+322,322,FedEx,Returned,4,Standard
+323,323,USPS,Returned,8,Overnight
+324,324,USPS,Returned,1,Standard
+325,325,FedEx,Delivered,13,Overnight
+326,326,DHL,Delayed,10,Overnight
+327,327,USPS,Delivered,9,Express
+328,328,DHL,Delivered,8,Overnight
+329,329,FedEx,In Transit,9,Overnight
+330,330,USPS,Returned,11,Express
+331,331,FedEx,In Transit,14,Express
+332,332,DHL,Delayed,2,Standard
+333,333,DHL,Returned,12,Express
+334,334,DHL,In Transit,14,Standard
+335,335,FedEx,Delayed,8,Standard
+336,336,USPS,Delivered,1,Express
+337,337,DHL,Delayed,13,Standard
+338,338,DHL,Delivered,4,Express
+339,339,UPS,Delayed,13,Overnight
+340,340,FedEx,In Transit,5,Overnight
+341,341,FedEx,Delayed,3,Standard
+342,342,UPS,Delayed,3,Standard
+343,343,UPS,In Transit,11,Express
+344,344,DHL,In Transit,10,Overnight
+345,345,FedEx,In Transit,12,Express
+346,346,UPS,In Transit,13,Standard
+347,347,FedEx,In Transit,9,Standard
+348,348,DHL,In Transit,9,Standard
+349,349,UPS,Returned,11,Standard
+350,350,USPS,Delayed,7,Standard
+351,351,USPS,Returned,9,Express
+352,352,UPS,Returned,13,Standard
+353,353,UPS,Delivered,6,Standard
+354,354,UPS,Delayed,9,Express
+355,355,USPS,Delayed,8,Standard
+356,356,FedEx,Delivered,4,Standard
+357,357,USPS,Returned,13,Express
+358,358,UPS,Delivered,8,Express
+359,359,FedEx,Delivered,6,Overnight
+360,360,USPS,Delivered,1,Express
+361,361,DHL,Returned,1,Express
+362,362,FedEx,Delivered,6,Express
+363,363,DHL,Delivered,5,Overnight
+364,364,DHL,In Transit,11,Standard
+365,365,FedEx,In Transit,1,Overnight
+366,366,USPS,In Transit,6,Standard
+367,367,DHL,Delayed,4,Express
+368,368,DHL,Returned,9,Standard
+369,369,USPS,In Transit,10,Standard
+370,370,USPS,Delivered,10,Overnight
+371,371,UPS,In Transit,11,Express
+372,372,FedEx,Delivered,6,Express
+373,373,UPS,Delayed,7,Standard
+374,374,UPS,Returned,8,Express
+375,375,UPS,Delivered,9,Express
+376,376,UPS,Delivered,1,Standard
+377,377,FedEx,Delayed,13,Overnight
+378,378,DHL,In Transit,3,Express
+379,379,UPS,Delayed,12,Express
+380,380,UPS,In Transit,12,Express
+381,381,DHL,Delayed,1,Standard
+382,382,DHL,Delivered,3,Standard
+383,383,UPS,Returned,8,Express
+384,384,USPS,In Transit,7,Overnight
+385,385,USPS,In Transit,13,Overnight
+386,386,UPS,In Transit,14,Overnight
+387,387,DHL,Returned,9,Standard
+388,388,USPS,In Transit,5,Overnight
+389,389,FedEx,In Transit,1,Overnight
+390,390,USPS,In Transit,11,Standard
+391,391,UPS,Delivered,11,Standard
+392,392,DHL,Returned,5,Standard
+393,393,FedEx,Delayed,4,Standard
+394,394,DHL,Delivered,4,Express
+395,395,UPS,Delivered,8,Overnight
+396,396,UPS,Delivered,1,Overnight
+397,397,DHL,Returned,6,Standard
+398,398,USPS,In Transit,3,Express
+399,399,DHL,Returned,9,Express
+400,400,DHL,Delivered,10,Overnight
+401,401,DHL,Delayed,7,Overnight
+402,402,FedEx,In Transit,4,Express
+403,403,FedEx,In Transit,3,Standard
+404,404,UPS,In Transit,7,Express
+405,405,USPS,Delayed,14,Standard
+406,406,DHL,Delayed,5,Standard
+407,407,FedEx,In Transit,11,Standard
+408,408,DHL,Delayed,11,Overnight
+409,409,FedEx,Returned,6,Standard
+410,410,UPS,Returned,11,Express
+411,411,USPS,Returned,7,Express
+412,412,UPS,In Transit,9,Overnight
+413,413,FedEx,Returned,3,Overnight
+414,414,UPS,Delayed,5,Express
+415,415,DHL,Delivered,11,Overnight
+416,416,FedEx,In Transit,6,Express
+417,417,FedEx,Delayed,7,Express
+418,418,DHL,Delayed,11,Standard
+419,419,DHL,Returned,1,Express
+420,420,DHL,In Transit,11,Standard
+421,421,DHL,Delivered,1,Express
+422,422,UPS,Delivered,6,Express
+423,423,DHL,Returned,10,Overnight
+424,424,UPS,Returned,4,Standard
+425,425,DHL,In Transit,3,Standard
+426,426,UPS,Delivered,6,Express
+427,427,DHL,Delivered,11,Express
+428,428,USPS,Returned,13,Overnight
+429,429,UPS,Delayed,8,Express
+430,430,DHL,Returned,2,Express
+431,431,FedEx,Returned,3,Standard
+432,432,UPS,Delayed,8,Express
+433,433,DHL,In Transit,5,Standard
+434,434,USPS,Delivered,7,Express
+435,435,USPS,Returned,3,Overnight
+436,436,UPS,Returned,9,Overnight
+437,437,USPS,Delayed,12,Standard
+438,438,USPS,Returned,12,Overnight
+439,439,FedEx,Returned,13,Overnight
+440,440,USPS,Returned,11,Standard
+441,441,USPS,In Transit,13,Overnight
+442,442,FedEx,Delayed,1,Standard
+443,443,USPS,Returned,11,Overnight
+444,444,FedEx,Delivered,4,Express
+445,445,DHL,Returned,6,Standard
+446,446,USPS,Returned,2,Overnight
+447,447,DHL,Delayed,3,Standard
+448,448,UPS,Delivered,13,Express
+449,449,DHL,Delayed,10,Standard
+450,450,UPS,In Transit,8,Overnight
+451,451,UPS,Returned,9,Overnight
+452,452,USPS,Delayed,4,Express
+453,453,USPS,Returned,10,Standard
+454,454,DHL,In Transit,3,Standard
+455,455,USPS,Delayed,14,Standard
+456,456,FedEx,Delivered,12,Standard
+457,457,UPS,Delayed,12,Standard
+458,458,DHL,Delivered,6,Standard
+459,459,UPS,Delivered,5,Express
+460,460,USPS,Delayed,1,Express
+461,461,FedEx,Delayed,8,Standard
+462,462,USPS,Delivered,3,Overnight
+463,463,UPS,Returned,9,Express
+464,464,FedEx,Delivered,11,Standard
+465,465,USPS,In Transit,8,Standard
+466,466,USPS,Delayed,14,Overnight
+467,467,UPS,Delayed,10,Express
+468,468,DHL,Returned,1,Standard
+469,469,UPS,Delayed,10,Standard
+470,470,FedEx,Delayed,12,Standard
+471,471,DHL,Delayed,10,Overnight
+472,472,FedEx,Delivered,3,Express
+473,473,DHL,Delivered,10,Standard
+474,474,UPS,Returned,5,Standard
+475,475,UPS,Delayed,4,Express
+476,476,USPS,In Transit,14,Standard
+477,477,DHL,Delayed,6,Express
+478,478,USPS,Delayed,14,Overnight
+479,479,DHL,In Transit,13,Express
+480,480,FedEx,Delivered,7,Standard
+481,481,UPS,Delivered,14,Overnight
+482,482,UPS,Delivered,3,Overnight
+483,483,UPS,Delayed,8,Express
+484,484,UPS,In Transit,6,Express
+485,485,USPS,Returned,14,Express
+486,486,FedEx,Returned,7,Express
+487,487,FedEx,Delayed,12,Express
+488,488,DHL,Returned,8,Express
+489,489,UPS,In Transit,10,Express
+490,490,DHL,Delayed,14,Standard
+491,491,USPS,Returned,14,Express
+492,492,USPS,Delivered,14,Overnight
+493,493,USPS,Returned,12,Standard
+494,494,USPS,Delivered,12,Standard
+495,495,USPS,Delivered,13,Standard
+496,496,USPS,Delayed,9,Express
+497,497,DHL,Returned,10,Express
+498,498,FedEx,Delayed,2,Express
+499,499,UPS,In Transit,6,Overnight
+500,500,DHL,In Transit,3,Express
+501,501,FedEx,In Transit,13,Express
+502,502,USPS,Returned,6,Overnight
+503,503,USPS,Delivered,7,Overnight
+504,504,UPS,Returned,10,Standard
+505,505,FedEx,Returned,8,Express
+506,506,FedEx,In Transit,9,Standard
+507,507,FedEx,Delayed,6,Express
+508,508,DHL,Delivered,2,Express
+509,509,FedEx,Delivered,7,Overnight
+510,510,UPS,Returned,8,Standard
+511,511,DHL,Delivered,5,Express
+512,512,FedEx,Delivered,5,Overnight
+513,513,USPS,Returned,2,Overnight
+514,514,USPS,Delivered,7,Overnight
+515,515,USPS,In Transit,5,Express
+516,516,FedEx,Returned,14,Express
+517,517,FedEx,In Transit,11,Overnight
+518,518,FedEx,Delayed,8,Standard
+519,519,USPS,Delivered,11,Standard
+520,520,DHL,In Transit,6,Express
+521,521,FedEx,Delivered,14,Overnight
+522,522,UPS,In Transit,9,Express
+523,523,USPS,Returned,7,Express
+524,524,USPS,In Transit,9,Express
+525,525,UPS,Delivered,3,Express
+526,526,USPS,In Transit,1,Overnight
+527,527,USPS,Delivered,12,Overnight
+528,528,FedEx,Delivered,1,Standard
+529,529,UPS,In Transit,4,Express
+530,530,DHL,In Transit,13,Standard
+531,531,USPS,Delivered,4,Express
+532,532,FedEx,In Transit,8,Standard
+533,533,UPS,Delivered,10,Express
+534,534,USPS,Delayed,10,Overnight
+535,535,UPS,Delayed,9,Standard
+536,536,USPS,Delayed,3,Standard
+537,537,UPS,Returned,9,Express
+538,538,DHL,Delayed,14,Standard
+539,539,USPS,Delivered,10,Standard
+540,540,DHL,In Transit,3,Express
+541,541,FedEx,In Transit,1,Express
+542,542,UPS,In Transit,7,Overnight
+543,543,UPS,Delivered,1,Overnight
+544,544,FedEx,In Transit,13,Overnight
+545,545,USPS,Delayed,14,Standard
+546,546,USPS,Delivered,5,Overnight
+547,547,USPS,Delayed,9,Overnight
+548,548,USPS,Returned,2,Overnight
+549,549,USPS,Delivered,2,Overnight
+550,550,UPS,Delivered,3,Express
+551,551,USPS,Delivered,14,Express
+552,552,FedEx,Delayed,12,Express
+553,553,DHL,Delayed,13,Overnight
+554,554,DHL,Returned,4,Express
+555,555,FedEx,In Transit,11,Overnight
+556,556,USPS,In Transit,9,Express
+557,557,DHL,Delivered,1,Overnight
+558,558,FedEx,Delivered,2,Express
+559,559,UPS,Delayed,5,Express
+560,560,DHL,In Transit,4,Standard
+561,561,DHL,Delivered,13,Overnight
+562,562,DHL,Returned,13,Standard
+563,563,USPS,In Transit,12,Overnight
+564,564,USPS,Returned,11,Express
+565,565,USPS,Returned,10,Standard
+566,566,USPS,Returned,11,Express
+567,567,UPS,In Transit,5,Overnight
+568,568,FedEx,Delayed,8,Standard
+569,569,USPS,Delivered,11,Standard
+570,570,UPS,Delayed,10,Standard
+571,571,UPS,Returned,12,Standard
+572,572,DHL,In Transit,11,Standard
+573,573,DHL,Delivered,11,Express
+574,574,USPS,Delivered,10,Standard
+575,575,FedEx,In Transit,12,Overnight
+576,576,USPS,Delayed,2,Standard
+577,577,FedEx,Delivered,14,Overnight
+578,578,UPS,Delivered,3,Standard
+579,579,DHL,Returned,1,Overnight
+580,580,USPS,In Transit,1,Express
+581,581,DHL,Delayed,7,Standard
+582,582,FedEx,In Transit,3,Standard
+583,583,USPS,In Transit,3,Overnight
+584,584,DHL,Delayed,3,Overnight
+585,585,UPS,Delivered,4,Overnight
+586,586,FedEx,In Transit,5,Express
+587,587,UPS,In Transit,4,Express
+588,588,FedEx,Delayed,10,Overnight
+589,589,DHL,Returned,1,Standard
+590,590,UPS,Returned,7,Standard
+591,591,USPS,Returned,12,Express
+592,592,USPS,Delivered,3,Overnight
+593,593,FedEx,In Transit,1,Overnight
+594,594,FedEx,Delivered,2,Standard
+595,595,FedEx,Returned,13,Express
+596,596,FedEx,In Transit,7,Standard
+597,597,UPS,Returned,8,Overnight
+598,598,UPS,Delivered,1,Overnight
+599,599,FedEx,Delivered,5,Overnight
+600,600,DHL,Delayed,2,Overnight
+601,601,DHL,Delayed,8,Standard
+602,602,FedEx,In Transit,8,Standard
+603,603,UPS,In Transit,3,Express
+604,604,DHL,Delivered,5,Express
+605,605,FedEx,In Transit,3,Standard
+606,606,FedEx,Delayed,12,Express
+607,607,UPS,Delivered,14,Standard
+608,608,DHL,Delivered,8,Standard
+609,609,DHL,In Transit,11,Standard
+610,610,USPS,Delivered,6,Overnight
+611,611,FedEx,Delivered,14,Express
+612,612,USPS,Delayed,4,Overnight
+613,613,DHL,Delayed,5,Overnight
+614,614,USPS,In Transit,11,Express
+615,615,FedEx,In Transit,11,Express
+616,616,FedEx,Delivered,3,Standard
+617,617,FedEx,Returned,4,Overnight
+618,618,USPS,Delayed,6,Overnight
+619,619,UPS,In Transit,5,Overnight
+620,620,FedEx,Returned,8,Express
+621,621,FedEx,Returned,10,Standard
+622,622,USPS,In Transit,7,Express
+623,623,DHL,Delivered,2,Overnight
+624,624,FedEx,In Transit,13,Express
+625,625,USPS,Delayed,5,Overnight
+626,626,USPS,Delayed,7,Overnight
+627,627,FedEx,Delayed,13,Overnight
+628,628,DHL,In Transit,2,Overnight
+629,629,DHL,In Transit,5,Express
+630,630,DHL,Delayed,9,Express
+631,631,DHL,Returned,2,Standard
+632,632,UPS,Delayed,1,Express
+633,633,UPS,Returned,5,Overnight
+634,634,UPS,Returned,12,Express
+635,635,USPS,Delivered,4,Overnight
+636,636,DHL,Delivered,3,Express
+637,637,UPS,In Transit,5,Express
+638,638,USPS,Returned,12,Overnight
+639,639,UPS,Delivered,14,Express
+640,640,USPS,Returned,1,Express
+641,641,UPS,In Transit,7,Express
+642,642,USPS,Returned,2,Standard
+643,643,UPS,Delayed,12,Overnight
+644,644,FedEx,Returned,13,Overnight
+645,645,UPS,Returned,4,Express
+646,646,FedEx,Delivered,5,Overnight
+647,647,FedEx,Returned,2,Overnight
+648,648,FedEx,In Transit,11,Overnight
+649,649,FedEx,In Transit,1,Express
+650,650,UPS,Returned,8,Overnight
+651,651,USPS,In Transit,11,Standard
+652,652,FedEx,Delayed,5,Standard
+653,653,DHL,Returned,9,Standard
+654,654,USPS,Returned,14,Express
+655,655,FedEx,Delayed,2,Express
+656,656,USPS,Delivered,6,Standard
+657,657,UPS,Delivered,1,Overnight
+658,658,USPS,Returned,6,Overnight
+659,659,DHL,Returned,10,Express
+660,660,FedEx,Returned,2,Standard
+661,661,FedEx,Returned,11,Standard
+662,662,DHL,In Transit,12,Standard
+663,663,DHL,Returned,1,Standard
+664,664,FedEx,Delivered,1,Express
+665,665,FedEx,Delivered,4,Standard
+666,666,USPS,Delivered,13,Overnight
+667,667,DHL,Delayed,6,Standard
+668,668,USPS,Delivered,7,Standard
+669,669,USPS,Delayed,3,Overnight
+670,670,FedEx,Returned,4,Standard
+671,671,USPS,Returned,5,Express
+672,672,UPS,In Transit,8,Overnight
+673,673,DHL,In Transit,2,Express
+674,674,UPS,Delayed,14,Express
+675,675,DHL,Returned,11,Overnight
+676,676,DHL,Delayed,14,Overnight
+677,677,USPS,In Transit,12,Standard
+678,678,UPS,Returned,11,Overnight
+679,679,USPS,Delivered,10,Standard
+680,680,FedEx,Delayed,7,Overnight
+681,681,DHL,Delayed,12,Standard
+682,682,FedEx,Delayed,13,Express
+683,683,FedEx,Returned,10,Overnight
+684,684,UPS,Delayed,7,Overnight
+685,685,UPS,Delayed,11,Overnight
+686,686,UPS,Delayed,12,Express
+687,687,DHL,Returned,8,Standard
+688,688,USPS,Returned,2,Express
+689,689,FedEx,Returned,5,Overnight
+690,690,DHL,Delayed,14,Standard
+691,691,USPS,Returned,14,Overnight
+692,692,UPS,In Transit,6,Standard
+693,693,DHL,Delayed,9,Overnight
+694,694,USPS,Delivered,2,Express
+695,695,UPS,Returned,4,Overnight
+696,696,FedEx,Delayed,9,Overnight
+697,697,DHL,Delayed,5,Overnight
+698,698,DHL,In Transit,6,Express
+699,699,FedEx,Delivered,10,Express
+700,700,DHL,Returned,7,Express
+701,701,USPS,Delivered,2,Overnight
+702,702,FedEx,Delayed,2,Overnight
+703,703,FedEx,Delayed,10,Express
+704,704,USPS,Delivered,4,Overnight
+705,705,FedEx,Delayed,4,Express
+706,706,USPS,Returned,6,Overnight
+707,707,USPS,Delayed,9,Overnight
+708,708,UPS,In Transit,9,Express
+709,709,DHL,Returned,3,Express
+710,710,USPS,Returned,3,Express
+711,711,FedEx,Returned,7,Standard
+712,712,UPS,Delivered,5,Express
+713,713,USPS,Returned,11,Overnight
+714,714,UPS,Delivered,5,Standard
+715,715,UPS,Delivered,4,Overnight
+716,716,FedEx,Returned,9,Express
+717,717,DHL,Delivered,14,Express
+718,718,DHL,In Transit,13,Overnight
+719,719,DHL,Delayed,7,Overnight
+720,720,UPS,Returned,3,Overnight
+721,721,DHL,Delivered,10,Standard
+722,722,DHL,Delivered,3,Express
+723,723,DHL,Returned,6,Standard
+724,724,USPS,In Transit,1,Overnight
+725,725,DHL,Delivered,4,Express
+726,726,DHL,Delayed,6,Standard
+727,727,USPS,Delayed,11,Express
+728,728,DHL,In Transit,2,Standard
+729,729,USPS,Delayed,7,Express
+730,730,FedEx,In Transit,13,Standard
+731,731,USPS,Delivered,14,Standard
+732,732,UPS,Returned,7,Express
+733,733,DHL,Returned,9,Express
+734,734,USPS,Returned,2,Express
+735,735,DHL,In Transit,2,Standard
+736,736,DHL,Delayed,13,Overnight
+737,737,FedEx,Delivered,8,Express
+738,738,USPS,Delayed,7,Express
+739,739,USPS,In Transit,4,Overnight
+740,740,FedEx,In Transit,7,Overnight
+741,741,FedEx,Delivered,14,Express
+742,742,USPS,Delayed,8,Standard
+743,743,FedEx,Delayed,1,Standard
+744,744,USPS,Returned,9,Express
+745,745,DHL,Delivered,12,Express
+746,746,UPS,Delivered,12,Overnight
+747,747,DHL,Returned,12,Standard
+748,748,USPS,In Transit,8,Express
+749,749,FedEx,Delivered,13,Standard
+750,750,DHL,Delivered,4,Express
+751,751,DHL,Delayed,6,Overnight
+752,752,DHL,Delivered,8,Express
+753,753,FedEx,Delivered,8,Standard
+754,754,USPS,Returned,10,Express
+755,755,FedEx,In Transit,10,Overnight
+756,756,USPS,Delayed,13,Standard
+757,757,DHL,Returned,10,Overnight
+758,758,UPS,Delayed,9,Overnight
+759,759,USPS,In Transit,14,Standard
+760,760,USPS,In Transit,12,Standard
+761,761,UPS,Returned,1,Express
+762,762,FedEx,In Transit,1,Express
+763,763,UPS,In Transit,4,Express
+764,764,UPS,Delivered,4,Express
+765,765,USPS,Returned,2,Express
+766,766,DHL,Delivered,2,Express
+767,767,USPS,In Transit,8,Standard
+768,768,DHL,Delivered,6,Express
+769,769,UPS,Delivered,5,Overnight
+770,770,DHL,Delayed,13,Express
+771,771,UPS,Delayed,14,Express
+772,772,UPS,Delivered,14,Overnight
+773,773,USPS,Delivered,14,Standard
+774,774,USPS,Delayed,1,Overnight
+775,775,USPS,Delivered,6,Standard
+776,776,FedEx,In Transit,4,Standard
+777,777,DHL,In Transit,14,Express
+778,778,DHL,Delivered,9,Standard
+779,779,FedEx,In Transit,4,Standard
+780,780,UPS,Delayed,11,Standard
+781,781,USPS,Delivered,7,Standard
+782,782,USPS,Delivered,11,Express
+783,783,USPS,Delayed,1,Standard
+784,784,DHL,Delayed,6,Express
+785,785,USPS,In Transit,8,Overnight
+786,786,USPS,Delivered,11,Overnight
+787,787,FedEx,In Transit,12,Express
+788,788,UPS,Returned,12,Standard
+789,789,FedEx,Returned,4,Standard
+790,790,FedEx,Delayed,6,Standard
+791,791,FedEx,Delayed,8,Standard
+792,792,UPS,Returned,1,Express
+793,793,UPS,Delivered,5,Standard
+794,794,UPS,Delayed,2,Express
+795,795,UPS,In Transit,10,Standard
+796,796,FedEx,Returned,3,Overnight
+797,797,FedEx,Delayed,6,Overnight
+798,798,USPS,Delayed,7,Express
+799,799,DHL,Delivered,14,Express
+800,800,USPS,In Transit,5,Express
+801,801,DHL,Delivered,6,Express
+802,802,DHL,Returned,11,Express
+803,803,USPS,Delivered,4,Standard
+804,804,DHL,Returned,5,Standard
+805,805,FedEx,Delivered,6,Overnight
+806,806,DHL,Delayed,6,Express
+807,807,UPS,In Transit,8,Standard
+808,808,USPS,Delivered,6,Express
+809,809,USPS,Returned,12,Overnight
+810,810,DHL,Returned,3,Express
+811,811,FedEx,Returned,5,Overnight
+812,812,USPS,In Transit,4,Overnight
+813,813,USPS,Delayed,6,Overnight
+814,814,UPS,In Transit,9,Standard
+815,815,USPS,Delivered,2,Express
+816,816,FedEx,Delayed,14,Express
+817,817,USPS,Delayed,10,Overnight
+818,818,DHL,In Transit,2,Standard
+819,819,FedEx,In Transit,2,Overnight
+820,820,USPS,Delivered,8,Standard
+821,821,UPS,Returned,2,Express
+822,822,DHL,Returned,14,Express
+823,823,UPS,Returned,7,Standard
+824,824,DHL,In Transit,12,Overnight
+825,825,FedEx,Returned,8,Overnight
+826,826,USPS,In Transit,2,Express
+827,827,FedEx,Delivered,10,Standard
+828,828,DHL,Delivered,4,Overnight
+829,829,UPS,Delayed,2,Express
+830,830,DHL,Delivered,3,Express
+831,831,USPS,In Transit,6,Standard
+832,832,USPS,Delayed,7,Overnight
+833,833,UPS,Delivered,6,Standard
+834,834,DHL,In Transit,4,Standard
+835,835,USPS,Delayed,2,Express
+836,836,USPS,Delivered,12,Express
+837,837,UPS,In Transit,8,Express
+838,838,FedEx,Delayed,5,Standard
+839,839,UPS,Delivered,14,Standard
+840,840,DHL,Delivered,11,Express
+841,841,USPS,Delivered,3,Standard
+842,842,UPS,In Transit,5,Standard
+843,843,USPS,In Transit,1,Express
+844,844,FedEx,In Transit,11,Express
+845,845,DHL,Returned,10,Express
+846,846,UPS,Returned,1,Standard
+847,847,USPS,In Transit,13,Overnight
+848,848,USPS,Delivered,8,Standard
+849,849,USPS,Delivered,9,Overnight
+850,850,FedEx,Delivered,8,Standard
+851,851,FedEx,In Transit,4,Standard
+852,852,FedEx,Delivered,9,Express
+853,853,USPS,In Transit,13,Standard
+854,854,USPS,In Transit,3,Overnight
+855,855,USPS,Delivered,2,Overnight
+856,856,USPS,In Transit,13,Express
+857,857,USPS,Delivered,11,Standard
+858,858,FedEx,In Transit,3,Overnight
+859,859,UPS,Delivered,6,Standard
+860,860,FedEx,Returned,6,Standard
+861,861,FedEx,Returned,11,Express
+862,862,FedEx,Returned,3,Overnight
+863,863,USPS,Delivered,8,Overnight
+864,864,DHL,Returned,13,Standard
+865,865,DHL,In Transit,8,Standard
+866,866,FedEx,Returned,5,Standard
+867,867,USPS,In Transit,3,Express
+868,868,DHL,Delivered,9,Overnight
+869,869,USPS,Delivered,7,Overnight
+870,870,UPS,Delayed,13,Standard
+871,871,UPS,Delivered,8,Express
+872,872,DHL,Delayed,11,Express
+873,873,DHL,Returned,1,Standard
+874,874,UPS,Delayed,9,Standard
+875,875,USPS,Delayed,12,Standard
+876,876,FedEx,Delayed,7,Standard
+877,877,DHL,Delivered,6,Express
+878,878,DHL,Delivered,2,Standard
+879,879,UPS,Delayed,3,Express
+880,880,FedEx,Delayed,10,Express
+881,881,UPS,Delivered,4,Standard
+882,882,FedEx,In Transit,12,Overnight
+883,883,DHL,Delayed,8,Standard
+884,884,USPS,Delivered,6,Express
+885,885,DHL,Delivered,8,Overnight
+886,886,UPS,Returned,7,Overnight
+887,887,FedEx,In Transit,10,Overnight
+888,888,FedEx,Returned,6,Overnight
+889,889,DHL,Delayed,5,Express
+890,890,DHL,Delayed,9,Standard
+891,891,USPS,Delivered,9,Express
+892,892,USPS,Delayed,6,Overnight
+893,893,DHL,Delayed,8,Express
+894,894,UPS,Delayed,9,Standard
+895,895,USPS,In Transit,7,Standard
+896,896,FedEx,In Transit,7,Express
+897,897,DHL,Delayed,5,Overnight
+898,898,UPS,Delivered,11,Express
+899,899,FedEx,Returned,6,Standard
+900,900,DHL,Delivered,6,Express
+901,901,FedEx,Delayed,14,Standard
+902,902,UPS,Returned,6,Express
+903,903,DHL,In Transit,5,Standard
+904,904,USPS,Delayed,8,Express
+905,905,FedEx,Delivered,7,Express
+906,906,DHL,In Transit,7,Overnight
+907,907,UPS,In Transit,8,Overnight
+908,908,FedEx,Delayed,3,Standard
+909,909,UPS,Returned,6,Overnight
+910,910,USPS,Delayed,9,Standard
+911,911,FedEx,Returned,10,Standard
+912,912,FedEx,Delivered,6,Overnight
+913,913,FedEx,In Transit,2,Standard
+914,914,DHL,In Transit,5,Standard
+915,915,UPS,Delivered,2,Overnight
+916,916,UPS,Delayed,12,Express
+917,917,DHL,Delayed,13,Overnight
+918,918,DHL,Delivered,1,Express
+919,919,USPS,Returned,13,Overnight
+920,920,DHL,Delivered,5,Standard
+921,921,FedEx,Delivered,1,Standard
+922,922,FedEx,Delivered,4,Standard
+923,923,DHL,In Transit,14,Standard
+924,924,FedEx,Delivered,3,Express
+925,925,DHL,In Transit,4,Overnight
+926,926,DHL,Delivered,11,Overnight
+927,927,UPS,Delayed,1,Overnight
+928,928,FedEx,Delayed,6,Standard
+929,929,DHL,In Transit,10,Standard
+930,930,FedEx,In Transit,2,Overnight
+931,931,USPS,Delayed,3,Express
+932,932,FedEx,Delivered,11,Overnight
+933,933,UPS,Returned,6,Standard
+934,934,UPS,In Transit,5,Overnight
+935,935,FedEx,In Transit,8,Standard
+936,936,USPS,Delivered,14,Express
+937,937,UPS,In Transit,10,Standard
+938,938,FedEx,In Transit,11,Standard
+939,939,UPS,In Transit,6,Express
+940,940,UPS,In Transit,8,Standard
+941,941,UPS,In Transit,7,Standard
+942,942,UPS,In Transit,8,Express
+943,943,UPS,Delivered,5,Overnight
+944,944,FedEx,In Transit,2,Standard
+945,945,UPS,Delayed,10,Express
+946,946,USPS,Delayed,13,Standard
+947,947,DHL,In Transit,8,Standard
+948,948,FedEx,In Transit,7,Overnight
+949,949,USPS,In Transit,4,Standard
+950,950,USPS,Delayed,10,Overnight
+951,951,DHL,Returned,6,Standard
+952,952,DHL,Delivered,4,Standard
+953,953,USPS,Returned,10,Standard
+954,954,DHL,Delivered,10,Overnight
+955,955,UPS,Delayed,1,Standard
+956,956,USPS,Returned,3,Express
+957,957,USPS,Delivered,11,Standard
+958,958,DHL,Returned,1,Overnight
+959,959,USPS,Delivered,1,Express
+960,960,USPS,Delivered,10,Standard
+961,961,DHL,Delayed,8,Overnight
+962,962,FedEx,Returned,5,Express
+963,963,USPS,Returned,5,Express
+964,964,UPS,In Transit,9,Overnight
+965,965,UPS,In Transit,13,Overnight
+966,966,DHL,Delayed,9,Overnight
+967,967,DHL,Delayed,12,Express
+968,968,FedEx,Delivered,3,Express
+969,969,UPS,Returned,3,Overnight
+970,970,DHL,In Transit,12,Standard
+971,971,FedEx,Delayed,1,Standard
+972,972,DHL,Delivered,11,Overnight
+973,973,USPS,Delivered,6,Overnight
+974,974,UPS,Returned,12,Standard
+975,975,UPS,Delayed,2,Standard
+976,976,UPS,Delayed,8,Express
+977,977,USPS,In Transit,11,Standard
+978,978,USPS,Delivered,7,Standard
+979,979,UPS,Delayed,3,Express
+980,980,UPS,Returned,9,Standard
+981,981,USPS,Delayed,4,Express
+982,982,UPS,Delayed,7,Overnight
+983,983,USPS,Delayed,11,Standard
+984,984,UPS,Delivered,9,Express
+985,985,DHL,Delayed,9,Standard
+986,986,USPS,In Transit,9,Standard
+987,987,DHL,Delivered,10,Standard
+988,988,UPS,Returned,2,Standard
+989,989,USPS,Delayed,2,Overnight
+990,990,UPS,In Transit,2,Express
+991,991,FedEx,Delayed,13,Overnight
+992,992,FedEx,Returned,8,Overnight
+993,993,USPS,Returned,7,Standard
+994,994,DHL,Delayed,9,Standard
+995,995,UPS,Returned,11,Overnight
+996,996,UPS,In Transit,6,Express
+997,997,UPS,In Transit,3,Standard
+998,998,USPS,In Transit,2,Overnight
+999,999,USPS,Delayed,9,Overnight
+1000,1000,DHL,Delivered,1,Standard
+1001,1001,DHL,Delayed,13,Express
+1002,1002,UPS,In Transit,7,Express
+1003,1003,USPS,Delayed,9,Express
+1004,1004,UPS,Delayed,7,Express
+1005,1005,USPS,Returned,13,Overnight
+1006,1006,FedEx,Delayed,6,Express
+1007,1007,UPS,Delayed,2,Standard
+1008,1008,DHL,In Transit,12,Standard
+1009,1009,FedEx,Delivered,6,Overnight
+1010,1010,FedEx,Delivered,2,Overnight
+1011,1011,UPS,In Transit,12,Standard
+1012,1012,UPS,Delayed,14,Express
+1013,1013,DHL,Returned,5,Express
+1014,1014,FedEx,Returned,6,Overnight
+1015,1015,UPS,In Transit,6,Overnight
+1016,1016,UPS,Returned,13,Overnight
+1017,1017,USPS,Returned,11,Overnight
+1018,1018,FedEx,Returned,2,Standard
+1019,1019,DHL,In Transit,9,Express
+1020,1020,UPS,Delivered,4,Express
+1021,1021,FedEx,Returned,8,Overnight
+1022,1022,USPS,Returned,14,Overnight
+1023,1023,UPS,Delayed,11,Express
+1024,1024,DHL,Delayed,9,Express
+1025,1025,FedEx,Delayed,3,Standard
+1026,1026,DHL,Returned,3,Express
+1027,1027,USPS,In Transit,14,Standard
+1028,1028,USPS,Delivered,6,Express
+1029,1029,UPS,Delayed,2,Express
+1030,1030,DHL,Delayed,1,Overnight
+1031,1031,USPS,Delayed,13,Overnight
+1032,1032,FedEx,Delivered,13,Overnight
+1033,1033,DHL,In Transit,5,Standard
+1034,1034,FedEx,Delivered,4,Overnight
+1035,1035,DHL,In Transit,4,Express
+1036,1036,USPS,Returned,6,Express
+1037,1037,UPS,Returned,2,Express
+1038,1038,UPS,In Transit,4,Overnight
+1039,1039,DHL,Delayed,11,Standard
+1040,1040,USPS,Delivered,7,Standard
+1041,1041,DHL,Delayed,12,Express
+1042,1042,USPS,Returned,3,Overnight
+1043,1043,UPS,Returned,14,Overnight
+1044,1044,DHL,Delayed,11,Express
+1045,1045,UPS,Returned,4,Overnight
+1046,1046,UPS,Returned,6,Overnight
+1047,1047,UPS,Returned,6,Standard
+1048,1048,USPS,Returned,14,Overnight
+1049,1049,DHL,Returned,4,Overnight
+1050,1050,DHL,Returned,2,Overnight
+1051,1051,FedEx,Delayed,12,Overnight
+1052,1052,USPS,Returned,10,Overnight
+1053,1053,DHL,Delayed,5,Express
+1054,1054,UPS,Delayed,4,Standard
+1055,1055,USPS,In Transit,11,Overnight
+1056,1056,UPS,Returned,7,Express
+1057,1057,DHL,Returned,6,Overnight
+1058,1058,DHL,In Transit,4,Standard
+1059,1059,USPS,In Transit,10,Express
+1060,1060,UPS,In Transit,4,Standard
+1061,1061,USPS,Delayed,3,Overnight
+1062,1062,FedEx,Returned,10,Express
+1063,1063,FedEx,Delivered,9,Express
+1064,1064,USPS,Delayed,7,Standard
+1065,1065,DHL,Returned,13,Overnight
+1066,1066,DHL,Delivered,12,Overnight
+1067,1067,FedEx,Returned,1,Standard
+1068,1068,DHL,Delayed,2,Overnight
+1069,1069,USPS,Returned,3,Express
+1070,1070,FedEx,Delivered,13,Express
+1071,1071,USPS,Delayed,11,Overnight
+1072,1072,USPS,Delivered,4,Standard
+1073,1073,USPS,Delivered,11,Overnight
+1074,1074,DHL,In Transit,10,Standard
+1075,1075,UPS,Delayed,9,Standard
+1076,1076,UPS,Delayed,13,Express
+1077,1077,UPS,Delivered,11,Standard
+1078,1078,UPS,Delivered,13,Standard
+1079,1079,DHL,In Transit,14,Standard
+1080,1080,USPS,Delayed,12,Standard
+1081,1081,USPS,Delayed,5,Overnight
+1082,1082,DHL,Returned,12,Overnight
+1083,1083,UPS,Delivered,8,Overnight
+1084,1084,USPS,Returned,7,Express
+1085,1085,FedEx,Returned,1,Overnight
+1086,1086,USPS,Delivered,9,Express
+1087,1087,DHL,Returned,9,Overnight
+1088,1088,USPS,In Transit,9,Overnight
+1089,1089,DHL,Delivered,9,Standard
+1090,1090,USPS,Returned,12,Overnight
+1091,1091,UPS,Returned,8,Express
+1092,1092,USPS,Delayed,3,Overnight
+1093,1093,FedEx,Delivered,12,Express
+1094,1094,DHL,Delivered,8,Standard
+1095,1095,UPS,Delayed,3,Standard
+1096,1096,FedEx,In Transit,4,Express
+1097,1097,UPS,Delayed,11,Express
+1098,1098,USPS,Delayed,11,Standard
+1099,1099,FedEx,In Transit,7,Standard
+1100,1100,DHL,Delayed,14,Express
+1101,1101,DHL,Delivered,5,Overnight
+1102,1102,FedEx,Delayed,1,Express
+1103,1103,USPS,Delayed,4,Express
+1104,1104,UPS,Delayed,3,Overnight
+1105,1105,FedEx,Delayed,8,Express
+1106,1106,FedEx,Returned,5,Express
+1107,1107,DHL,Delayed,4,Overnight
+1108,1108,USPS,Delivered,3,Standard
+1109,1109,FedEx,Returned,4,Standard
+1110,1110,UPS,Delayed,2,Express
+1111,1111,UPS,In Transit,9,Express
+1112,1112,FedEx,Delayed,11,Overnight
+1113,1113,DHL,Returned,7,Overnight
+1114,1114,DHL,Delivered,2,Express
+1115,1115,FedEx,Delayed,1,Overnight
+1116,1116,DHL,Returned,12,Standard
+1117,1117,USPS,In Transit,1,Overnight
+1118,1118,FedEx,In Transit,14,Standard
+1119,1119,FedEx,Delivered,12,Overnight
+1120,1120,FedEx,Returned,6,Standard
+1121,1121,USPS,Delayed,5,Express
+1122,1122,USPS,Delivered,10,Express
+1123,1123,UPS,Returned,13,Express
+1124,1124,USPS,Delivered,5,Overnight
+1125,1125,FedEx,Returned,10,Standard
+1126,1126,FedEx,Delayed,3,Standard
+1127,1127,USPS,In Transit,7,Overnight
+1128,1128,UPS,Delayed,4,Standard
+1129,1129,FedEx,In Transit,2,Standard
+1130,1130,USPS,Returned,9,Express
+1131,1131,UPS,Delivered,10,Overnight
+1132,1132,USPS,Delivered,1,Overnight
+1133,1133,DHL,In Transit,10,Express
+1134,1134,USPS,Delivered,7,Overnight
+1135,1135,DHL,Returned,10,Overnight
+1136,1136,FedEx,Returned,6,Overnight
+1137,1137,UPS,Returned,1,Express
+1138,1138,FedEx,Returned,11,Express
+1139,1139,FedEx,Delivered,4,Express
+1140,1140,DHL,In Transit,6,Express
+1141,1141,DHL,Delayed,12,Express
+1142,1142,USPS,Returned,4,Overnight
+1143,1143,USPS,Returned,11,Express
+1144,1144,USPS,In Transit,3,Overnight
+1145,1145,UPS,Delayed,10,Express
+1146,1146,USPS,In Transit,7,Express
+1147,1147,DHL,In Transit,10,Overnight
+1148,1148,FedEx,Delayed,7,Standard
+1149,1149,FedEx,Delayed,6,Express
+1150,1150,UPS,In Transit,3,Overnight
+1151,1151,DHL,Delayed,13,Express
+1152,1152,DHL,Delayed,5,Standard
+1153,1153,UPS,Returned,14,Express
+1154,1154,DHL,Returned,7,Standard
+1155,1155,USPS,Delayed,12,Standard
+1156,1156,UPS,In Transit,1,Overnight
+1157,1157,DHL,Delivered,11,Express
+1158,1158,DHL,Delivered,13,Overnight
+1159,1159,FedEx,Returned,2,Overnight
+1160,1160,UPS,Delayed,8,Express
+1161,1161,USPS,In Transit,7,Overnight
+1162,1162,UPS,Delayed,11,Overnight
+1163,1163,UPS,In Transit,12,Overnight
+1164,1164,UPS,Delayed,3,Standard
+1165,1165,DHL,In Transit,9,Express
+1166,1166,FedEx,In Transit,13,Standard
+1167,1167,USPS,In Transit,6,Overnight
+1168,1168,USPS,In Transit,12,Standard
+1169,1169,FedEx,Returned,10,Overnight
+1170,1170,FedEx,In Transit,5,Express
+1171,1171,USPS,In Transit,5,Overnight
+1172,1172,USPS,Returned,9,Standard
+1173,1173,USPS,In Transit,5,Standard
+1174,1174,DHL,In Transit,13,Standard
+1175,1175,UPS,Delivered,8,Overnight
+1176,1176,UPS,Returned,1,Express
+1177,1177,FedEx,Returned,14,Overnight
+1178,1178,UPS,Returned,13,Overnight
+1179,1179,DHL,In Transit,13,Overnight
+1180,1180,USPS,Delayed,5,Express
+1181,1181,FedEx,Delayed,10,Express
+1182,1182,FedEx,Delivered,2,Overnight
+1183,1183,DHL,Returned,8,Overnight
+1184,1184,DHL,Delayed,4,Standard
+1185,1185,DHL,Returned,13,Express
+1186,1186,DHL,In Transit,11,Express
+1187,1187,DHL,Delayed,5,Overnight
+1188,1188,DHL,Delayed,13,Overnight
+1189,1189,DHL,In Transit,1,Overnight
+1190,1190,FedEx,In Transit,9,Express
+1191,1191,USPS,Returned,5,Express
+1192,1192,UPS,In Transit,10,Standard
+1193,1193,USPS,Delayed,11,Standard
+1194,1194,UPS,Delayed,5,Express
+1195,1195,FedEx,Delayed,11,Express
+1196,1196,DHL,In Transit,12,Overnight
+1197,1197,UPS,Delivered,9,Overnight
+1198,1198,DHL,In Transit,5,Overnight
+1199,1199,DHL,Returned,13,Standard
+1200,1200,FedEx,In Transit,6,Standard
+1201,1201,FedEx,Delivered,4,Standard
+1202,1202,USPS,Delivered,13,Standard
+1203,1203,DHL,In Transit,10,Overnight
+1204,1204,UPS,In Transit,2,Overnight
+1205,1205,USPS,Delayed,9,Express
+1206,1206,FedEx,Delayed,4,Overnight
+1207,1207,USPS,In Transit,14,Overnight
+1208,1208,USPS,Delivered,13,Express
+1209,1209,DHL,Delivered,14,Overnight
+1210,1210,FedEx,In Transit,6,Standard
+1211,1211,UPS,In Transit,7,Express
+1212,1212,FedEx,Delayed,10,Overnight
+1213,1213,FedEx,In Transit,4,Overnight
+1214,1214,USPS,Delivered,14,Overnight
+1215,1215,USPS,In Transit,6,Overnight
+1216,1216,USPS,Returned,6,Overnight
+1217,1217,USPS,In Transit,3,Overnight
+1218,1218,USPS,Returned,5,Express
+1219,1219,FedEx,Delivered,8,Standard
+1220,1220,DHL,Delayed,13,Express
+1221,1221,USPS,Delivered,9,Standard
+1222,1222,FedEx,In Transit,13,Standard
+1223,1223,DHL,Delayed,6,Express
+1224,1224,FedEx,Delayed,12,Express
+1225,1225,USPS,Delivered,13,Express
+1226,1226,UPS,In Transit,12,Express
+1227,1227,FedEx,In Transit,4,Overnight
+1228,1228,UPS,In Transit,13,Standard
+1229,1229,USPS,In Transit,5,Overnight
+1230,1230,UPS,Delivered,2,Express
+1231,1231,UPS,Delayed,6,Express
+1232,1232,UPS,Delayed,5,Standard
+1233,1233,DHL,In Transit,1,Express
+1234,1234,FedEx,Delivered,4,Standard
+1235,1235,UPS,In Transit,11,Overnight
+1236,1236,DHL,Delayed,6,Standard
+1237,1237,UPS,Delivered,9,Express
+1238,1238,DHL,Returned,4,Express
+1239,1239,FedEx,Returned,11,Standard
+1240,1240,DHL,Delivered,4,Express
+1241,1241,UPS,Delayed,5,Express
+1242,1242,FedEx,Delayed,11,Overnight
+1243,1243,FedEx,Delivered,6,Express
+1244,1244,DHL,Returned,12,Overnight
+1245,1245,UPS,In Transit,3,Standard
+1246,1246,DHL,Delivered,6,Standard
+1247,1247,USPS,Delivered,2,Express
+1248,1248,DHL,Returned,12,Express
+1249,1249,UPS,In Transit,4,Express
+1250,1250,USPS,Delayed,9,Express
+1251,1251,USPS,Delivered,10,Overnight
+1252,1252,UPS,Delayed,14,Express
+1253,1253,FedEx,Returned,2,Express
+1254,1254,USPS,In Transit,1,Standard
+1255,1255,UPS,Delayed,7,Express
+1256,1256,UPS,Delayed,9,Standard
+1257,1257,UPS,Delayed,11,Overnight
+1258,1258,DHL,Returned,6,Standard
+1259,1259,FedEx,In Transit,7,Overnight
+1260,1260,DHL,Delayed,8,Overnight
+1261,1261,DHL,Returned,11,Overnight
+1262,1262,UPS,In Transit,12,Express
+1263,1263,FedEx,Delivered,7,Express
+1264,1264,USPS,Returned,3,Express
+1265,1265,UPS,Returned,11,Standard
+1266,1266,USPS,In Transit,1,Express
+1267,1267,USPS,In Transit,5,Standard
+1268,1268,DHL,Delayed,11,Standard
+1269,1269,FedEx,Delayed,14,Express
+1270,1270,USPS,Delivered,3,Express
+1271,1271,DHL,Returned,12,Express
+1272,1272,USPS,In Transit,13,Standard
+1273,1273,DHL,Returned,14,Standard
+1274,1274,DHL,In Transit,3,Overnight
+1275,1275,USPS,In Transit,13,Express
+1276,1276,UPS,Returned,8,Standard
+1277,1277,UPS,Returned,1,Overnight
+1278,1278,USPS,Returned,11,Standard
+1279,1279,USPS,Returned,14,Express
+1280,1280,UPS,Returned,12,Overnight
+1281,1281,DHL,Delivered,14,Express
+1282,1282,DHL,Delayed,4,Overnight
+1283,1283,UPS,Returned,11,Standard
+1284,1284,USPS,Returned,6,Standard
+1285,1285,DHL,Delayed,1,Overnight
+1286,1286,DHL,Delivered,14,Standard
+1287,1287,USPS,Returned,2,Overnight
+1288,1288,DHL,Delivered,11,Overnight
+1289,1289,UPS,In Transit,8,Standard
+1290,1290,DHL,Delayed,9,Standard
+1291,1291,USPS,Delivered,1,Express
+1292,1292,USPS,Delivered,12,Standard
+1293,1293,USPS,Returned,8,Standard
+1294,1294,DHL,In Transit,4,Overnight
+1295,1295,UPS,Delivered,12,Express
+1296,1296,UPS,Delayed,12,Standard
+1297,1297,UPS,Delivered,1,Standard
+1298,1298,DHL,Delayed,14,Overnight
+1299,1299,UPS,Delayed,7,Overnight
+1300,1300,FedEx,Delivered,4,Standard
+1301,1301,FedEx,In Transit,14,Overnight
+1302,1302,USPS,Delayed,9,Express
+1303,1303,FedEx,Delivered,5,Overnight
+1304,1304,FedEx,Delivered,8,Standard
+1305,1305,USPS,In Transit,2,Express
+1306,1306,DHL,In Transit,7,Express
+1307,1307,UPS,In Transit,14,Standard
+1308,1308,DHL,Delayed,10,Standard
+1309,1309,DHL,In Transit,3,Express
+1310,1310,UPS,Returned,9,Overnight
+1311,1311,FedEx,In Transit,1,Overnight
+1312,1312,DHL,Returned,4,Express
+1313,1313,FedEx,Delivered,2,Express
+1314,1314,UPS,Returned,4,Express
+1315,1315,FedEx,Delivered,10,Standard
+1316,1316,DHL,In Transit,2,Express
+1317,1317,DHL,Delivered,8,Express
+1318,1318,USPS,In Transit,5,Standard
+1319,1319,UPS,Delivered,10,Overnight
+1320,1320,DHL,Delivered,3,Overnight
+1321,1321,USPS,Delivered,12,Overnight
+1322,1322,UPS,Returned,13,Express
+1323,1323,FedEx,In Transit,7,Express
+1324,1324,UPS,Delivered,8,Overnight
+1325,1325,USPS,Returned,12,Standard
+1326,1326,UPS,Delayed,2,Standard
+1327,1327,FedEx,Returned,3,Express
+1328,1328,FedEx,In Transit,11,Overnight
+1329,1329,DHL,Delivered,5,Express
+1330,1330,DHL,Delivered,7,Overnight
+1331,1331,DHL,In Transit,5,Standard
+1332,1332,FedEx,Delayed,9,Standard
+1333,1333,FedEx,Returned,10,Express
+1334,1334,UPS,Returned,6,Standard
+1335,1335,FedEx,In Transit,1,Express
+1336,1336,USPS,In Transit,7,Standard
+1337,1337,DHL,Returned,5,Express
+1338,1338,UPS,Returned,3,Standard
+1339,1339,UPS,Returned,13,Standard
+1340,1340,FedEx,Delivered,14,Overnight
+1341,1341,DHL,Returned,10,Express
+1342,1342,DHL,Returned,6,Standard
+1343,1343,DHL,In Transit,14,Express
+1344,1344,UPS,Delayed,3,Express
+1345,1345,USPS,Delayed,9,Standard
+1346,1346,FedEx,Returned,12,Standard
+1347,1347,USPS,Returned,10,Express
+1348,1348,UPS,Delivered,2,Express
+1349,1349,UPS,In Transit,1,Standard
+1350,1350,USPS,Delivered,5,Overnight
+1351,1351,FedEx,Delivered,9,Express
+1352,1352,UPS,Returned,1,Standard
+1353,1353,FedEx,In Transit,13,Standard
+1354,1354,UPS,Delivered,4,Express
+1355,1355,DHL,Delayed,6,Standard
+1356,1356,UPS,Delivered,6,Express
+1357,1357,UPS,Delayed,9,Express
+1358,1358,DHL,Returned,6,Overnight
+1359,1359,DHL,Returned,12,Standard
+1360,1360,USPS,Delayed,13,Express
+1361,1361,DHL,Returned,13,Overnight
+1362,1362,UPS,Returned,10,Standard
+1363,1363,USPS,Returned,7,Standard
+1364,1364,FedEx,Delayed,9,Overnight
+1365,1365,USPS,Delivered,2,Overnight
+1366,1366,FedEx,In Transit,14,Standard
+1367,1367,UPS,In Transit,4,Express
+1368,1368,FedEx,Returned,9,Overnight
+1369,1369,FedEx,Delayed,4,Express
+1370,1370,FedEx,In Transit,9,Overnight
+1371,1371,USPS,Delayed,1,Standard
+1372,1372,UPS,In Transit,1,Standard
+1373,1373,UPS,Delayed,1,Overnight
+1374,1374,UPS,Delivered,13,Express
+1375,1375,UPS,Delivered,4,Overnight
+1376,1376,DHL,In Transit,13,Express
+1377,1377,FedEx,Delayed,12,Overnight
+1378,1378,FedEx,Delivered,1,Standard
+1379,1379,USPS,In Transit,6,Standard
+1380,1380,UPS,Delayed,1,Overnight
+1381,1381,FedEx,In Transit,14,Overnight
+1382,1382,DHL,Delayed,3,Express
+1383,1383,DHL,Delayed,7,Overnight
+1384,1384,DHL,In Transit,13,Express
+1385,1385,FedEx,Delayed,1,Overnight
+1386,1386,UPS,Returned,12,Overnight
+1387,1387,DHL,Delivered,11,Standard
+1388,1388,DHL,Delayed,3,Overnight
+1389,1389,UPS,Returned,8,Overnight
+1390,1390,FedEx,In Transit,2,Express
+1391,1391,DHL,In Transit,14,Express
+1392,1392,DHL,In Transit,12,Overnight
+1393,1393,DHL,Delayed,11,Overnight
+1394,1394,USPS,In Transit,1,Overnight
+1395,1395,DHL,In Transit,3,Overnight
+1396,1396,USPS,Delayed,14,Overnight
+1397,1397,UPS,Returned,7,Express
+1398,1398,FedEx,Delayed,12,Overnight
+1399,1399,UPS,Returned,2,Overnight
+1400,1400,DHL,In Transit,5,Overnight
+1401,1401,UPS,Delivered,3,Overnight
+1402,1402,UPS,Delayed,9,Overnight
+1403,1403,FedEx,Delayed,10,Overnight
+1404,1404,FedEx,Delivered,9,Express
+1405,1405,DHL,Returned,2,Express
+1406,1406,DHL,Returned,6,Express
+1407,1407,DHL,In Transit,7,Overnight
+1408,1408,UPS,Delivered,6,Express
+1409,1409,USPS,Delivered,3,Overnight
+1410,1410,UPS,In Transit,9,Standard
+1411,1411,DHL,Delivered,6,Express
+1412,1412,FedEx,Returned,4,Express
+1413,1413,UPS,In Transit,11,Standard
+1414,1414,DHL,Returned,13,Overnight
+1415,1415,USPS,Delayed,2,Standard
+1416,1416,FedEx,Delivered,9,Express
+1417,1417,DHL,Delayed,10,Overnight
+1418,1418,UPS,Delayed,11,Express
+1419,1419,DHL,In Transit,8,Overnight
+1420,1420,USPS,Delayed,7,Overnight
+1421,1421,USPS,Delayed,7,Express
+1422,1422,FedEx,Delayed,12,Overnight
+1423,1423,FedEx,Delivered,6,Standard
+1424,1424,USPS,In Transit,7,Overnight
+1425,1425,DHL,Delayed,5,Overnight
+1426,1426,DHL,Delayed,11,Express
+1427,1427,USPS,Delayed,5,Overnight
+1428,1428,FedEx,Delivered,12,Express
+1429,1429,UPS,Returned,13,Standard
+1430,1430,DHL,Returned,2,Express
+1431,1431,UPS,Delivered,3,Standard
+1432,1432,FedEx,In Transit,6,Standard
+1433,1433,DHL,Delivered,6,Overnight
+1434,1434,USPS,Delivered,7,Overnight
+1435,1435,USPS,In Transit,12,Standard
+1436,1436,FedEx,Returned,7,Overnight
+1437,1437,DHL,Delivered,13,Express
+1438,1438,FedEx,In Transit,4,Standard
+1439,1439,USPS,Delayed,1,Overnight
+1440,1440,FedEx,In Transit,6,Overnight
+1441,1441,FedEx,Delayed,2,Express
+1442,1442,DHL,Returned,11,Express
+1443,1443,FedEx,In Transit,7,Standard
+1444,1444,USPS,Delivered,13,Express
+1445,1445,UPS,Delayed,9,Standard
+1446,1446,DHL,Returned,5,Express
+1447,1447,UPS,Delivered,11,Standard
+1448,1448,USPS,Delayed,4,Express
+1449,1449,DHL,Delayed,11,Overnight
+1450,1450,DHL,Delayed,1,Overnight
+1451,1451,DHL,Delayed,10,Standard
+1452,1452,UPS,Delayed,2,Standard
+1453,1453,UPS,Delayed,13,Standard
+1454,1454,DHL,Returned,9,Standard
+1455,1455,UPS,Delayed,5,Standard
+1456,1456,FedEx,Returned,11,Express
+1457,1457,FedEx,Delayed,7,Overnight
+1458,1458,USPS,Delayed,1,Overnight
+1459,1459,DHL,In Transit,5,Express
+1460,1460,UPS,Delayed,7,Overnight
+1461,1461,DHL,In Transit,10,Standard
+1462,1462,DHL,In Transit,10,Overnight
+1463,1463,DHL,Delayed,6,Overnight
+1464,1464,UPS,Delayed,5,Standard
+1465,1465,DHL,Delivered,1,Standard
+1466,1466,DHL,In Transit,6,Standard
+1467,1467,FedEx,Returned,5,Standard
+1468,1468,USPS,In Transit,6,Express
+1469,1469,DHL,Delivered,6,Overnight
+1470,1470,UPS,In Transit,2,Express
+1471,1471,DHL,Returned,14,Overnight
+1472,1472,DHL,Delayed,5,Express
+1473,1473,USPS,In Transit,12,Express
+1474,1474,USPS,Returned,10,Standard
+1475,1475,UPS,Delivered,5,Standard
+1476,1476,FedEx,Delayed,14,Standard
+1477,1477,FedEx,Returned,7,Overnight
+1478,1478,USPS,Delivered,2,Standard
+1479,1479,DHL,Delayed,14,Standard
+1480,1480,DHL,In Transit,8,Express
+1481,1481,USPS,Returned,5,Overnight
+1482,1482,DHL,Delivered,7,Express
+1483,1483,DHL,Delayed,5,Express
+1484,1484,UPS,In Transit,6,Overnight
+1485,1485,FedEx,Returned,1,Express
+1486,1486,USPS,Delivered,13,Express
+1487,1487,USPS,Returned,1,Standard
+1488,1488,USPS,Delivered,4,Express
+1489,1489,UPS,Delayed,7,Overnight
+1490,1490,DHL,In Transit,6,Standard
+1491,1491,UPS,Delivered,5,Overnight
+1492,1492,UPS,In Transit,3,Overnight
+1493,1493,FedEx,Delayed,8,Standard
+1494,1494,FedEx,Delayed,10,Overnight
+1495,1495,FedEx,In Transit,8,Standard
+1496,1496,USPS,Delivered,13,Standard
+1497,1497,FedEx,Delivered,4,Overnight
+1498,1498,DHL,In Transit,3,Standard
+1499,1499,USPS,In Transit,2,Overnight
+1500,1500,DHL,Delivered,5,Standard
+1501,1501,FedEx,Delayed,12,Express
+1502,1502,FedEx,Delivered,9,Express
+1503,1503,USPS,Returned,12,Standard
+1504,1504,FedEx,In Transit,6,Overnight
+1505,1505,DHL,Delivered,14,Express
+1506,1506,DHL,In Transit,6,Standard
+1507,1507,USPS,In Transit,7,Standard
+1508,1508,UPS,Delayed,14,Express
+1509,1509,FedEx,Delayed,10,Standard
+1510,1510,UPS,Returned,2,Standard
+1511,1511,DHL,In Transit,5,Overnight
+1512,1512,DHL,Delivered,1,Express
+1513,1513,FedEx,Delayed,2,Overnight
+1514,1514,DHL,In Transit,7,Overnight
+1515,1515,UPS,Returned,9,Overnight
+1516,1516,UPS,Delivered,3,Overnight
+1517,1517,DHL,In Transit,2,Standard
+1518,1518,DHL,In Transit,13,Express
+1519,1519,USPS,Returned,6,Overnight
+1520,1520,UPS,Delayed,12,Express
+1521,1521,DHL,In Transit,3,Standard
+1522,1522,USPS,Delivered,9,Express
+1523,1523,USPS,Delivered,6,Standard
+1524,1524,FedEx,Returned,12,Standard
+1525,1525,USPS,Delivered,6,Overnight
+1526,1526,UPS,In Transit,8,Standard
+1527,1527,DHL,Returned,13,Standard
+1528,1528,DHL,Delayed,10,Overnight
+1529,1529,FedEx,Delayed,9,Overnight
+1530,1530,UPS,In Transit,13,Express
+1531,1531,FedEx,In Transit,14,Express
+1532,1532,UPS,Returned,3,Standard
+1533,1533,FedEx,Delivered,10,Standard
+1534,1534,FedEx,In Transit,4,Express
+1535,1535,DHL,Delivered,14,Express
+1536,1536,FedEx,Delayed,12,Overnight
+1537,1537,DHL,In Transit,7,Overnight
+1538,1538,FedEx,In Transit,11,Express
+1539,1539,DHL,Returned,8,Express
+1540,1540,UPS,Delayed,4,Express
+1541,1541,DHL,Returned,14,Express
+1542,1542,USPS,Delivered,7,Standard
+1543,1543,USPS,Delivered,14,Standard
+1544,1544,UPS,Delivered,1,Overnight
+1545,1545,FedEx,In Transit,12,Overnight
+1546,1546,USPS,Delayed,6,Express
+1547,1547,UPS,Returned,4,Express
+1548,1548,DHL,Delayed,5,Standard
+1549,1549,FedEx,Delivered,9,Standard
+1550,1550,FedEx,Delivered,8,Overnight
+1551,1551,UPS,Delivered,11,Standard
+1552,1552,USPS,Delivered,3,Express
+1553,1553,USPS,Delayed,10,Standard
+1554,1554,USPS,In Transit,1,Overnight
+1555,1555,FedEx,In Transit,7,Overnight
+1556,1556,DHL,Delivered,2,Overnight
+1557,1557,FedEx,In Transit,11,Standard
+1558,1558,FedEx,Delivered,13,Overnight
+1559,1559,UPS,Delivered,12,Express
+1560,1560,USPS,Delayed,12,Express
+1561,1561,DHL,Returned,13,Overnight
+1562,1562,UPS,Returned,2,Express
+1563,1563,FedEx,Returned,14,Express
+1564,1564,USPS,Returned,12,Express
+1565,1565,FedEx,In Transit,10,Express
+1566,1566,FedEx,Delivered,6,Overnight
+1567,1567,FedEx,Returned,7,Express
+1568,1568,DHL,Returned,11,Overnight
+1569,1569,USPS,Returned,7,Standard
+1570,1570,FedEx,In Transit,4,Express
+1571,1571,DHL,Delivered,14,Standard
+1572,1572,UPS,In Transit,8,Express
+1573,1573,FedEx,Returned,4,Standard
+1574,1574,DHL,In Transit,12,Overnight
+1575,1575,USPS,Delivered,3,Standard
+1576,1576,DHL,In Transit,1,Express
+1577,1577,USPS,Delivered,11,Express
+1578,1578,FedEx,Delayed,2,Standard
+1579,1579,FedEx,In Transit,1,Standard
+1580,1580,USPS,Delayed,6,Standard
+1581,1581,USPS,Delivered,11,Standard
+1582,1582,USPS,Delivered,3,Express
+1583,1583,USPS,Delayed,7,Standard
+1584,1584,FedEx,Delivered,13,Standard
+1585,1585,DHL,Delayed,4,Overnight
+1586,1586,USPS,In Transit,8,Overnight
+1587,1587,FedEx,Returned,8,Overnight
+1588,1588,DHL,In Transit,13,Overnight
+1589,1589,USPS,Delivered,13,Overnight
+1590,1590,DHL,Returned,13,Standard
+1591,1591,UPS,Delivered,14,Standard
+1592,1592,FedEx,Delayed,13,Standard
+1593,1593,UPS,Returned,6,Overnight
+1594,1594,UPS,Delayed,12,Express
+1595,1595,FedEx,In Transit,6,Standard
+1596,1596,USPS,Returned,3,Express
+1597,1597,USPS,Delayed,2,Overnight
+1598,1598,UPS,Delivered,10,Overnight
+1599,1599,UPS,Delivered,13,Overnight
+1600,1600,DHL,Returned,9,Standard
+1601,1601,DHL,Delivered,6,Standard
+1602,1602,UPS,Delayed,9,Standard
+1603,1603,USPS,In Transit,13,Express
+1604,1604,DHL,Returned,8,Standard
+1605,1605,UPS,Delayed,7,Overnight
+1606,1606,DHL,In Transit,4,Standard
+1607,1607,FedEx,Delivered,14,Overnight
+1608,1608,DHL,Delivered,6,Overnight
+1609,1609,UPS,Returned,10,Overnight
+1610,1610,USPS,Returned,7,Overnight
+1611,1611,FedEx,Delayed,13,Overnight
+1612,1612,USPS,In Transit,11,Express
+1613,1613,DHL,Delayed,8,Express
+1614,1614,DHL,Delayed,12,Standard
+1615,1615,UPS,Delivered,7,Overnight
+1616,1616,DHL,Delayed,4,Standard
+1617,1617,FedEx,Delivered,8,Overnight
+1618,1618,USPS,Delivered,13,Overnight
+1619,1619,USPS,Delivered,4,Express
+1620,1620,USPS,Delayed,8,Express
+1621,1621,DHL,Delivered,6,Overnight
+1622,1622,USPS,Returned,10,Express
+1623,1623,DHL,Returned,3,Express
+1624,1624,USPS,Delivered,7,Express
+1625,1625,FedEx,Returned,2,Overnight
+1626,1626,UPS,Delivered,13,Express
+1627,1627,DHL,In Transit,13,Overnight
+1628,1628,DHL,Returned,14,Standard
+1629,1629,UPS,In Transit,4,Standard
+1630,1630,DHL,Delayed,14,Standard
+1631,1631,DHL,Delayed,11,Standard
+1632,1632,USPS,Delivered,10,Overnight
+1633,1633,DHL,Returned,8,Overnight
+1634,1634,USPS,Returned,1,Express
+1635,1635,UPS,Delivered,4,Overnight
+1636,1636,DHL,Delivered,12,Express
+1637,1637,USPS,Returned,9,Overnight
+1638,1638,FedEx,Delivered,14,Overnight
+1639,1639,FedEx,Delayed,8,Overnight
+1640,1640,DHL,In Transit,6,Overnight
+1641,1641,USPS,Delayed,3,Overnight
+1642,1642,FedEx,Delayed,5,Overnight
+1643,1643,FedEx,Delivered,11,Express
+1644,1644,DHL,Returned,1,Overnight
+1645,1645,FedEx,In Transit,7,Express
+1646,1646,FedEx,Returned,12,Express
+1647,1647,USPS,Returned,14,Standard
+1648,1648,USPS,Delivered,9,Overnight
+1649,1649,FedEx,Returned,6,Express
+1650,1650,UPS,In Transit,9,Standard
+1651,1651,USPS,Returned,9,Standard
+1652,1652,UPS,In Transit,14,Express
+1653,1653,UPS,Delayed,9,Standard
+1654,1654,UPS,Delivered,10,Standard
+1655,1655,USPS,Delayed,5,Express
+1656,1656,FedEx,In Transit,6,Standard
+1657,1657,UPS,Delivered,10,Express
+1658,1658,USPS,Delivered,6,Express
+1659,1659,UPS,Delivered,10,Standard
+1660,1660,USPS,Returned,10,Overnight
+1661,1661,UPS,Returned,4,Overnight
+1662,1662,UPS,Delayed,10,Express
+1663,1663,USPS,Returned,8,Standard
+1664,1664,FedEx,Returned,1,Express
+1665,1665,DHL,Delayed,10,Standard
+1666,1666,USPS,Delivered,10,Standard
+1667,1667,DHL,In Transit,8,Standard
+1668,1668,UPS,Returned,6,Overnight
+1669,1669,DHL,In Transit,11,Express
+1670,1670,USPS,In Transit,7,Standard
+1671,1671,FedEx,In Transit,10,Express
+1672,1672,UPS,Delayed,10,Standard
+1673,1673,FedEx,Delayed,4,Standard
+1674,1674,FedEx,Delayed,6,Overnight
+1675,1675,UPS,Delivered,11,Standard
+1676,1676,USPS,In Transit,14,Overnight
+1677,1677,DHL,In Transit,12,Standard
+1678,1678,USPS,Delayed,1,Standard
+1679,1679,UPS,Returned,1,Standard
+1680,1680,UPS,In Transit,5,Standard
+1681,1681,UPS,Returned,12,Express
+1682,1682,DHL,Delivered,3,Overnight
+1683,1683,USPS,In Transit,8,Express
+1684,1684,USPS,In Transit,10,Overnight
+1685,1685,DHL,Delayed,11,Standard
+1686,1686,FedEx,In Transit,14,Standard
+1687,1687,UPS,Delayed,14,Standard
+1688,1688,UPS,Delayed,4,Overnight
+1689,1689,FedEx,Delivered,3,Express
+1690,1690,UPS,In Transit,14,Standard
+1691,1691,DHL,Delayed,5,Overnight
+1692,1692,UPS,Returned,5,Overnight
+1693,1693,UPS,Delivered,9,Standard
+1694,1694,DHL,In Transit,11,Standard
+1695,1695,USPS,In Transit,5,Express
+1696,1696,FedEx,Returned,11,Standard
+1697,1697,DHL,Returned,9,Overnight
+1698,1698,UPS,Returned,1,Express
+1699,1699,USPS,Delayed,11,Overnight
+1700,1700,UPS,Delayed,13,Standard
+1701,1701,USPS,Delayed,6,Standard
+1702,1702,USPS,Returned,13,Standard
+1703,1703,UPS,Returned,1,Overnight
+1704,1704,FedEx,Returned,13,Standard
+1705,1705,DHL,In Transit,12,Express
+1706,1706,USPS,In Transit,12,Overnight
+1707,1707,UPS,Returned,5,Standard
+1708,1708,UPS,Delayed,4,Standard
+1709,1709,DHL,Returned,1,Standard
+1710,1710,UPS,Delivered,5,Express
+1711,1711,USPS,Delayed,5,Express
+1712,1712,USPS,Delivered,2,Express
+1713,1713,DHL,Returned,1,Overnight
+1714,1714,FedEx,Delivered,2,Overnight
+1715,1715,FedEx,Delivered,14,Express
+1716,1716,USPS,In Transit,9,Standard
+1717,1717,USPS,Returned,9,Express
+1718,1718,USPS,Returned,13,Express
+1719,1719,DHL,Delivered,1,Express
+1720,1720,DHL,Returned,11,Standard
+1721,1721,FedEx,Returned,2,Overnight
+1722,1722,DHL,Returned,9,Overnight
+1723,1723,DHL,In Transit,3,Standard
+1724,1724,FedEx,In Transit,6,Overnight
+1725,1725,USPS,Delayed,1,Standard
+1726,1726,DHL,Delayed,4,Overnight
+1727,1727,DHL,Returned,5,Standard
+1728,1728,USPS,Delivered,8,Overnight
+1729,1729,UPS,Delayed,7,Standard
+1730,1730,UPS,Returned,5,Express
+1731,1731,FedEx,In Transit,5,Express
+1732,1732,DHL,Delayed,5,Express
+1733,1733,UPS,Delayed,3,Overnight
+1734,1734,UPS,In Transit,2,Express
+1735,1735,FedEx,In Transit,4,Overnight
+1736,1736,DHL,Delivered,7,Standard
+1737,1737,USPS,Delivered,2,Express
+1738,1738,DHL,In Transit,11,Overnight
+1739,1739,UPS,Delivered,14,Standard
+1740,1740,USPS,Delayed,4,Standard
+1741,1741,FedEx,Returned,7,Standard
+1742,1742,USPS,In Transit,2,Express
+1743,1743,DHL,In Transit,8,Express
+1744,1744,FedEx,Returned,8,Express
+1745,1745,DHL,In Transit,4,Standard
+1746,1746,DHL,In Transit,6,Overnight
+1747,1747,UPS,In Transit,6,Overnight
+1748,1748,DHL,Returned,1,Standard
+1749,1749,USPS,Returned,11,Overnight
+1750,1750,USPS,In Transit,1,Express
+1751,1751,UPS,Delivered,5,Standard
+1752,1752,FedEx,Delivered,1,Standard
+1753,1753,DHL,Returned,3,Standard
+1754,1754,FedEx,Delivered,8,Express
+1755,1755,DHL,Returned,4,Express
+1756,1756,USPS,Delivered,8,Standard
+1757,1757,USPS,In Transit,3,Overnight
+1758,1758,USPS,Returned,8,Express
+1759,1759,DHL,In Transit,14,Express
+1760,1760,FedEx,Delivered,11,Standard
+1761,1761,UPS,Returned,7,Standard
+1762,1762,USPS,Returned,5,Standard
+1763,1763,USPS,Delayed,6,Express
+1764,1764,FedEx,Delayed,12,Standard
+1765,1765,USPS,In Transit,6,Express
+1766,1766,UPS,In Transit,4,Standard
+1767,1767,FedEx,Delivered,1,Overnight
+1768,1768,FedEx,Returned,9,Express
+1769,1769,USPS,In Transit,6,Standard
+1770,1770,USPS,Delayed,13,Overnight
+1771,1771,DHL,Returned,10,Overnight
+1772,1772,UPS,Returned,14,Standard
+1773,1773,FedEx,Delivered,2,Standard
+1774,1774,USPS,In Transit,10,Overnight
+1775,1775,USPS,Delivered,4,Standard
+1776,1776,USPS,Delayed,8,Standard
+1777,1777,UPS,Delayed,2,Express
+1778,1778,UPS,Returned,4,Standard
+1779,1779,UPS,Delivered,12,Overnight
+1780,1780,USPS,Delivered,4,Standard
+1781,1781,FedEx,Returned,13,Overnight
+1782,1782,UPS,Delayed,2,Standard
+1783,1783,USPS,Returned,10,Standard
+1784,1784,DHL,In Transit,14,Standard
+1785,1785,USPS,Delayed,10,Express
+1786,1786,UPS,In Transit,4,Standard
+1787,1787,UPS,In Transit,6,Express
+1788,1788,USPS,Delivered,5,Standard
+1789,1789,UPS,Delivered,5,Express
+1790,1790,USPS,Delivered,1,Standard
+1791,1791,USPS,In Transit,1,Standard
+1792,1792,UPS,In Transit,7,Standard
+1793,1793,UPS,Delivered,8,Standard
+1794,1794,DHL,In Transit,8,Standard
+1795,1795,FedEx,Delayed,10,Standard
+1796,1796,USPS,Delayed,2,Overnight
+1797,1797,FedEx,Delivered,4,Overnight
+1798,1798,DHL,In Transit,9,Standard
+1799,1799,USPS,In Transit,4,Standard
+1800,1800,FedEx,Delivered,7,Overnight
+1801,1801,DHL,Returned,11,Express
+1802,1802,DHL,Delayed,2,Express
+1803,1803,UPS,In Transit,12,Express
+1804,1804,USPS,Returned,13,Express
+1805,1805,UPS,Delivered,11,Overnight
+1806,1806,UPS,In Transit,4,Express
+1807,1807,DHL,Returned,1,Express
+1808,1808,UPS,In Transit,10,Standard
+1809,1809,UPS,In Transit,5,Overnight
+1810,1810,DHL,In Transit,8,Standard
+1811,1811,UPS,Returned,7,Standard
+1812,1812,DHL,Delivered,7,Standard
+1813,1813,FedEx,Delayed,7,Express
+1814,1814,DHL,Delayed,5,Standard
+1815,1815,DHL,Returned,4,Express
+1816,1816,FedEx,Delivered,5,Express
+1817,1817,DHL,Delivered,4,Express
+1818,1818,FedEx,Delayed,12,Express
+1819,1819,DHL,Delivered,13,Express
+1820,1820,FedEx,In Transit,9,Overnight
+1821,1821,USPS,Returned,8,Standard
+1822,1822,UPS,Delivered,3,Standard
+1823,1823,USPS,Delivered,14,Express
+1824,1824,UPS,Delayed,12,Standard
+1825,1825,DHL,Delayed,3,Standard
+1826,1826,USPS,Returned,3,Overnight
+1827,1827,UPS,Delivered,2,Overnight
+1828,1828,UPS,Returned,3,Express
+1829,1829,DHL,In Transit,12,Standard
+1830,1830,UPS,Delivered,12,Express
+1831,1831,FedEx,Returned,3,Express
+1832,1832,USPS,In Transit,4,Overnight
+1833,1833,FedEx,In Transit,3,Standard
+1834,1834,UPS,Delivered,2,Express
+1835,1835,DHL,Delayed,13,Overnight
+1836,1836,DHL,Returned,14,Express
+1837,1837,USPS,Returned,11,Standard
+1838,1838,USPS,Returned,10,Overnight
+1839,1839,UPS,Delayed,6,Standard
+1840,1840,DHL,In Transit,8,Express
+1841,1841,FedEx,Delivered,9,Standard
+1842,1842,UPS,Delayed,3,Standard
+1843,1843,USPS,Delivered,10,Express
+1844,1844,DHL,Returned,1,Overnight
+1845,1845,UPS,In Transit,2,Express
+1846,1846,UPS,Delayed,14,Overnight
+1847,1847,DHL,Delivered,5,Standard
+1848,1848,DHL,Delivered,10,Overnight
+1849,1849,UPS,In Transit,9,Express
+1850,1850,USPS,Delayed,1,Overnight
+1851,1851,USPS,In Transit,6,Express
+1852,1852,USPS,Returned,13,Express
+1853,1853,FedEx,Delivered,9,Express
+1854,1854,DHL,Delivered,2,Standard
+1855,1855,USPS,Delayed,1,Overnight
+1856,1856,USPS,Delivered,5,Overnight
+1857,1857,UPS,Delivered,3,Overnight
+1858,1858,UPS,Delayed,4,Standard
+1859,1859,UPS,Delayed,9,Express
+1860,1860,DHL,Returned,11,Standard
+1861,1861,FedEx,In Transit,9,Standard
+1862,1862,FedEx,Delivered,14,Standard
+1863,1863,DHL,Returned,10,Overnight
+1864,1864,FedEx,In Transit,10,Standard
+1865,1865,USPS,In Transit,5,Express
+1866,1866,UPS,Delayed,11,Standard
+1867,1867,USPS,Returned,13,Standard
+1868,1868,DHL,Returned,8,Standard
+1869,1869,FedEx,Delivered,4,Overnight
+1870,1870,DHL,In Transit,11,Overnight
+1871,1871,UPS,Delivered,12,Express
+1872,1872,USPS,Delivered,3,Standard
+1873,1873,UPS,Delayed,6,Standard
+1874,1874,UPS,Returned,9,Overnight
+1875,1875,FedEx,Delayed,7,Standard
+1876,1876,DHL,In Transit,9,Express
+1877,1877,USPS,In Transit,4,Express
+1878,1878,DHL,Delivered,1,Overnight
+1879,1879,USPS,Delivered,7,Express
+1880,1880,USPS,In Transit,13,Overnight
+1881,1881,FedEx,In Transit,3,Standard
+1882,1882,FedEx,Delivered,3,Standard
+1883,1883,FedEx,Returned,6,Express
+1884,1884,DHL,Delivered,2,Standard
+1885,1885,FedEx,In Transit,6,Overnight
+1886,1886,DHL,In Transit,11,Standard
+1887,1887,USPS,Returned,13,Overnight
+1888,1888,DHL,Delayed,14,Overnight
+1889,1889,FedEx,Returned,5,Overnight
+1890,1890,UPS,In Transit,7,Express
+1891,1891,DHL,Delivered,7,Overnight
+1892,1892,FedEx,Delayed,4,Overnight
+1893,1893,DHL,Returned,8,Overnight
+1894,1894,UPS,In Transit,4,Express
+1895,1895,DHL,In Transit,13,Standard
+1896,1896,DHL,In Transit,12,Overnight
+1897,1897,USPS,Delayed,8,Overnight
+1898,1898,DHL,Delivered,13,Standard
+1899,1899,USPS,In Transit,6,Express
+1900,1900,UPS,In Transit,6,Standard
+1901,1901,FedEx,Delivered,5,Standard
+1902,1902,USPS,Returned,9,Express
+1903,1903,FedEx,Delayed,8,Express
+1904,1904,USPS,Returned,14,Standard
+1905,1905,FedEx,Returned,1,Standard
+1906,1906,USPS,In Transit,10,Standard
+1907,1907,DHL,Returned,9,Express
+1908,1908,USPS,In Transit,4,Express
+1909,1909,UPS,In Transit,9,Overnight
+1910,1910,FedEx,Returned,3,Express
+1911,1911,UPS,Returned,6,Overnight
+1912,1912,USPS,In Transit,14,Overnight
+1913,1913,DHL,In Transit,4,Overnight
+1914,1914,USPS,Delayed,12,Overnight
+1915,1915,DHL,Delayed,4,Overnight
+1916,1916,UPS,Delivered,4,Standard
+1917,1917,USPS,Delayed,9,Standard
+1918,1918,UPS,Delayed,2,Overnight
+1919,1919,DHL,Returned,1,Standard
+1920,1920,DHL,Delivered,14,Standard
+1921,1921,UPS,Delivered,3,Standard
+1922,1922,USPS,Delayed,5,Express
+1923,1923,FedEx,In Transit,12,Standard
+1924,1924,USPS,In Transit,8,Standard
+1925,1925,UPS,Delayed,8,Standard
+1926,1926,USPS,In Transit,9,Overnight
+1927,1927,UPS,Delayed,2,Overnight
+1928,1928,USPS,Delivered,12,Overnight
+1929,1929,UPS,Returned,13,Overnight
+1930,1930,DHL,In Transit,11,Standard
+1931,1931,DHL,Returned,8,Express
+1932,1932,FedEx,Returned,5,Overnight
+1933,1933,FedEx,Returned,11,Express
+1934,1934,FedEx,In Transit,10,Overnight
+1935,1935,DHL,Returned,6,Express
+1936,1936,USPS,Returned,5,Overnight
+1937,1937,UPS,In Transit,4,Standard
+1938,1938,DHL,Delivered,8,Express
+1939,1939,USPS,Delayed,12,Express
+1940,1940,FedEx,Delivered,14,Standard
+1941,1941,USPS,In Transit,9,Standard
+1942,1942,DHL,Delivered,14,Express
+1943,1943,FedEx,Delivered,7,Overnight
+1944,1944,FedEx,Delivered,7,Express
+1945,1945,DHL,Delivered,7,Express
+1946,1946,UPS,In Transit,11,Overnight
+1947,1947,UPS,Delayed,13,Express
+1948,1948,DHL,In Transit,9,Express
+1949,1949,USPS,In Transit,4,Standard
+1950,1950,UPS,Delayed,5,Express
+1951,1951,UPS,Delayed,4,Express
+1952,1952,FedEx,Delivered,7,Overnight
+1953,1953,DHL,Returned,5,Express
+1954,1954,USPS,Returned,8,Standard
+1955,1955,USPS,Delayed,2,Overnight
+1956,1956,FedEx,Returned,10,Standard
+1957,1957,FedEx,Returned,10,Standard
+1958,1958,USPS,Delayed,11,Standard
+1959,1959,UPS,Delivered,7,Overnight
+1960,1960,USPS,In Transit,14,Express
+1961,1961,UPS,In Transit,2,Express
+1962,1962,DHL,Delayed,14,Overnight
+1963,1963,FedEx,Delayed,11,Overnight
+1964,1964,UPS,Returned,12,Standard
+1965,1965,DHL,Returned,9,Overnight
+1966,1966,FedEx,Delivered,8,Express
+1967,1967,FedEx,Delayed,13,Express
+1968,1968,FedEx,Returned,2,Express
+1969,1969,USPS,In Transit,3,Standard
+1970,1970,USPS,Delayed,14,Express
+1971,1971,UPS,Delivered,7,Overnight
+1972,1972,UPS,Delivered,12,Overnight
+1973,1973,FedEx,In Transit,11,Overnight
+1974,1974,FedEx,Returned,7,Overnight
+1975,1975,USPS,Delayed,7,Overnight
+1976,1976,UPS,Delivered,6,Express
+1977,1977,FedEx,Delivered,13,Express
+1978,1978,DHL,Delayed,7,Overnight
+1979,1979,UPS,Delivered,14,Standard
+1980,1980,FedEx,Delivered,8,Express
+1981,1981,UPS,In Transit,2,Standard
+1982,1982,DHL,Delayed,6,Standard
+1983,1983,USPS,Delayed,1,Overnight
+1984,1984,FedEx,Delayed,3,Express
+1985,1985,DHL,Delayed,11,Standard
+1986,1986,UPS,Returned,3,Express
+1987,1987,DHL,Returned,4,Standard
+1988,1988,USPS,Returned,12,Express
+1989,1989,FedEx,Delayed,8,Standard
+1990,1990,USPS,Delayed,6,Standard
+1991,1991,UPS,In Transit,1,Express
+1992,1992,UPS,Returned,7,Standard
+1993,1993,UPS,Delayed,10,Overnight
+1994,1994,UPS,Delayed,6,Standard
+1995,1995,USPS,Delivered,10,Overnight
+1996,1996,FedEx,In Transit,10,Overnight
+1997,1997,DHL,Delivered,9,Standard
+1998,1998,FedEx,Delayed,4,Standard
+1999,1999,UPS,Delayed,4,Express
+2000,2000,UPS,Delivered,9,Standard
+2001,2001,USPS,Returned,8,Express
+2002,2002,UPS,In Transit,8,Standard
+2003,2003,UPS,Delayed,13,Overnight
+2004,2004,UPS,Delivered,3,Overnight
+2005,2005,DHL,Delayed,5,Standard
+2006,2006,DHL,Delayed,11,Overnight
+2007,2007,UPS,Delivered,5,Standard
+2008,2008,DHL,Delivered,7,Express
+2009,2009,USPS,Returned,9,Standard
+2010,2010,FedEx,Delayed,14,Express
+2011,2011,FedEx,Delayed,1,Express
+2012,2012,UPS,Delivered,3,Standard
+2013,2013,UPS,Delivered,3,Overnight
+2014,2014,UPS,Delivered,5,Standard
+2015,2015,USPS,In Transit,13,Standard
+2016,2016,UPS,Delayed,1,Standard
+2017,2017,DHL,Delayed,5,Standard
+2018,2018,USPS,In Transit,1,Overnight
+2019,2019,UPS,Delivered,1,Express
+2020,2020,USPS,Delayed,11,Express
+2021,2021,UPS,Returned,13,Overnight
+2022,2022,UPS,Returned,10,Standard
+2023,2023,UPS,Returned,4,Express
+2024,2024,DHL,In Transit,14,Overnight
+2025,2025,DHL,Delayed,3,Overnight
+2026,2026,FedEx,In Transit,8,Standard
+2027,2027,USPS,Delayed,2,Overnight
+2028,2028,FedEx,Returned,8,Express
+2029,2029,UPS,Delayed,3,Express
+2030,2030,FedEx,In Transit,8,Standard
+2031,2031,FedEx,Delayed,7,Overnight
+2032,2032,UPS,Delivered,13,Overnight
+2033,2033,UPS,In Transit,10,Overnight
+2034,2034,UPS,Returned,12,Overnight
+2035,2035,FedEx,In Transit,7,Express
+2036,2036,FedEx,Returned,10,Overnight
+2037,2037,UPS,In Transit,9,Express
+2038,2038,UPS,In Transit,4,Express
+2039,2039,UPS,Returned,14,Overnight
+2040,2040,FedEx,Returned,13,Overnight
+2041,2041,FedEx,Delivered,5,Overnight
+2042,2042,DHL,Returned,10,Standard
+2043,2043,UPS,Delayed,8,Overnight
+2044,2044,UPS,Delayed,3,Express
+2045,2045,DHL,Returned,2,Overnight
+2046,2046,FedEx,In Transit,1,Express
+2047,2047,DHL,Delayed,14,Standard
+2048,2048,DHL,Delivered,8,Standard
+2049,2049,UPS,Delayed,10,Express
+2050,2050,DHL,Delivered,1,Express
+2051,2051,UPS,In Transit,11,Overnight
+2052,2052,DHL,Delivered,7,Standard
+2053,2053,USPS,Returned,3,Express
+2054,2054,UPS,Delayed,9,Overnight
+2055,2055,DHL,In Transit,10,Overnight
+2056,2056,USPS,In Transit,14,Overnight
+2057,2057,UPS,In Transit,7,Standard
+2058,2058,DHL,Delayed,14,Express
+2059,2059,FedEx,Delayed,2,Overnight
+2060,2060,UPS,Delayed,3,Standard
+2061,2061,USPS,Returned,3,Standard
+2062,2062,USPS,Returned,9,Standard
+2063,2063,DHL,Delayed,1,Express
+2064,2064,USPS,Returned,2,Standard
+2065,2065,FedEx,Delayed,13,Standard
+2066,2066,UPS,Delayed,12,Express
+2067,2067,FedEx,Returned,7,Standard
+2068,2068,UPS,In Transit,5,Standard
+2069,2069,FedEx,Returned,10,Standard
+2070,2070,DHL,In Transit,7,Express
+2071,2071,USPS,In Transit,1,Express
+2072,2072,UPS,In Transit,4,Standard
+2073,2073,DHL,Delayed,3,Standard
+2074,2074,DHL,In Transit,12,Standard
+2075,2075,FedEx,In Transit,7,Overnight
+2076,2076,FedEx,Delayed,5,Express
+2077,2077,FedEx,Delayed,6,Express
+2078,2078,DHL,In Transit,10,Standard
+2079,2079,USPS,Delivered,11,Express
+2080,2080,UPS,Returned,13,Express
+2081,2081,DHL,Returned,6,Overnight
+2082,2082,USPS,Delivered,6,Standard
+2083,2083,UPS,Delivered,12,Express
+2084,2084,UPS,Delayed,13,Standard
+2085,2085,USPS,Delayed,12,Standard
+2086,2086,DHL,Delayed,13,Express
+2087,2087,DHL,Returned,12,Overnight
+2088,2088,DHL,Delayed,5,Standard
+2089,2089,UPS,Delivered,7,Standard
+2090,2090,DHL,Delayed,1,Overnight
+2091,2091,UPS,Delivered,3,Overnight
+2092,2092,DHL,Delivered,2,Overnight
+2093,2093,FedEx,Delayed,7,Express
+2094,2094,USPS,Delivered,3,Express
+2095,2095,DHL,Returned,14,Express
+2096,2096,FedEx,Delayed,3,Standard
+2097,2097,UPS,Delivered,11,Standard
+2098,2098,USPS,Returned,10,Standard
+2099,2099,FedEx,In Transit,14,Overnight
+2100,2100,FedEx,Delayed,11,Standard
+2101,2101,DHL,Delayed,13,Overnight
+2102,2102,DHL,Returned,11,Overnight
+2103,2103,USPS,Delivered,10,Overnight
+2104,2104,UPS,Delayed,12,Standard
+2105,2105,USPS,Delivered,11,Express
+2106,2106,UPS,Delivered,14,Overnight
+2107,2107,UPS,Returned,1,Standard
+2108,2108,UPS,Delivered,13,Express
+2109,2109,DHL,Returned,10,Standard
+2110,2110,DHL,Returned,9,Standard
+2111,2111,DHL,Delayed,8,Standard
+2112,2112,UPS,Delayed,14,Express
+2113,2113,UPS,Delivered,5,Overnight
+2114,2114,DHL,Delayed,5,Overnight
+2115,2115,DHL,Delayed,14,Standard
+2116,2116,UPS,Returned,5,Overnight
+2117,2117,FedEx,In Transit,2,Overnight
+2118,2118,FedEx,Delivered,3,Standard
+2119,2119,DHL,Returned,8,Overnight
+2120,2120,UPS,Delivered,1,Overnight
+2121,2121,UPS,Delivered,7,Overnight
+2122,2122,DHL,Delivered,3,Overnight
+2123,2123,DHL,Delayed,1,Standard
+2124,2124,UPS,In Transit,6,Express
+2125,2125,FedEx,Returned,1,Express
+2126,2126,USPS,Delayed,1,Express
+2127,2127,UPS,Delayed,10,Express
+2128,2128,UPS,Delayed,3,Standard
+2129,2129,UPS,Returned,8,Standard
+2130,2130,DHL,Returned,9,Overnight
+2131,2131,USPS,Delayed,2,Overnight
+2132,2132,FedEx,Returned,2,Overnight
+2133,2133,DHL,Delayed,9,Overnight
+2134,2134,DHL,Returned,12,Overnight
+2135,2135,DHL,In Transit,12,Express
+2136,2136,FedEx,In Transit,8,Express
+2137,2137,USPS,Delayed,12,Standard
+2138,2138,DHL,Returned,9,Standard
+2139,2139,DHL,Delayed,7,Overnight
+2140,2140,DHL,Delivered,14,Express
+2141,2141,DHL,Returned,11,Standard
+2142,2142,UPS,Delayed,1,Overnight
+2143,2143,FedEx,Delivered,14,Standard
+2144,2144,FedEx,In Transit,12,Express
+2145,2145,UPS,Delayed,13,Standard
+2146,2146,USPS,Delayed,4,Standard
+2147,2147,FedEx,Returned,9,Express
+2148,2148,FedEx,Delivered,13,Overnight
+2149,2149,USPS,Delivered,6,Overnight
+2150,2150,DHL,In Transit,13,Overnight
+2151,2151,DHL,In Transit,1,Overnight
+2152,2152,UPS,In Transit,5,Standard
+2153,2153,FedEx,Delayed,6,Overnight
+2154,2154,UPS,Delayed,7,Overnight
+2155,2155,USPS,Delivered,9,Express
+2156,2156,DHL,Delivered,9,Standard
+2157,2157,DHL,Delivered,9,Express
+2158,2158,USPS,Returned,11,Overnight
+2159,2159,DHL,Delivered,7,Overnight
+2160,2160,FedEx,Delayed,4,Express
+2161,2161,FedEx,Returned,8,Standard
+2162,2162,USPS,Delivered,6,Overnight
+2163,2163,DHL,Delayed,3,Overnight
+2164,2164,USPS,Delivered,3,Express
+2165,2165,USPS,Returned,8,Express
+2166,2166,UPS,Returned,12,Standard
+2167,2167,FedEx,Delayed,9,Express
+2168,2168,FedEx,In Transit,5,Standard
+2169,2169,FedEx,Delivered,13,Standard
+2170,2170,USPS,In Transit,11,Standard
+2171,2171,DHL,Returned,2,Standard
+2172,2172,USPS,Delivered,14,Overnight
+2173,2173,UPS,Returned,12,Express
+2174,2174,USPS,In Transit,8,Overnight
+2175,2175,FedEx,In Transit,2,Overnight
+2176,2176,FedEx,Delayed,8,Express
+2177,2177,USPS,In Transit,1,Standard
+2178,2178,FedEx,Delayed,2,Standard
+2179,2179,UPS,Returned,6,Overnight
+2180,2180,UPS,Delayed,8,Express
+2181,2181,USPS,Delayed,10,Express
+2182,2182,USPS,Delayed,4,Standard
+2183,2183,DHL,In Transit,2,Standard
+2184,2184,USPS,In Transit,6,Express
+2185,2185,USPS,Delivered,12,Standard
+2186,2186,FedEx,Returned,12,Overnight
+2187,2187,USPS,Delivered,7,Overnight
+2188,2188,USPS,Delayed,4,Express
+2189,2189,DHL,In Transit,2,Standard
+2190,2190,FedEx,In Transit,10,Overnight
+2191,2191,FedEx,Returned,12,Overnight
+2192,2192,FedEx,Delivered,12,Overnight
+2193,2193,UPS,Returned,5,Standard
+2194,2194,USPS,Delivered,3,Standard
+2195,2195,USPS,Returned,12,Standard
+2196,2196,UPS,Delayed,11,Overnight
+2197,2197,FedEx,In Transit,9,Express
+2198,2198,USPS,Delivered,10,Express
+2199,2199,DHL,In Transit,2,Express
+2200,2200,FedEx,In Transit,13,Overnight
+2201,2201,USPS,Delivered,5,Standard
+2202,2202,USPS,In Transit,7,Overnight
+2203,2203,UPS,Delivered,1,Express
+2204,2204,DHL,Delivered,1,Standard
+2205,2205,DHL,Delivered,12,Express
+2206,2206,USPS,Delivered,5,Standard
+2207,2207,DHL,Returned,3,Overnight
+2208,2208,UPS,Delivered,10,Express
+2209,2209,FedEx,Delivered,8,Express
+2210,2210,USPS,Returned,7,Standard
+2211,2211,UPS,Returned,7,Express
+2212,2212,DHL,Delayed,1,Express
+2213,2213,FedEx,In Transit,12,Express
+2214,2214,UPS,Delayed,13,Express
+2215,2215,USPS,Delayed,8,Overnight
+2216,2216,DHL,Delayed,2,Standard
+2217,2217,UPS,Returned,3,Standard
+2218,2218,FedEx,Delayed,6,Express
+2219,2219,FedEx,Delayed,13,Express
+2220,2220,USPS,In Transit,10,Standard
+2221,2221,DHL,In Transit,12,Standard
+2222,2222,UPS,Delayed,9,Standard
+2223,2223,FedEx,In Transit,5,Overnight
+2224,2224,UPS,Returned,13,Overnight
+2225,2225,UPS,Delivered,1,Standard
+2226,2226,USPS,Delivered,8,Overnight
+2227,2227,DHL,Delayed,14,Standard
+2228,2228,DHL,Delivered,10,Overnight
+2229,2229,FedEx,In Transit,12,Overnight
+2230,2230,UPS,Returned,3,Standard
+2231,2231,FedEx,Delivered,11,Standard
+2232,2232,DHL,Delivered,13,Standard
+2233,2233,FedEx,Delayed,4,Standard
+2234,2234,FedEx,Returned,11,Express
+2235,2235,UPS,Delayed,5,Overnight
+2236,2236,UPS,Delayed,7,Overnight
+2237,2237,USPS,In Transit,2,Express
+2238,2238,UPS,In Transit,8,Overnight
+2239,2239,UPS,Delayed,14,Express
+2240,2240,USPS,In Transit,11,Express
+2241,2241,FedEx,Returned,2,Standard
+2242,2242,UPS,Returned,5,Overnight
+2243,2243,USPS,Returned,2,Express
+2244,2244,UPS,Delivered,13,Express
+2245,2245,USPS,Returned,5,Express
+2246,2246,USPS,Returned,13,Express
+2247,2247,UPS,Delivered,14,Standard
+2248,2248,FedEx,Delivered,1,Express
+2249,2249,DHL,Delivered,12,Express
+2250,2250,DHL,Returned,3,Overnight
+2251,2251,FedEx,Returned,6,Express
+2252,2252,DHL,Returned,7,Express
+2253,2253,FedEx,Returned,9,Overnight
+2254,2254,DHL,Delivered,3,Standard
+2255,2255,USPS,Returned,14,Express
+2256,2256,USPS,Delayed,3,Overnight
+2257,2257,DHL,Delivered,4,Overnight
+2258,2258,USPS,Returned,13,Express
+2259,2259,USPS,Delayed,3,Standard
+2260,2260,USPS,Delivered,9,Overnight
+2261,2261,USPS,Delivered,9,Overnight
+2262,2262,DHL,Delayed,14,Standard
+2263,2263,DHL,In Transit,3,Standard
+2264,2264,UPS,In Transit,4,Overnight
+2265,2265,DHL,Delivered,4,Standard
+2266,2266,FedEx,Delivered,9,Express
+2267,2267,FedEx,Delivered,9,Express
+2268,2268,FedEx,Delayed,11,Overnight
+2269,2269,FedEx,Returned,13,Standard
+2270,2270,FedEx,In Transit,7,Standard
+2271,2271,USPS,Returned,11,Overnight
+2272,2272,UPS,Delivered,12,Overnight
+2273,2273,UPS,In Transit,13,Standard
+2274,2274,USPS,Delayed,14,Standard
+2275,2275,UPS,Returned,7,Standard
+2276,2276,USPS,Returned,2,Standard
+2277,2277,UPS,Returned,7,Overnight
+2278,2278,UPS,Delivered,4,Overnight
+2279,2279,UPS,In Transit,5,Express
+2280,2280,FedEx,In Transit,12,Standard
+2281,2281,FedEx,Delivered,3,Express
+2282,2282,DHL,In Transit,14,Standard
+2283,2283,FedEx,In Transit,9,Overnight
+2284,2284,USPS,Delivered,10,Express
+2285,2285,USPS,In Transit,5,Overnight
+2286,2286,DHL,Delayed,5,Standard
+2287,2287,UPS,In Transit,7,Overnight
+2288,2288,FedEx,Delivered,5,Standard
+2289,2289,DHL,In Transit,7,Overnight
+2290,2290,UPS,Delivered,9,Overnight
+2291,2291,FedEx,Returned,14,Express
+2292,2292,DHL,Delivered,4,Standard
+2293,2293,USPS,Delivered,3,Overnight
+2294,2294,FedEx,Delivered,3,Standard
+2295,2295,FedEx,Delayed,5,Overnight
+2296,2296,UPS,In Transit,7,Standard
+2297,2297,DHL,Delayed,2,Standard
+2298,2298,USPS,Delivered,9,Overnight
+2299,2299,USPS,Delivered,10,Overnight
+2300,2300,DHL,Delayed,8,Standard
+2301,2301,FedEx,Returned,9,Overnight
+2302,2302,UPS,Delivered,5,Standard
+2303,2303,USPS,Delayed,4,Express
+2304,2304,DHL,Delivered,1,Standard
+2305,2305,USPS,Delayed,9,Standard
+2306,2306,USPS,Returned,10,Express
+2307,2307,USPS,Delivered,4,Standard
+2308,2308,FedEx,In Transit,13,Standard
+2309,2309,UPS,Delivered,1,Overnight
+2310,2310,FedEx,Returned,5,Standard
+2311,2311,USPS,Delivered,1,Standard
+2312,2312,DHL,In Transit,8,Overnight
+2313,2313,FedEx,Delivered,11,Express
+2314,2314,USPS,Delayed,2,Express
+2315,2315,FedEx,Returned,12,Express
+2316,2316,DHL,Delivered,13,Overnight
+2317,2317,FedEx,Returned,9,Standard
+2318,2318,UPS,In Transit,9,Express
+2319,2319,UPS,In Transit,2,Express
+2320,2320,DHL,Delayed,3,Overnight
+2321,2321,DHL,Delayed,13,Overnight
+2322,2322,UPS,Delivered,2,Express
+2323,2323,UPS,Delayed,6,Overnight
+2324,2324,USPS,Delivered,2,Express
+2325,2325,DHL,Returned,8,Overnight
+2326,2326,FedEx,Delayed,1,Express
+2327,2327,FedEx,Returned,10,Overnight
+2328,2328,FedEx,Delivered,5,Express
+2329,2329,USPS,Delivered,4,Overnight
+2330,2330,FedEx,Delayed,2,Standard
+2331,2331,UPS,Delivered,9,Standard
+2332,2332,DHL,In Transit,14,Standard
+2333,2333,USPS,Returned,9,Standard
+2334,2334,DHL,Returned,5,Express
+2335,2335,FedEx,Returned,14,Express
+2336,2336,FedEx,In Transit,3,Overnight
+2337,2337,USPS,In Transit,3,Overnight
+2338,2338,DHL,Delivered,1,Overnight
+2339,2339,USPS,Delivered,9,Overnight
+2340,2340,FedEx,Returned,8,Standard
+2341,2341,FedEx,Returned,8,Express
+2342,2342,DHL,Delivered,12,Overnight
+2343,2343,DHL,Returned,13,Express
+2344,2344,USPS,Delivered,5,Standard
+2345,2345,UPS,Delayed,11,Overnight
+2346,2346,USPS,In Transit,9,Express
+2347,2347,USPS,Delivered,3,Overnight
+2348,2348,DHL,Delayed,5,Overnight
+2349,2349,UPS,In Transit,7,Express
+2350,2350,UPS,Returned,2,Overnight
+2351,2351,USPS,In Transit,5,Express
+2352,2352,DHL,Delayed,8,Express
+2353,2353,FedEx,Returned,8,Standard
+2354,2354,USPS,Delivered,11,Overnight
+2355,2355,FedEx,Delayed,10,Standard
+2356,2356,DHL,Delayed,1,Express
+2357,2357,DHL,Delivered,1,Express
+2358,2358,FedEx,In Transit,1,Express
+2359,2359,DHL,In Transit,1,Overnight
+2360,2360,USPS,Delayed,9,Express
+2361,2361,UPS,In Transit,6,Standard
+2362,2362,USPS,Delayed,10,Standard
+2363,2363,DHL,Delayed,2,Express
+2364,2364,FedEx,Returned,3,Overnight
+2365,2365,UPS,Delayed,5,Express
+2366,2366,USPS,Delayed,3,Standard
+2367,2367,UPS,In Transit,2,Standard
+2368,2368,DHL,Returned,5,Overnight
+2369,2369,USPS,Delivered,6,Standard
+2370,2370,FedEx,Delayed,6,Overnight
+2371,2371,USPS,Delivered,1,Standard
+2372,2372,DHL,Returned,7,Overnight
+2373,2373,FedEx,Delivered,9,Standard
+2374,2374,DHL,Delivered,5,Overnight
+2375,2375,FedEx,Delivered,1,Express
+2376,2376,DHL,Returned,13,Express
+2377,2377,FedEx,Delayed,10,Express
+2378,2378,UPS,Delivered,3,Overnight
+2379,2379,FedEx,Delayed,10,Express
+2380,2380,FedEx,Delayed,12,Express
+2381,2381,USPS,In Transit,10,Express
+2382,2382,UPS,Returned,9,Overnight
+2383,2383,DHL,In Transit,5,Standard
+2384,2384,USPS,In Transit,6,Overnight
+2385,2385,DHL,Delayed,5,Express
+2386,2386,UPS,Delayed,12,Overnight
+2387,2387,FedEx,In Transit,6,Standard
+2388,2388,UPS,Returned,12,Standard
+2389,2389,UPS,Delayed,4,Standard
+2390,2390,FedEx,In Transit,13,Express
+2391,2391,USPS,In Transit,3,Express
+2392,2392,UPS,Returned,4,Standard
+2393,2393,FedEx,Returned,13,Standard
+2394,2394,FedEx,Returned,10,Standard
+2395,2395,USPS,In Transit,6,Overnight
+2396,2396,DHL,Returned,8,Express
+2397,2397,DHL,Returned,8,Express
+2398,2398,DHL,Returned,9,Express
+2399,2399,FedEx,In Transit,4,Overnight
+2400,2400,FedEx,Delayed,9,Overnight
+2401,2401,FedEx,In Transit,9,Express
+2402,2402,UPS,In Transit,2,Overnight
+2403,2403,USPS,In Transit,4,Overnight
+2404,2404,DHL,Delivered,1,Overnight
+2405,2405,DHL,In Transit,13,Express
+2406,2406,FedEx,Delivered,1,Overnight
+2407,2407,FedEx,Delayed,13,Overnight
+2408,2408,UPS,In Transit,5,Standard
+2409,2409,DHL,Delivered,3,Standard
+2410,2410,FedEx,Delivered,13,Standard
+2411,2411,USPS,Returned,12,Express
+2412,2412,UPS,Returned,8,Standard
+2413,2413,DHL,In Transit,1,Express
+2414,2414,FedEx,Returned,11,Standard
+2415,2415,FedEx,Delayed,7,Standard
+2416,2416,UPS,Returned,5,Standard
+2417,2417,FedEx,Delayed,3,Express
+2418,2418,FedEx,Returned,5,Overnight
+2419,2419,FedEx,Returned,13,Standard
+2420,2420,UPS,Delayed,3,Overnight
+2421,2421,DHL,Delayed,12,Express
+2422,2422,USPS,In Transit,10,Express
+2423,2423,DHL,In Transit,4,Overnight
+2424,2424,DHL,Delivered,1,Express
+2425,2425,FedEx,Returned,4,Standard
+2426,2426,DHL,Returned,2,Standard
+2427,2427,USPS,Returned,12,Overnight
+2428,2428,UPS,In Transit,1,Standard
+2429,2429,FedEx,Delayed,10,Express
+2430,2430,DHL,Delivered,10,Express
+2431,2431,UPS,Delivered,6,Express
+2432,2432,UPS,Delayed,8,Standard
+2433,2433,FedEx,Returned,10,Express
+2434,2434,DHL,Returned,13,Standard
+2435,2435,USPS,Returned,7,Standard
+2436,2436,USPS,Returned,4,Overnight
+2437,2437,UPS,In Transit,6,Express
+2438,2438,UPS,Delivered,4,Express
+2439,2439,FedEx,Returned,8,Standard
+2440,2440,DHL,Delayed,2,Standard
+2441,2441,FedEx,In Transit,14,Express
+2442,2442,DHL,In Transit,11,Express
+2443,2443,FedEx,Delivered,1,Standard
+2444,2444,USPS,In Transit,4,Standard
+2445,2445,USPS,Returned,3,Overnight
+2446,2446,FedEx,Returned,3,Standard
+2447,2447,DHL,In Transit,4,Express
+2448,2448,UPS,In Transit,7,Express
+2449,2449,FedEx,Returned,3,Overnight
+2450,2450,DHL,Returned,5,Standard
+2451,2451,USPS,Returned,7,Express
+2452,2452,USPS,Delivered,13,Standard
+2453,2453,UPS,Delayed,13,Standard
+2454,2454,FedEx,Returned,8,Standard
+2455,2455,FedEx,In Transit,3,Standard
+2456,2456,DHL,Delivered,8,Overnight
+2457,2457,UPS,In Transit,6,Express
+2458,2458,DHL,Delivered,8,Standard
+2459,2459,FedEx,In Transit,7,Standard
+2460,2460,USPS,Returned,10,Standard
+2461,2461,UPS,In Transit,11,Standard
+2462,2462,USPS,In Transit,4,Overnight
+2463,2463,UPS,Delayed,9,Overnight
+2464,2464,FedEx,In Transit,3,Express
+2465,2465,USPS,Returned,14,Standard
+2466,2466,UPS,In Transit,5,Standard
+2467,2467,FedEx,Delivered,2,Overnight
+2468,2468,USPS,Delivered,3,Express
+2469,2469,UPS,Returned,8,Overnight
+2470,2470,UPS,Delivered,11,Overnight
+2471,2471,DHL,Delayed,12,Standard
+2472,2472,UPS,Delayed,5,Overnight
+2473,2473,DHL,Delayed,8,Overnight
+2474,2474,DHL,Delayed,10,Express
+2475,2475,FedEx,Returned,4,Express
+2476,2476,FedEx,Returned,14,Overnight
+2477,2477,UPS,Delayed,13,Express
+2478,2478,DHL,Delivered,4,Express
+2479,2479,USPS,In Transit,4,Overnight
+2480,2480,USPS,In Transit,4,Standard
+2481,2481,DHL,In Transit,10,Express
+2482,2482,FedEx,Delayed,14,Overnight
+2483,2483,DHL,Delayed,3,Express
+2484,2484,USPS,Returned,5,Express
+2485,2485,UPS,In Transit,5,Express
+2486,2486,USPS,Delivered,11,Overnight
+2487,2487,USPS,Delivered,11,Standard
+2488,2488,DHL,In Transit,14,Express
+2489,2489,USPS,Delivered,5,Standard
+2490,2490,FedEx,Delivered,7,Overnight
+2491,2491,UPS,In Transit,4,Express
+2492,2492,FedEx,Returned,7,Standard
+2493,2493,UPS,Delivered,7,Overnight
+2494,2494,UPS,Delayed,7,Standard
+2495,2495,UPS,Delivered,4,Overnight
+2496,2496,FedEx,In Transit,3,Standard
+2497,2497,UPS,In Transit,9,Overnight
+2498,2498,UPS,Delayed,9,Standard
+2499,2499,DHL,Returned,3,Standard
+2500,2500,FedEx,In Transit,4,Overnight
+2501,2501,UPS,Delivered,13,Overnight
+2502,2502,UPS,Returned,7,Overnight
+2503,2503,USPS,Delayed,1,Overnight
+2504,2504,UPS,Delivered,3,Overnight
+2505,2505,USPS,Delivered,7,Standard
+2506,2506,FedEx,Delayed,8,Overnight
+2507,2507,FedEx,In Transit,14,Overnight
+2508,2508,DHL,In Transit,3,Standard
+2509,2509,FedEx,Returned,12,Standard
+2510,2510,UPS,In Transit,1,Overnight
+2511,2511,FedEx,In Transit,9,Express
+2512,2512,FedEx,Returned,3,Standard
+2513,2513,USPS,Delayed,14,Overnight
+2514,2514,FedEx,Delivered,8,Express
+2515,2515,USPS,Returned,3,Standard
+2516,2516,USPS,Delayed,8,Overnight
+2517,2517,DHL,Returned,6,Standard
+2518,2518,FedEx,In Transit,4,Standard
+2519,2519,FedEx,In Transit,5,Express
+2520,2520,FedEx,Returned,6,Standard
+2521,2521,USPS,In Transit,12,Express
+2522,2522,UPS,Returned,2,Standard
+2523,2523,DHL,Delayed,9,Overnight
+2524,2524,USPS,Delivered,11,Overnight
+2525,2525,USPS,In Transit,5,Standard
+2526,2526,UPS,Returned,6,Express
+2527,2527,USPS,Delivered,4,Overnight
+2528,2528,FedEx,Delivered,1,Overnight
+2529,2529,UPS,In Transit,9,Overnight
+2530,2530,FedEx,In Transit,10,Express
+2531,2531,USPS,Delivered,12,Overnight
+2532,2532,FedEx,Delivered,13,Overnight
+2533,2533,DHL,Returned,1,Overnight
+2534,2534,FedEx,Delayed,12,Standard
+2535,2535,FedEx,Returned,4,Overnight
+2536,2536,USPS,In Transit,10,Overnight
+2537,2537,USPS,In Transit,5,Express
+2538,2538,DHL,Delayed,14,Express
+2539,2539,DHL,Returned,3,Standard
+2540,2540,UPS,In Transit,12,Standard
+2541,2541,UPS,In Transit,13,Standard
+2542,2542,UPS,Returned,14,Overnight
+2543,2543,UPS,Delivered,12,Overnight
+2544,2544,USPS,Delayed,7,Overnight
+2545,2545,USPS,Delayed,9,Overnight
+2546,2546,UPS,Delayed,10,Express
+2547,2547,UPS,In Transit,2,Standard
+2548,2548,UPS,Returned,1,Standard
+2549,2549,UPS,Delivered,3,Overnight
+2550,2550,USPS,Returned,8,Express
+2551,2551,USPS,Delayed,4,Express
+2552,2552,USPS,Delivered,1,Express
+2553,2553,UPS,Delivered,7,Standard
+2554,2554,UPS,Delayed,3,Overnight
+2555,2555,UPS,In Transit,5,Express
+2556,2556,DHL,Delivered,13,Express
+2557,2557,UPS,In Transit,2,Overnight
+2558,2558,UPS,Delayed,13,Express
+2559,2559,DHL,Delayed,7,Overnight
+2560,2560,UPS,Delivered,11,Overnight
+2561,2561,DHL,Returned,2,Overnight
+2562,2562,USPS,Delayed,2,Express
+2563,2563,DHL,In Transit,7,Standard
+2564,2564,USPS,Delayed,13,Standard
+2565,2565,USPS,In Transit,2,Overnight
+2566,2566,USPS,In Transit,6,Standard
+2567,2567,USPS,Delivered,14,Standard
+2568,2568,FedEx,Returned,10,Express
+2569,2569,FedEx,In Transit,12,Standard
+2570,2570,DHL,Delayed,2,Express
+2571,2571,FedEx,In Transit,5,Overnight
+2572,2572,USPS,In Transit,7,Standard
+2573,2573,DHL,Returned,10,Standard
+2574,2574,USPS,Delivered,6,Standard
+2575,2575,FedEx,Returned,6,Overnight
+2576,2576,UPS,In Transit,13,Overnight
+2577,2577,FedEx,Delivered,14,Overnight
+2578,2578,USPS,In Transit,5,Express
+2579,2579,DHL,In Transit,8,Standard
+2580,2580,USPS,In Transit,2,Overnight
+2581,2581,DHL,Delayed,3,Express
+2582,2582,DHL,Delivered,4,Express
+2583,2583,USPS,Delivered,10,Standard
+2584,2584,DHL,Delayed,3,Express
+2585,2585,DHL,Delayed,9,Overnight
+2586,2586,DHL,Returned,10,Express
+2587,2587,DHL,Delayed,7,Standard
+2588,2588,UPS,In Transit,12,Express
+2589,2589,UPS,Returned,7,Standard
+2590,2590,USPS,Delivered,2,Overnight
+2591,2591,DHL,In Transit,13,Overnight
+2592,2592,FedEx,Delivered,8,Overnight
+2593,2593,USPS,Delivered,5,Overnight
+2594,2594,DHL,Delayed,7,Overnight
+2595,2595,USPS,Returned,7,Overnight
+2596,2596,USPS,Delivered,1,Overnight
+2597,2597,USPS,Returned,13,Overnight
+2598,2598,USPS,In Transit,12,Express
+2599,2599,UPS,Delivered,7,Standard
+2600,2600,UPS,Returned,12,Standard
+2601,2601,UPS,Delivered,11,Standard
+2602,2602,DHL,Delayed,9,Express
+2603,2603,DHL,Delayed,3,Express
+2604,2604,UPS,In Transit,4,Overnight
+2605,2605,USPS,In Transit,1,Express
+2606,2606,UPS,Delayed,4,Standard
+2607,2607,USPS,Returned,3,Standard
+2608,2608,FedEx,Returned,12,Overnight
+2609,2609,USPS,Returned,4,Standard
+2610,2610,DHL,Delayed,7,Express
+2611,2611,UPS,Delivered,14,Overnight
+2612,2612,UPS,In Transit,14,Overnight
+2613,2613,USPS,Delayed,7,Standard
+2614,2614,UPS,Delivered,4,Express
+2615,2615,FedEx,Returned,10,Overnight
+2616,2616,USPS,Delayed,4,Express
+2617,2617,FedEx,In Transit,2,Express
+2618,2618,FedEx,In Transit,3,Standard
+2619,2619,DHL,Delayed,4,Overnight
+2620,2620,FedEx,Delivered,2,Express
+2621,2621,USPS,Returned,4,Standard
+2622,2622,DHL,Delivered,12,Express
+2623,2623,UPS,In Transit,12,Standard
+2624,2624,UPS,Delivered,7,Overnight
+2625,2625,FedEx,In Transit,9,Standard
+2626,2626,FedEx,Delayed,5,Standard
+2627,2627,DHL,Returned,11,Standard
+2628,2628,UPS,Delayed,4,Express
+2629,2629,USPS,Delivered,5,Standard
+2630,2630,USPS,In Transit,5,Overnight
+2631,2631,UPS,Delivered,13,Overnight
+2632,2632,DHL,Returned,7,Express
+2633,2633,USPS,Delivered,14,Overnight
+2634,2634,DHL,Delayed,13,Standard
+2635,2635,DHL,Returned,9,Standard
+2636,2636,USPS,Delayed,3,Standard
+2637,2637,USPS,In Transit,10,Express
+2638,2638,DHL,Delayed,6,Overnight
+2639,2639,FedEx,Delayed,14,Standard
+2640,2640,DHL,Delivered,5,Express
+2641,2641,FedEx,Returned,3,Standard
+2642,2642,FedEx,Returned,6,Overnight
+2643,2643,FedEx,Delayed,5,Express
+2644,2644,USPS,Delayed,12,Express
+2645,2645,USPS,Delayed,10,Express
+2646,2646,USPS,Delivered,12,Standard
+2647,2647,DHL,In Transit,3,Express
+2648,2648,UPS,Delayed,1,Express
+2649,2649,UPS,Returned,4,Overnight
+2650,2650,FedEx,In Transit,7,Standard
+2651,2651,DHL,Delayed,7,Standard
+2652,2652,USPS,Returned,9,Express
+2653,2653,USPS,Delivered,9,Standard
+2654,2654,DHL,Delayed,5,Standard
+2655,2655,FedEx,In Transit,13,Express
+2656,2656,UPS,In Transit,14,Standard
+2657,2657,USPS,Returned,11,Standard
+2658,2658,UPS,Returned,11,Overnight
+2659,2659,USPS,Returned,3,Express
+2660,2660,USPS,Delayed,12,Express
+2661,2661,FedEx,Returned,14,Overnight
+2662,2662,UPS,Delayed,5,Overnight
+2663,2663,DHL,In Transit,2,Standard
+2664,2664,UPS,In Transit,4,Express
+2665,2665,FedEx,Delivered,10,Express
+2666,2666,USPS,In Transit,5,Express
+2667,2667,FedEx,In Transit,3,Express
+2668,2668,FedEx,In Transit,8,Overnight
+2669,2669,USPS,In Transit,2,Express
+2670,2670,FedEx,Returned,5,Overnight
+2671,2671,USPS,Delayed,12,Overnight
+2672,2672,UPS,In Transit,13,Standard
+2673,2673,USPS,Delayed,7,Overnight
+2674,2674,USPS,Returned,10,Overnight
+2675,2675,USPS,Delivered,3,Standard
+2676,2676,DHL,In Transit,5,Overnight
+2677,2677,UPS,Returned,8,Overnight
+2678,2678,FedEx,Delivered,5,Overnight
+2679,2679,USPS,Returned,8,Overnight
+2680,2680,DHL,Delivered,2,Overnight
+2681,2681,USPS,Returned,8,Standard
+2682,2682,USPS,Delayed,4,Overnight
+2683,2683,FedEx,Delayed,1,Standard
+2684,2684,FedEx,Returned,11,Overnight
+2685,2685,FedEx,Delayed,5,Standard
+2686,2686,UPS,Delayed,10,Standard
+2687,2687,UPS,Returned,6,Express
+2688,2688,FedEx,Delivered,14,Standard
+2689,2689,USPS,Delivered,5,Standard
+2690,2690,USPS,In Transit,6,Overnight
+2691,2691,FedEx,Delivered,10,Express
+2692,2692,USPS,In Transit,9,Express
+2693,2693,USPS,Returned,9,Express
+2694,2694,FedEx,In Transit,9,Overnight
+2695,2695,USPS,In Transit,10,Overnight
+2696,2696,FedEx,Delayed,3,Overnight
+2697,2697,UPS,Delayed,5,Standard
+2698,2698,FedEx,Delayed,13,Express
+2699,2699,UPS,Delayed,2,Express
+2700,2700,DHL,In Transit,12,Standard
+2701,2701,FedEx,In Transit,9,Express
+2702,2702,UPS,Delivered,9,Overnight
+2703,2703,UPS,Returned,5,Express
+2704,2704,USPS,Delivered,10,Express
+2705,2705,FedEx,Delayed,2,Standard
+2706,2706,UPS,In Transit,4,Standard
+2707,2707,USPS,Delivered,6,Express
+2708,2708,USPS,Returned,9,Overnight
+2709,2709,UPS,Returned,9,Standard
+2710,2710,USPS,Delivered,10,Standard
+2711,2711,FedEx,Delivered,12,Standard
+2712,2712,DHL,Delivered,2,Standard
+2713,2713,DHL,Delivered,11,Overnight
+2714,2714,UPS,Delayed,4,Standard
+2715,2715,FedEx,Returned,4,Overnight
+2716,2716,USPS,Delayed,5,Standard
+2717,2717,UPS,In Transit,1,Overnight
+2718,2718,UPS,Returned,6,Overnight
+2719,2719,USPS,Returned,5,Standard
+2720,2720,FedEx,In Transit,11,Standard
+2721,2721,USPS,Returned,13,Express
+2722,2722,USPS,Delivered,1,Express
+2723,2723,DHL,Delivered,3,Standard
+2724,2724,FedEx,In Transit,7,Overnight
+2725,2725,UPS,In Transit,10,Standard
+2726,2726,FedEx,In Transit,1,Overnight
+2727,2727,USPS,Returned,1,Standard
+2728,2728,UPS,Delayed,1,Overnight
+2729,2729,DHL,Delivered,11,Express
+2730,2730,DHL,Delivered,12,Standard
+2731,2731,DHL,In Transit,13,Express
+2732,2732,UPS,Returned,4,Overnight
+2733,2733,USPS,Returned,1,Standard
+2734,2734,FedEx,Returned,9,Standard
+2735,2735,DHL,Delivered,5,Standard
+2736,2736,UPS,In Transit,6,Overnight
+2737,2737,DHL,In Transit,5,Express
+2738,2738,DHL,Delayed,8,Express
+2739,2739,DHL,Returned,6,Standard
+2740,2740,USPS,Returned,4,Express
+2741,2741,UPS,Returned,9,Overnight
+2742,2742,UPS,Delayed,8,Overnight
+2743,2743,UPS,Delivered,10,Standard
+2744,2744,UPS,Delayed,11,Overnight
+2745,2745,UPS,In Transit,3,Express
+2746,2746,UPS,Delivered,4,Standard
+2747,2747,DHL,Returned,8,Overnight
+2748,2748,USPS,In Transit,9,Standard
+2749,2749,FedEx,Delivered,4,Standard
+2750,2750,USPS,Delayed,11,Express
+2751,2751,UPS,Delivered,1,Standard
+2752,2752,UPS,Delayed,2,Standard
+2753,2753,UPS,Delivered,6,Standard
+2754,2754,USPS,In Transit,6,Standard
+2755,2755,FedEx,Delivered,10,Standard
+2756,2756,FedEx,In Transit,9,Standard
+2757,2757,FedEx,In Transit,13,Overnight
+2758,2758,FedEx,Returned,12,Overnight
+2759,2759,FedEx,Returned,2,Express
+2760,2760,DHL,Delayed,3,Standard
+2761,2761,FedEx,Returned,13,Standard
+2762,2762,USPS,In Transit,2,Overnight
+2763,2763,FedEx,Delayed,1,Standard
+2764,2764,UPS,Delivered,11,Overnight
+2765,2765,UPS,Delivered,7,Standard
+2766,2766,USPS,Delayed,3,Express
+2767,2767,UPS,Returned,9,Standard
+2768,2768,USPS,Delayed,5,Overnight
+2769,2769,UPS,Returned,3,Standard
+2770,2770,FedEx,Returned,6,Express
+2771,2771,USPS,In Transit,13,Overnight
+2772,2772,FedEx,Returned,5,Standard
+2773,2773,USPS,Delayed,3,Standard
+2774,2774,FedEx,Delayed,8,Standard
+2775,2775,UPS,Returned,10,Overnight
+2776,2776,USPS,Delayed,12,Express
+2777,2777,DHL,Delivered,11,Express
+2778,2778,FedEx,Returned,4,Express
+2779,2779,UPS,In Transit,10,Overnight
+2780,2780,USPS,Returned,3,Standard
+2781,2781,USPS,Delivered,4,Standard
+2782,2782,FedEx,Returned,3,Express
+2783,2783,FedEx,In Transit,5,Express
+2784,2784,FedEx,Returned,7,Overnight
+2785,2785,FedEx,In Transit,9,Standard
+2786,2786,UPS,Delayed,10,Overnight
+2787,2787,DHL,Returned,11,Overnight
+2788,2788,FedEx,Delayed,7,Express
+2789,2789,USPS,In Transit,1,Express
+2790,2790,UPS,Delivered,10,Express
+2791,2791,USPS,Delayed,13,Standard
+2792,2792,UPS,Delayed,8,Standard
+2793,2793,USPS,Delayed,12,Overnight
+2794,2794,UPS,Returned,2,Express
+2795,2795,USPS,Delivered,10,Standard
+2796,2796,FedEx,Delayed,12,Standard
+2797,2797,DHL,In Transit,7,Express
+2798,2798,FedEx,Delayed,9,Express
+2799,2799,FedEx,Delivered,12,Standard
+2800,2800,DHL,Returned,3,Express
+2801,2801,FedEx,Returned,3,Express
+2802,2802,FedEx,Delayed,13,Overnight
+2803,2803,FedEx,Delivered,9,Standard
+2804,2804,FedEx,Delivered,9,Express
+2805,2805,FedEx,Delayed,7,Express
+2806,2806,DHL,Delayed,2,Express
+2807,2807,UPS,Delivered,9,Express
+2808,2808,DHL,Returned,13,Express
+2809,2809,UPS,Delivered,4,Standard
+2810,2810,USPS,Returned,11,Standard
+2811,2811,UPS,Delivered,13,Express
+2812,2812,FedEx,Returned,6,Overnight
+2813,2813,DHL,Delivered,1,Overnight
+2814,2814,DHL,In Transit,14,Express
+2815,2815,FedEx,Returned,8,Standard
+2816,2816,DHL,Returned,12,Overnight
+2817,2817,DHL,In Transit,14,Overnight
+2818,2818,USPS,Delayed,3,Standard
+2819,2819,FedEx,Returned,4,Express
+2820,2820,FedEx,Delivered,12,Overnight
+2821,2821,FedEx,Delivered,8,Express
+2822,2822,FedEx,Delivered,11,Overnight
+2823,2823,USPS,Delivered,6,Overnight
+2824,2824,USPS,Returned,7,Express
+2825,2825,DHL,Returned,6,Standard
+2826,2826,DHL,Delivered,14,Express
+2827,2827,FedEx,Returned,9,Overnight
+2828,2828,UPS,Returned,14,Overnight
+2829,2829,FedEx,In Transit,3,Standard
+2830,2830,DHL,Delayed,14,Overnight
+2831,2831,FedEx,Delivered,2,Standard
+2832,2832,DHL,In Transit,11,Overnight
+2833,2833,DHL,Delivered,10,Overnight
+2834,2834,DHL,Returned,11,Standard
+2835,2835,FedEx,Delivered,14,Standard
+2836,2836,UPS,In Transit,14,Standard
+2837,2837,FedEx,Delivered,6,Standard
+2838,2838,FedEx,Delivered,10,Overnight
+2839,2839,UPS,Delivered,13,Express
+2840,2840,FedEx,Returned,8,Overnight
+2841,2841,DHL,Delayed,2,Overnight
+2842,2842,DHL,Delivered,10,Overnight
+2843,2843,UPS,Returned,14,Overnight
+2844,2844,FedEx,Returned,10,Express
+2845,2845,DHL,Returned,5,Overnight
+2846,2846,DHL,Delayed,13,Overnight
+2847,2847,FedEx,In Transit,2,Express
+2848,2848,FedEx,Delayed,9,Express
+2849,2849,FedEx,Returned,3,Overnight
+2850,2850,USPS,Delayed,12,Standard
+2851,2851,DHL,In Transit,11,Standard
+2852,2852,FedEx,In Transit,3,Overnight
+2853,2853,FedEx,Returned,1,Standard
+2854,2854,FedEx,Delayed,10,Overnight
+2855,2855,DHL,Delayed,2,Standard
+2856,2856,FedEx,Delivered,12,Express
+2857,2857,UPS,In Transit,14,Overnight
+2858,2858,FedEx,Returned,3,Standard
+2859,2859,DHL,Returned,2,Standard
+2860,2860,FedEx,Returned,10,Express
+2861,2861,UPS,In Transit,14,Express
+2862,2862,USPS,Delayed,10,Express
+2863,2863,FedEx,In Transit,7,Express
+2864,2864,USPS,Delayed,7,Express
+2865,2865,USPS,In Transit,14,Express
+2866,2866,FedEx,Delivered,9,Standard
+2867,2867,DHL,Returned,12,Overnight
+2868,2868,DHL,Delayed,13,Overnight
+2869,2869,FedEx,Returned,12,Express
+2870,2870,UPS,Delivered,3,Standard
+2871,2871,UPS,In Transit,4,Overnight
+2872,2872,USPS,Delayed,5,Overnight
+2873,2873,USPS,In Transit,8,Standard
+2874,2874,DHL,In Transit,4,Express
+2875,2875,DHL,Delivered,4,Overnight
+2876,2876,UPS,Delivered,10,Express
+2877,2877,DHL,Delivered,13,Standard
+2878,2878,FedEx,Delivered,12,Express
+2879,2879,FedEx,Delivered,9,Standard
+2880,2880,FedEx,In Transit,10,Standard
+2881,2881,DHL,Delivered,8,Standard
+2882,2882,DHL,Delivered,13,Overnight
+2883,2883,FedEx,Delayed,11,Express
+2884,2884,USPS,Delivered,12,Overnight
+2885,2885,USPS,In Transit,10,Overnight
+2886,2886,UPS,Returned,7,Express
+2887,2887,USPS,Delivered,5,Standard
+2888,2888,USPS,Returned,11,Overnight
+2889,2889,FedEx,Returned,2,Standard
+2890,2890,FedEx,Delayed,6,Standard
+2891,2891,USPS,In Transit,8,Express
+2892,2892,UPS,In Transit,3,Standard
+2893,2893,USPS,Delayed,11,Overnight
+2894,2894,USPS,Returned,3,Express
+2895,2895,UPS,Delayed,8,Express
+2896,2896,FedEx,Returned,11,Standard
+2897,2897,UPS,Returned,10,Standard
+2898,2898,FedEx,Returned,10,Overnight
+2899,2899,UPS,Delivered,1,Express
+2900,2900,DHL,Delivered,12,Standard
+2901,2901,USPS,Delivered,7,Express
+2902,2902,UPS,In Transit,4,Standard
+2903,2903,FedEx,Returned,6,Express
+2904,2904,USPS,Delayed,12,Express
+2905,2905,DHL,In Transit,3,Overnight
+2906,2906,DHL,In Transit,6,Standard
+2907,2907,UPS,Delivered,1,Standard
+2908,2908,DHL,Delayed,2,Standard
+2909,2909,UPS,In Transit,6,Overnight
+2910,2910,FedEx,In Transit,4,Overnight
+2911,2911,USPS,Returned,5,Standard
+2912,2912,FedEx,Returned,6,Overnight
+2913,2913,UPS,Returned,2,Express
+2914,2914,DHL,Delivered,8,Express
+2915,2915,USPS,Returned,2,Overnight
+2916,2916,DHL,Delivered,5,Overnight
+2917,2917,DHL,Delivered,7,Standard
+2918,2918,DHL,Delivered,4,Standard
+2919,2919,DHL,Delivered,2,Express
+2920,2920,FedEx,Delayed,6,Express
+2921,2921,UPS,In Transit,8,Overnight
+2922,2922,DHL,Delayed,13,Standard
+2923,2923,UPS,Delayed,1,Express
+2924,2924,DHL,Delivered,10,Standard
+2925,2925,DHL,Delivered,7,Express
+2926,2926,DHL,In Transit,12,Standard
+2927,2927,FedEx,Delayed,7,Standard
+2928,2928,UPS,Returned,4,Overnight
+2929,2929,DHL,Delivered,2,Standard
+2930,2930,DHL,Returned,10,Express
+2931,2931,FedEx,In Transit,1,Express
+2932,2932,DHL,Delayed,9,Overnight
+2933,2933,USPS,In Transit,9,Express
+2934,2934,DHL,Returned,3,Standard
+2935,2935,DHL,Delayed,1,Express
+2936,2936,UPS,Returned,14,Express
+2937,2937,UPS,Delayed,1,Standard
+2938,2938,UPS,In Transit,3,Express
+2939,2939,USPS,Delayed,9,Express
+2940,2940,DHL,Returned,3,Standard
+2941,2941,DHL,In Transit,5,Express
+2942,2942,DHL,Delivered,13,Overnight
+2943,2943,FedEx,Returned,1,Overnight
+2944,2944,USPS,Delayed,14,Standard
+2945,2945,FedEx,In Transit,11,Express
+2946,2946,UPS,In Transit,8,Standard
+2947,2947,DHL,In Transit,9,Overnight
+2948,2948,DHL,Delayed,1,Express
+2949,2949,DHL,Delivered,3,Standard
+2950,2950,DHL,In Transit,10,Standard
+2951,2951,DHL,Delivered,11,Standard
+2952,2952,DHL,Returned,6,Standard
+2953,2953,DHL,Delivered,5,Overnight
+2954,2954,USPS,Delivered,7,Standard
+2955,2955,UPS,Delivered,9,Overnight
+2956,2956,FedEx,Delayed,2,Standard
+2957,2957,DHL,In Transit,10,Overnight
+2958,2958,UPS,In Transit,2,Standard
+2959,2959,UPS,Delayed,12,Standard
+2960,2960,FedEx,In Transit,8,Overnight
+2961,2961,USPS,Returned,5,Standard
+2962,2962,USPS,Delayed,2,Standard
+2963,2963,UPS,Delayed,5,Standard
+2964,2964,UPS,In Transit,1,Express
+2965,2965,UPS,In Transit,11,Express
+2966,2966,USPS,Delivered,13,Overnight
+2967,2967,FedEx,Delivered,4,Overnight
+2968,2968,USPS,Returned,3,Standard
+2969,2969,FedEx,Delayed,11,Overnight
+2970,2970,DHL,Delayed,6,Express
+2971,2971,USPS,Delivered,14,Standard
+2972,2972,USPS,Delivered,7,Express
+2973,2973,FedEx,In Transit,11,Standard
+2974,2974,USPS,Returned,10,Standard
+2975,2975,DHL,Returned,13,Overnight
+2976,2976,FedEx,In Transit,6,Express
+2977,2977,USPS,Returned,8,Overnight
+2978,2978,USPS,Delayed,13,Express
+2979,2979,USPS,Delayed,13,Standard
+2980,2980,FedEx,Delivered,13,Express
+2981,2981,DHL,Returned,1,Standard
+2982,2982,DHL,In Transit,9,Overnight
+2983,2983,DHL,Returned,7,Overnight
+2984,2984,USPS,Returned,12,Standard
+2985,2985,FedEx,Delayed,1,Standard
+2986,2986,DHL,Returned,5,Express
+2987,2987,DHL,Delivered,7,Express
+2988,2988,FedEx,Delayed,13,Express
+2989,2989,FedEx,Delivered,7,Overnight
+2990,2990,FedEx,In Transit,7,Standard
+2991,2991,DHL,Returned,8,Express
+2992,2992,FedEx,In Transit,9,Overnight
+2993,2993,FedEx,Delivered,6,Standard
+2994,2994,FedEx,In Transit,8,Overnight
+2995,2995,FedEx,Returned,4,Standard
+2996,2996,USPS,Returned,1,Overnight
+2997,2997,UPS,Delivered,2,Express
+2998,2998,UPS,Delivered,5,Overnight
+2999,2999,DHL,Delayed,14,Overnight
+3000,3000,UPS,Delayed,12,Overnight
+3001,3001,UPS,In Transit,12,Overnight
+3002,3002,USPS,Delayed,8,Standard
+3003,3003,USPS,Delivered,8,Standard
+3004,3004,FedEx,Delayed,9,Express
+3005,3005,FedEx,Returned,13,Express
+3006,3006,FedEx,Delivered,10,Overnight
+3007,3007,DHL,Returned,4,Overnight
+3008,3008,UPS,Returned,3,Express
+3009,3009,UPS,Delayed,9,Overnight
+3010,3010,UPS,Delayed,8,Standard
+3011,3011,UPS,Delayed,4,Standard
+3012,3012,USPS,In Transit,2,Standard
+3013,3013,DHL,Delayed,12,Standard
+3014,3014,UPS,Returned,5,Express
+3015,3015,USPS,Delayed,5,Overnight
+3016,3016,UPS,Returned,8,Standard
+3017,3017,DHL,Delivered,7,Express
+3018,3018,UPS,In Transit,4,Standard
+3019,3019,USPS,Returned,4,Express
+3020,3020,UPS,Delivered,13,Overnight
+3021,3021,USPS,Returned,3,Standard
+3022,3022,UPS,In Transit,7,Express
+3023,3023,UPS,Returned,2,Standard
+3024,3024,DHL,Delayed,6,Overnight
+3025,3025,DHL,In Transit,5,Standard
+3026,3026,DHL,Delivered,6,Express
+3027,3027,DHL,In Transit,11,Express
+3028,3028,USPS,Delivered,11,Express
+3029,3029,UPS,Delayed,6,Express
+3030,3030,UPS,Delivered,9,Overnight
+3031,3031,DHL,Delivered,5,Overnight
+3032,3032,UPS,Returned,1,Overnight
+3033,3033,DHL,In Transit,2,Overnight
+3034,3034,FedEx,Returned,13,Express
+3035,3035,FedEx,Delivered,9,Standard
+3036,3036,FedEx,Returned,1,Express
+3037,3037,USPS,Delivered,2,Standard
+3038,3038,DHL,Delayed,2,Standard
+3039,3039,USPS,Returned,10,Express
+3040,3040,DHL,Returned,1,Standard
+3041,3041,USPS,Delivered,12,Overnight
+3042,3042,UPS,Delayed,11,Express
+3043,3043,UPS,Returned,12,Express
+3044,3044,FedEx,In Transit,4,Standard
+3045,3045,UPS,Returned,13,Standard
+3046,3046,UPS,Delayed,7,Express
+3047,3047,UPS,Delivered,5,Standard
+3048,3048,USPS,In Transit,10,Overnight
+3049,3049,UPS,Delayed,7,Express
+3050,3050,USPS,In Transit,3,Overnight
+3051,3051,DHL,Delayed,6,Overnight
+3052,3052,FedEx,Returned,6,Express
+3053,3053,UPS,Delivered,1,Express
+3054,3054,USPS,Returned,5,Overnight
+3055,3055,USPS,Delayed,14,Express
+3056,3056,UPS,Delayed,11,Express
+3057,3057,FedEx,Delayed,2,Express
+3058,3058,DHL,In Transit,11,Overnight
+3059,3059,USPS,Delivered,1,Express
+3060,3060,FedEx,Delayed,13,Express
+3061,3061,FedEx,In Transit,10,Overnight
+3062,3062,DHL,Delivered,6,Express
+3063,3063,FedEx,Delivered,1,Express
+3064,3064,USPS,In Transit,13,Standard
+3065,3065,FedEx,In Transit,13,Standard
+3066,3066,USPS,Delivered,12,Overnight
+3067,3067,DHL,Delayed,14,Overnight
+3068,3068,FedEx,Delivered,4,Standard
+3069,3069,USPS,Returned,2,Standard
+3070,3070,DHL,In Transit,14,Overnight
+3071,3071,UPS,Delivered,5,Overnight
+3072,3072,FedEx,Delivered,8,Standard
+3073,3073,FedEx,Returned,12,Overnight
+3074,3074,UPS,In Transit,12,Overnight
+3075,3075,USPS,Returned,11,Overnight
+3076,3076,USPS,Delivered,5,Standard
+3077,3077,USPS,Returned,5,Overnight
+3078,3078,UPS,Delayed,13,Overnight
+3079,3079,DHL,Delivered,8,Overnight
+3080,3080,UPS,Returned,5,Standard
+3081,3081,DHL,Returned,2,Express
+3082,3082,UPS,Delivered,8,Overnight
+3083,3083,USPS,Delivered,2,Overnight
+3084,3084,UPS,In Transit,10,Overnight
+3085,3085,USPS,Delivered,9,Standard
+3086,3086,FedEx,In Transit,13,Express
+3087,3087,USPS,In Transit,7,Overnight
+3088,3088,USPS,Returned,3,Express
+3089,3089,USPS,Delayed,13,Express
+3090,3090,UPS,Returned,2,Express
+3091,3091,UPS,Returned,7,Express
+3092,3092,USPS,In Transit,13,Standard
+3093,3093,UPS,Delayed,2,Overnight
+3094,3094,FedEx,Delivered,3,Express
+3095,3095,UPS,Returned,13,Overnight
+3096,3096,UPS,Delayed,7,Overnight
+3097,3097,UPS,Returned,2,Overnight
+3098,3098,UPS,Returned,14,Express
+3099,3099,USPS,Delayed,1,Standard
+3100,3100,FedEx,Delayed,2,Standard
+3101,3101,USPS,Delayed,5,Overnight
+3102,3102,USPS,In Transit,7,Overnight
+3103,3103,UPS,In Transit,3,Overnight
+3104,3104,USPS,Delivered,5,Standard
+3105,3105,DHL,Returned,1,Standard
+3106,3106,USPS,Delivered,1,Express
+3107,3107,DHL,Returned,5,Overnight
+3108,3108,DHL,Returned,2,Overnight
+3109,3109,DHL,Delivered,9,Express
+3110,3110,FedEx,Delayed,6,Express
+3111,3111,FedEx,In Transit,11,Express
+3112,3112,UPS,In Transit,7,Standard
+3113,3113,USPS,In Transit,1,Standard
+3114,3114,DHL,Delayed,11,Standard
+3115,3115,DHL,In Transit,9,Overnight
+3116,3116,FedEx,Returned,11,Standard
+3117,3117,DHL,Returned,8,Standard
+3118,3118,DHL,Delayed,13,Express
+3119,3119,USPS,Delayed,6,Standard
+3120,3120,FedEx,In Transit,2,Standard
+3121,3121,UPS,In Transit,14,Overnight
+3122,3122,UPS,In Transit,10,Standard
+3123,3123,UPS,Delayed,10,Express
+3124,3124,UPS,Delayed,3,Express
+3125,3125,DHL,Returned,2,Overnight
+3126,3126,UPS,Delayed,13,Standard
+3127,3127,FedEx,Delivered,2,Overnight
+3128,3128,USPS,Delayed,14,Standard
+3129,3129,FedEx,Returned,11,Express
+3130,3130,DHL,Delivered,9,Overnight
+3131,3131,DHL,Delayed,14,Express
+3132,3132,FedEx,Delivered,2,Standard
+3133,3133,UPS,Delivered,1,Overnight
+3134,3134,UPS,Returned,1,Express
+3135,3135,USPS,Delayed,8,Express
+3136,3136,FedEx,Returned,14,Standard
+3137,3137,USPS,Delivered,11,Standard
+3138,3138,UPS,Delayed,11,Express
+3139,3139,UPS,In Transit,8,Overnight
+3140,3140,USPS,Delivered,11,Express
+3141,3141,USPS,Delayed,4,Express
+3142,3142,FedEx,In Transit,6,Overnight
+3143,3143,UPS,In Transit,9,Express
+3144,3144,UPS,Delayed,4,Standard
+3145,3145,DHL,Delivered,10,Standard
+3146,3146,DHL,Delayed,5,Express
+3147,3147,DHL,Delivered,11,Express
+3148,3148,FedEx,Delivered,5,Standard
+3149,3149,USPS,Delivered,3,Express
+3150,3150,USPS,Returned,7,Standard
+3151,3151,FedEx,Delivered,11,Express
+3152,3152,UPS,Delivered,13,Standard
+3153,3153,FedEx,Delivered,10,Express
+3154,3154,USPS,Delayed,4,Overnight
+3155,3155,USPS,Delivered,13,Standard
+3156,3156,UPS,Delayed,4,Express
+3157,3157,USPS,Delivered,9,Express
+3158,3158,DHL,In Transit,7,Express
+3159,3159,FedEx,Delivered,7,Overnight
+3160,3160,DHL,Delayed,9,Standard
+3161,3161,DHL,Delivered,7,Overnight
+3162,3162,DHL,Returned,10,Overnight
+3163,3163,USPS,Delivered,14,Standard
+3164,3164,DHL,Returned,14,Overnight
+3165,3165,UPS,In Transit,7,Express
+3166,3166,USPS,Delayed,4,Overnight
+3167,3167,DHL,Delivered,4,Standard
+3168,3168,USPS,In Transit,3,Standard
+3169,3169,UPS,In Transit,5,Express
+3170,3170,FedEx,In Transit,12,Express
+3171,3171,DHL,Returned,3,Overnight
+3172,3172,USPS,Delayed,7,Express
+3173,3173,USPS,In Transit,9,Overnight
+3174,3174,DHL,In Transit,4,Overnight
+3175,3175,DHL,Delayed,10,Express
+3176,3176,DHL,In Transit,4,Standard
+3177,3177,UPS,In Transit,12,Standard
+3178,3178,FedEx,Delivered,8,Standard
+3179,3179,USPS,Delayed,12,Overnight
+3180,3180,DHL,Delivered,10,Overnight
+3181,3181,DHL,Delayed,2,Express
+3182,3182,USPS,Delivered,3,Overnight
+3183,3183,USPS,In Transit,7,Express
+3184,3184,FedEx,Delayed,12,Standard
+3185,3185,DHL,Delivered,13,Standard
+3186,3186,UPS,Delayed,7,Overnight
+3187,3187,FedEx,In Transit,8,Overnight
+3188,3188,USPS,Returned,11,Overnight
+3189,3189,UPS,Delivered,2,Express
+3190,3190,FedEx,Returned,2,Express
+3191,3191,USPS,Delivered,3,Overnight
+3192,3192,FedEx,Delivered,10,Express
+3193,3193,USPS,Returned,10,Express
+3194,3194,USPS,In Transit,1,Overnight
+3195,3195,USPS,Delayed,11,Overnight
+3196,3196,USPS,In Transit,11,Standard
+3197,3197,DHL,Delayed,10,Overnight
+3198,3198,USPS,Delivered,5,Express
+3199,3199,FedEx,Delivered,1,Express
+3200,3200,FedEx,Delivered,8,Overnight
+3201,3201,USPS,In Transit,5,Overnight
+3202,3202,DHL,In Transit,1,Standard
+3203,3203,USPS,Delivered,8,Standard
+3204,3204,USPS,Delivered,8,Standard
+3205,3205,DHL,In Transit,10,Express
+3206,3206,DHL,Delayed,2,Express
+3207,3207,DHL,In Transit,11,Overnight
+3208,3208,DHL,Delayed,1,Overnight
+3209,3209,UPS,Delivered,6,Overnight
+3210,3210,USPS,Delivered,11,Overnight
+3211,3211,USPS,Delivered,9,Overnight
+3212,3212,DHL,Returned,5,Express
+3213,3213,USPS,In Transit,1,Overnight
+3214,3214,UPS,Delayed,13,Standard
+3215,3215,DHL,In Transit,12,Overnight
+3216,3216,USPS,Returned,1,Overnight
+3217,3217,FedEx,In Transit,11,Standard
+3218,3218,USPS,Delivered,10,Standard
+3219,3219,UPS,In Transit,14,Express
+3220,3220,USPS,Returned,1,Express
+3221,3221,DHL,In Transit,8,Overnight
+3222,3222,FedEx,In Transit,14,Express
+3223,3223,DHL,Delivered,8,Standard
+3224,3224,USPS,In Transit,1,Standard
+3225,3225,FedEx,Returned,9,Standard
+3226,3226,UPS,Delivered,5,Standard
+3227,3227,UPS,In Transit,11,Standard
+3228,3228,UPS,Returned,14,Standard
+3229,3229,UPS,Returned,11,Standard
+3230,3230,DHL,Delayed,9,Overnight
+3231,3231,DHL,Delivered,11,Overnight
+3232,3232,USPS,Delayed,14,Overnight
+3233,3233,UPS,Delayed,2,Express
+3234,3234,USPS,Delayed,7,Express
+3235,3235,USPS,Returned,3,Overnight
+3236,3236,FedEx,Delayed,3,Overnight
+3237,3237,DHL,In Transit,12,Standard
+3238,3238,FedEx,Delayed,7,Standard
+3239,3239,USPS,In Transit,12,Express
+3240,3240,UPS,Delivered,8,Overnight
+3241,3241,FedEx,In Transit,9,Express
+3242,3242,FedEx,Delayed,9,Overnight
+3243,3243,UPS,In Transit,8,Standard
+3244,3244,FedEx,Returned,2,Express
+3245,3245,UPS,Delivered,3,Express
+3246,3246,USPS,Delayed,9,Express
+3247,3247,DHL,Delayed,11,Standard
+3248,3248,FedEx,In Transit,11,Overnight
+3249,3249,DHL,Delivered,11,Overnight
+3250,3250,FedEx,Delivered,7,Express
+3251,3251,USPS,Delayed,11,Standard
+3252,3252,DHL,Delayed,2,Express
+3253,3253,FedEx,Delayed,11,Overnight
+3254,3254,USPS,Delivered,2,Standard
+3255,3255,FedEx,Delayed,1,Overnight
+3256,3256,USPS,Returned,7,Express
+3257,3257,UPS,Returned,4,Standard
+3258,3258,DHL,Delayed,10,Express
+3259,3259,FedEx,Returned,12,Express
+3260,3260,UPS,Delivered,3,Standard
+3261,3261,DHL,In Transit,13,Standard
+3262,3262,DHL,In Transit,5,Overnight
+3263,3263,FedEx,Delivered,10,Express
+3264,3264,DHL,Delivered,3,Express
+3265,3265,DHL,In Transit,2,Overnight
+3266,3266,FedEx,Delayed,14,Express
+3267,3267,USPS,Delayed,3,Standard
+3268,3268,USPS,Returned,13,Standard
+3269,3269,USPS,Delayed,4,Express
+3270,3270,UPS,Delivered,3,Standard
+3271,3271,DHL,Delivered,13,Express
+3272,3272,USPS,In Transit,11,Express
+3273,3273,DHL,Returned,2,Express
+3274,3274,DHL,Returned,11,Express
+3275,3275,UPS,Returned,5,Express
+3276,3276,USPS,Delivered,11,Overnight
+3277,3277,USPS,Delivered,12,Express
+3278,3278,UPS,Returned,13,Express
+3279,3279,USPS,Delayed,6,Standard
+3280,3280,UPS,Delayed,5,Standard
+3281,3281,FedEx,Delivered,13,Express
+3282,3282,DHL,Delivered,6,Express
+3283,3283,FedEx,Delayed,14,Standard
+3284,3284,UPS,Delivered,10,Overnight
+3285,3285,FedEx,Delayed,14,Overnight
+3286,3286,FedEx,Delivered,5,Overnight
+3287,3287,DHL,Returned,6,Standard
+3288,3288,USPS,In Transit,14,Express
+3289,3289,USPS,Delayed,6,Overnight
+3290,3290,UPS,Returned,4,Express
+3291,3291,UPS,Delayed,9,Overnight
+3292,3292,USPS,Delayed,2,Standard
+3293,3293,DHL,Delivered,11,Express
+3294,3294,UPS,In Transit,13,Overnight
+3295,3295,USPS,In Transit,12,Standard
+3296,3296,USPS,Delivered,9,Standard
+3297,3297,FedEx,Delivered,5,Overnight
+3298,3298,USPS,In Transit,4,Standard
+3299,3299,DHL,Delayed,3,Standard
+3300,3300,UPS,Delivered,12,Overnight
+3301,3301,USPS,Delivered,5,Standard
+3302,3302,UPS,Delivered,1,Overnight
+3303,3303,UPS,Delayed,1,Standard
+3304,3304,DHL,Delivered,10,Overnight
+3305,3305,FedEx,In Transit,1,Standard
+3306,3306,USPS,Returned,9,Express
+3307,3307,UPS,Returned,5,Standard
+3308,3308,FedEx,Returned,3,Standard
+3309,3309,FedEx,Delivered,2,Express
+3310,3310,DHL,Delivered,14,Standard
+3311,3311,FedEx,Delayed,6,Standard
+3312,3312,DHL,In Transit,2,Overnight
+3313,3313,USPS,In Transit,2,Overnight
+3314,3314,DHL,Returned,5,Overnight
+3315,3315,DHL,Returned,13,Overnight
+3316,3316,DHL,In Transit,5,Overnight
+3317,3317,FedEx,Delayed,1,Overnight
+3318,3318,DHL,Delayed,1,Express
+3319,3319,USPS,Delayed,13,Overnight
+3320,3320,DHL,In Transit,13,Standard
+3321,3321,FedEx,Returned,7,Express
+3322,3322,FedEx,In Transit,5,Express
+3323,3323,UPS,Delayed,6,Express
+3324,3324,DHL,Returned,4,Standard
+3325,3325,FedEx,Delivered,12,Express
+3326,3326,DHL,Returned,12,Express
+3327,3327,USPS,Delivered,8,Express
+3328,3328,FedEx,In Transit,11,Express
+3329,3329,UPS,Returned,7,Express
+3330,3330,DHL,In Transit,11,Overnight
+3331,3331,FedEx,Returned,7,Overnight
+3332,3332,USPS,In Transit,9,Standard
+3333,3333,FedEx,Delayed,4,Standard
+3334,3334,DHL,Delayed,12,Overnight
+3335,3335,UPS,Delayed,12,Standard
+3336,3336,UPS,Returned,12,Standard
+3337,3337,USPS,In Transit,11,Standard
+3338,3338,UPS,Delayed,12,Overnight
+3339,3339,USPS,In Transit,3,Standard
+3340,3340,DHL,Returned,5,Standard
+3341,3341,USPS,In Transit,8,Overnight
+3342,3342,DHL,Delayed,13,Express
+3343,3343,UPS,Delivered,14,Overnight
+3344,3344,UPS,Delivered,9,Standard
+3345,3345,UPS,Returned,14,Overnight
+3346,3346,FedEx,Returned,12,Standard
+3347,3347,UPS,In Transit,1,Standard
+3348,3348,USPS,Delivered,10,Standard
+3349,3349,DHL,Delayed,4,Overnight
+3350,3350,FedEx,Delivered,2,Express
+3351,3351,UPS,Delivered,12,Standard
+3352,3352,UPS,Returned,14,Standard
+3353,3353,FedEx,Delayed,14,Express
+3354,3354,FedEx,Delayed,10,Standard
+3355,3355,DHL,In Transit,9,Standard
+3356,3356,DHL,Returned,10,Overnight
+3357,3357,USPS,Returned,14,Overnight
+3358,3358,UPS,In Transit,9,Overnight
+3359,3359,UPS,In Transit,2,Express
+3360,3360,UPS,In Transit,2,Standard
+3361,3361,FedEx,Delivered,4,Overnight
+3362,3362,UPS,Delivered,13,Standard
+3363,3363,FedEx,Returned,11,Standard
+3364,3364,DHL,Returned,6,Overnight
+3365,3365,FedEx,Delivered,13,Standard
+3366,3366,UPS,Delivered,11,Standard
+3367,3367,FedEx,Delivered,14,Express
+3368,3368,USPS,Returned,13,Overnight
+3369,3369,DHL,Delayed,9,Overnight
+3370,3370,UPS,Delivered,9,Standard
+3371,3371,DHL,Delivered,14,Overnight
+3372,3372,UPS,In Transit,5,Overnight
+3373,3373,USPS,Returned,13,Standard
+3374,3374,UPS,Returned,5,Standard
+3375,3375,DHL,Delayed,7,Express
+3376,3376,USPS,Returned,10,Express
+3377,3377,FedEx,Delayed,13,Overnight
+3378,3378,DHL,Delivered,10,Overnight
+3379,3379,UPS,Delivered,5,Standard
+3380,3380,FedEx,Delivered,4,Express
+3381,3381,DHL,Delayed,9,Standard
+3382,3382,UPS,Delayed,1,Standard
+3383,3383,DHL,In Transit,7,Overnight
+3384,3384,USPS,Delayed,6,Overnight
+3385,3385,DHL,Returned,14,Express
+3386,3386,DHL,Returned,14,Standard
+3387,3387,USPS,Delayed,9,Express
+3388,3388,UPS,Delivered,9,Standard
+3389,3389,USPS,Delivered,3,Overnight
+3390,3390,DHL,Delivered,1,Standard
+3391,3391,USPS,Delivered,6,Overnight
+3392,3392,UPS,In Transit,7,Standard
+3393,3393,USPS,Delayed,13,Standard
+3394,3394,DHL,In Transit,14,Express
+3395,3395,USPS,Returned,14,Overnight
+3396,3396,UPS,Returned,8,Standard
+3397,3397,FedEx,Returned,1,Express
+3398,3398,FedEx,Returned,14,Express
+3399,3399,DHL,Delayed,14,Overnight
+3400,3400,UPS,Delayed,6,Overnight
+3401,3401,UPS,Delivered,8,Overnight
+3402,3402,FedEx,In Transit,12,Express
+3403,3403,USPS,In Transit,10,Overnight
+3404,3404,USPS,In Transit,1,Overnight
+3405,3405,UPS,Delivered,1,Express
+3406,3406,FedEx,Delayed,1,Overnight
+3407,3407,USPS,Delivered,1,Standard
+3408,3408,UPS,Delayed,8,Express
+3409,3409,DHL,In Transit,6,Express
+3410,3410,DHL,Returned,5,Express
+3411,3411,UPS,In Transit,1,Overnight
+3412,3412,DHL,Returned,14,Overnight
+3413,3413,USPS,Delivered,5,Overnight
+3414,3414,USPS,Delivered,6,Standard
+3415,3415,DHL,Delivered,8,Standard
+3416,3416,UPS,Delivered,9,Express
+3417,3417,UPS,Delayed,12,Express
+3418,3418,DHL,Delayed,1,Overnight
+3419,3419,USPS,Delivered,5,Standard
+3420,3420,USPS,In Transit,4,Express
+3421,3421,UPS,Delivered,5,Express
+3422,3422,DHL,In Transit,8,Express
+3423,3423,FedEx,In Transit,1,Standard
+3424,3424,UPS,Returned,2,Express
+3425,3425,DHL,Returned,13,Standard
+3426,3426,USPS,Delivered,6,Overnight
+3427,3427,FedEx,Delayed,11,Express
+3428,3428,UPS,Returned,3,Express
+3429,3429,UPS,Delayed,7,Standard
+3430,3430,FedEx,In Transit,9,Overnight
+3431,3431,FedEx,Returned,5,Express
+3432,3432,USPS,In Transit,14,Express
+3433,3433,USPS,Returned,8,Standard
+3434,3434,USPS,Delayed,10,Express
+3435,3435,FedEx,Returned,5,Overnight
+3436,3436,DHL,Delivered,10,Standard
+3437,3437,USPS,Returned,2,Overnight
+3438,3438,FedEx,Delivered,5,Express
+3439,3439,UPS,In Transit,5,Express
+3440,3440,UPS,Returned,1,Standard
+3441,3441,DHL,In Transit,13,Overnight
+3442,3442,FedEx,Delivered,9,Express
+3443,3443,FedEx,Delayed,4,Standard
+3444,3444,UPS,Delivered,7,Express
+3445,3445,DHL,Returned,8,Standard
+3446,3446,USPS,In Transit,2,Standard
+3447,3447,USPS,In Transit,12,Express
+3448,3448,UPS,Delayed,3,Express
+3449,3449,USPS,Delivered,9,Standard
+3450,3450,FedEx,In Transit,7,Overnight
+3451,3451,FedEx,Delayed,2,Overnight
+3452,3452,FedEx,In Transit,12,Standard
+3453,3453,UPS,Returned,12,Express
+3454,3454,UPS,Delayed,14,Overnight
+3455,3455,DHL,Returned,9,Standard
+3456,3456,FedEx,In Transit,13,Overnight
+3457,3457,FedEx,Delivered,10,Standard
+3458,3458,USPS,In Transit,13,Express
+3459,3459,DHL,In Transit,4,Express
+3460,3460,FedEx,Delivered,6,Express
+3461,3461,FedEx,Delayed,11,Standard
+3462,3462,UPS,Delayed,7,Overnight
+3463,3463,USPS,In Transit,14,Express
+3464,3464,USPS,In Transit,2,Express
+3465,3465,FedEx,Delayed,13,Standard
+3466,3466,FedEx,Returned,6,Overnight
+3467,3467,UPS,Delayed,12,Express
+3468,3468,USPS,Delivered,11,Express
+3469,3469,USPS,Returned,1,Overnight
+3470,3470,FedEx,Delayed,9,Standard
+3471,3471,UPS,Delivered,14,Overnight
+3472,3472,FedEx,Returned,10,Express
+3473,3473,FedEx,Delayed,13,Express
+3474,3474,USPS,Returned,3,Standard
+3475,3475,DHL,In Transit,14,Standard
+3476,3476,UPS,Delayed,10,Overnight
+3477,3477,UPS,Delayed,2,Overnight
+3478,3478,DHL,In Transit,11,Express
+3479,3479,UPS,Delayed,10,Standard
+3480,3480,FedEx,Returned,14,Overnight
+3481,3481,DHL,In Transit,13,Standard
+3482,3482,DHL,Delayed,13,Overnight
+3483,3483,USPS,Delivered,2,Express
+3484,3484,USPS,Delayed,14,Overnight
+3485,3485,USPS,Returned,7,Express
+3486,3486,UPS,Delivered,13,Standard
+3487,3487,UPS,Returned,4,Standard
+3488,3488,USPS,Returned,13,Overnight
+3489,3489,UPS,Delayed,6,Express
+3490,3490,FedEx,Returned,7,Express
+3491,3491,DHL,Returned,7,Standard
+3492,3492,UPS,Delayed,6,Standard
+3493,3493,FedEx,Returned,9,Standard
+3494,3494,DHL,Returned,8,Express
+3495,3495,DHL,Delayed,14,Express
+3496,3496,USPS,In Transit,10,Overnight
+3497,3497,USPS,Returned,4,Standard
+3498,3498,FedEx,Delayed,13,Standard
+3499,3499,FedEx,Delivered,3,Standard
+3500,3500,FedEx,Delayed,13,Standard
+3501,3501,UPS,Delayed,2,Standard
+3502,3502,DHL,Delayed,11,Standard
+3503,3503,USPS,In Transit,7,Standard
+3504,3504,FedEx,Delivered,10,Overnight
+3505,3505,DHL,Returned,4,Standard
+3506,3506,FedEx,Delayed,13,Standard
+3507,3507,FedEx,Delivered,12,Standard
+3508,3508,DHL,In Transit,7,Standard
+3509,3509,UPS,Returned,13,Standard
+3510,3510,DHL,Delivered,4,Overnight
+3511,3511,UPS,Delayed,12,Overnight
+3512,3512,USPS,In Transit,8,Overnight
+3513,3513,DHL,In Transit,5,Standard
+3514,3514,USPS,Returned,1,Express
+3515,3515,UPS,Delivered,3,Overnight
+3516,3516,FedEx,Returned,9,Standard
+3517,3517,UPS,In Transit,11,Standard
+3518,3518,DHL,In Transit,10,Overnight
+3519,3519,USPS,Delivered,7,Express
+3520,3520,FedEx,Delayed,6,Express
+3521,3521,UPS,Delivered,14,Standard
+3522,3522,DHL,Returned,7,Standard
+3523,3523,FedEx,Delivered,1,Standard
+3524,3524,UPS,Returned,2,Overnight
+3525,3525,FedEx,Delayed,2,Standard
+3526,3526,USPS,Returned,8,Overnight
+3527,3527,USPS,Returned,1,Express
+3528,3528,UPS,Delayed,2,Overnight
+3529,3529,UPS,In Transit,8,Express
+3530,3530,UPS,Returned,13,Overnight
+3531,3531,DHL,Returned,14,Standard
+3532,3532,DHL,Returned,2,Overnight
+3533,3533,DHL,In Transit,8,Express
+3534,3534,USPS,Delivered,7,Overnight
+3535,3535,FedEx,Delivered,13,Express
+3536,3536,USPS,In Transit,7,Standard
+3537,3537,DHL,Returned,2,Express
+3538,3538,FedEx,Delayed,2,Standard
+3539,3539,FedEx,Delayed,9,Express
+3540,3540,DHL,Delayed,13,Express
+3541,3541,FedEx,Delivered,12,Express
+3542,3542,USPS,Returned,14,Standard
+3543,3543,USPS,In Transit,6,Standard
+3544,3544,USPS,Returned,9,Express
+3545,3545,FedEx,Delivered,12,Standard
+3546,3546,UPS,In Transit,6,Standard
+3547,3547,USPS,Delivered,1,Overnight
+3548,3548,USPS,Delivered,1,Express
+3549,3549,FedEx,Returned,11,Standard
+3550,3550,DHL,Delivered,10,Overnight
+3551,3551,DHL,In Transit,2,Overnight
+3552,3552,UPS,Returned,4,Express
+3553,3553,UPS,Delayed,4,Standard
+3554,3554,FedEx,In Transit,5,Overnight
+3555,3555,UPS,In Transit,8,Standard
+3556,3556,FedEx,Delayed,6,Overnight
+3557,3557,UPS,Delayed,11,Overnight
+3558,3558,FedEx,Returned,5,Standard
+3559,3559,USPS,Delayed,14,Standard
+3560,3560,DHL,Returned,2,Standard
+3561,3561,FedEx,In Transit,14,Express
+3562,3562,UPS,Delayed,3,Overnight
+3563,3563,UPS,Returned,1,Express
+3564,3564,UPS,In Transit,9,Standard
+3565,3565,FedEx,In Transit,6,Standard
+3566,3566,FedEx,Delayed,9,Express
+3567,3567,UPS,Delivered,9,Express
+3568,3568,UPS,In Transit,8,Express
+3569,3569,DHL,Returned,13,Overnight
+3570,3570,FedEx,In Transit,6,Express
+3571,3571,DHL,Delivered,8,Standard
+3572,3572,FedEx,In Transit,7,Overnight
+3573,3573,DHL,Delivered,4,Standard
+3574,3574,FedEx,Returned,7,Overnight
+3575,3575,USPS,In Transit,11,Standard
+3576,3576,DHL,Delayed,3,Overnight
+3577,3577,USPS,Returned,13,Express
+3578,3578,USPS,In Transit,2,Standard
+3579,3579,DHL,In Transit,11,Standard
+3580,3580,USPS,Returned,10,Express
+3581,3581,USPS,In Transit,4,Overnight
+3582,3582,FedEx,In Transit,14,Overnight
+3583,3583,UPS,Delayed,4,Overnight
+3584,3584,FedEx,Delayed,1,Overnight
+3585,3585,DHL,Delayed,8,Express
+3586,3586,FedEx,Returned,4,Overnight
+3587,3587,DHL,Delayed,14,Standard
+3588,3588,FedEx,Delayed,4,Express
+3589,3589,USPS,Delayed,7,Overnight
+3590,3590,FedEx,Returned,7,Express
+3591,3591,FedEx,Delayed,6,Standard
+3592,3592,UPS,In Transit,12,Standard
+3593,3593,USPS,In Transit,14,Express
+3594,3594,USPS,Delayed,5,Overnight
+3595,3595,FedEx,Delayed,7,Overnight
+3596,3596,UPS,Delayed,7,Express
+3597,3597,FedEx,Returned,10,Express
+3598,3598,DHL,In Transit,5,Express
+3599,3599,DHL,Returned,5,Express
+3600,3600,UPS,Delivered,5,Express
+3601,3601,USPS,Delivered,4,Standard
+3602,3602,USPS,In Transit,2,Standard
+3603,3603,UPS,Delivered,13,Overnight
+3604,3604,FedEx,Delayed,14,Express
+3605,3605,DHL,In Transit,8,Standard
+3606,3606,FedEx,In Transit,6,Overnight
+3607,3607,UPS,Returned,4,Overnight
+3608,3608,DHL,Returned,2,Overnight
+3609,3609,USPS,Delayed,10,Overnight
+3610,3610,UPS,Returned,11,Overnight
+3611,3611,FedEx,In Transit,3,Standard
+3612,3612,FedEx,Returned,8,Overnight
+3613,3613,UPS,Delivered,12,Standard
+3614,3614,UPS,Returned,10,Express
+3615,3615,DHL,In Transit,8,Express
+3616,3616,DHL,Delivered,13,Express
+3617,3617,USPS,Returned,12,Standard
+3618,3618,UPS,In Transit,7,Standard
+3619,3619,UPS,Delayed,13,Standard
+3620,3620,FedEx,In Transit,4,Overnight
+3621,3621,USPS,Delayed,14,Express
+3622,3622,DHL,Delivered,5,Express
+3623,3623,FedEx,Returned,3,Express
+3624,3624,USPS,In Transit,1,Express
+3625,3625,USPS,Delayed,14,Overnight
+3626,3626,UPS,Delivered,5,Express
+3627,3627,USPS,Returned,6,Express
+3628,3628,USPS,Delayed,7,Express
+3629,3629,DHL,Delivered,11,Standard
+3630,3630,USPS,Delivered,1,Express
+3631,3631,FedEx,Delayed,4,Standard
+3632,3632,DHL,Delivered,6,Express
+3633,3633,DHL,Delayed,12,Standard
+3634,3634,USPS,In Transit,12,Standard
+3635,3635,FedEx,Delayed,4,Overnight
+3636,3636,USPS,Delivered,14,Express
+3637,3637,DHL,In Transit,8,Express
+3638,3638,FedEx,Returned,2,Overnight
+3639,3639,USPS,Delayed,1,Overnight
+3640,3640,USPS,Delivered,1,Standard
+3641,3641,DHL,Returned,5,Standard
+3642,3642,UPS,Returned,4,Express
+3643,3643,UPS,Returned,2,Overnight
+3644,3644,UPS,Delayed,12,Standard
+3645,3645,UPS,Delivered,11,Overnight
+3646,3646,DHL,Delivered,12,Overnight
+3647,3647,DHL,In Transit,13,Overnight
+3648,3648,USPS,In Transit,6,Express
+3649,3649,FedEx,In Transit,3,Overnight
+3650,3650,USPS,Delivered,13,Standard
+3651,3651,FedEx,Returned,3,Express
+3652,3652,UPS,In Transit,1,Overnight
+3653,3653,DHL,Delivered,13,Overnight
+3654,3654,USPS,In Transit,12,Express
+3655,3655,USPS,In Transit,4,Overnight
+3656,3656,FedEx,In Transit,12,Overnight
+3657,3657,USPS,Delivered,6,Overnight
+3658,3658,FedEx,Delivered,6,Overnight
+3659,3659,FedEx,Delivered,9,Standard
+3660,3660,USPS,Delayed,13,Express
+3661,3661,DHL,In Transit,5,Express
+3662,3662,DHL,In Transit,8,Express
+3663,3663,USPS,Delivered,5,Express
+3664,3664,UPS,Delivered,13,Express
+3665,3665,DHL,In Transit,1,Overnight
+3666,3666,DHL,Returned,13,Overnight
+3667,3667,UPS,Returned,1,Overnight
+3668,3668,FedEx,Delayed,9,Overnight
+3669,3669,FedEx,In Transit,10,Overnight
+3670,3670,DHL,In Transit,4,Standard
+3671,3671,FedEx,Returned,11,Overnight
+3672,3672,UPS,Delivered,6,Standard
+3673,3673,DHL,Returned,14,Overnight
+3674,3674,FedEx,Returned,6,Overnight
+3675,3675,DHL,Delivered,9,Standard
+3676,3676,DHL,Delivered,9,Standard
+3677,3677,UPS,In Transit,5,Express
+3678,3678,UPS,Delivered,5,Overnight
+3679,3679,USPS,In Transit,13,Express
+3680,3680,USPS,Delivered,1,Overnight
+3681,3681,UPS,In Transit,13,Express
+3682,3682,DHL,Delayed,10,Express
+3683,3683,UPS,In Transit,14,Overnight
+3684,3684,DHL,In Transit,1,Express
+3685,3685,DHL,Delivered,6,Express
+3686,3686,USPS,Delivered,2,Standard
+3687,3687,FedEx,Delivered,2,Standard
+3688,3688,DHL,In Transit,1,Standard
+3689,3689,USPS,Delivered,3,Standard
+3690,3690,DHL,Returned,12,Overnight
+3691,3691,USPS,Delivered,9,Standard
+3692,3692,USPS,Returned,3,Overnight
+3693,3693,USPS,In Transit,11,Express
+3694,3694,UPS,Delayed,1,Overnight
+3695,3695,FedEx,Returned,9,Express
+3696,3696,DHL,Delivered,4,Standard
+3697,3697,UPS,Delivered,7,Overnight
+3698,3698,FedEx,Returned,9,Express
+3699,3699,DHL,In Transit,10,Standard
+3700,3700,FedEx,In Transit,5,Express
+3701,3701,UPS,In Transit,2,Express
+3702,3702,UPS,Delivered,12,Express
+3703,3703,DHL,Delivered,2,Standard
+3704,3704,FedEx,Returned,10,Overnight
+3705,3705,FedEx,In Transit,8,Overnight
+3706,3706,DHL,Returned,4,Express
+3707,3707,UPS,In Transit,4,Overnight
+3708,3708,USPS,Delayed,13,Overnight
+3709,3709,USPS,In Transit,5,Standard
+3710,3710,USPS,Delayed,9,Standard
+3711,3711,DHL,Delayed,5,Overnight
+3712,3712,UPS,Returned,14,Express
+3713,3713,FedEx,Delayed,12,Standard
+3714,3714,DHL,In Transit,13,Standard
+3715,3715,FedEx,Returned,13,Standard
+3716,3716,DHL,Returned,7,Express
+3717,3717,UPS,Delayed,13,Overnight
+3718,3718,DHL,Delivered,10,Express
+3719,3719,DHL,Delayed,3,Express
+3720,3720,USPS,In Transit,14,Express
+3721,3721,FedEx,Returned,8,Standard
+3722,3722,FedEx,In Transit,11,Overnight
+3723,3723,DHL,Delayed,4,Overnight
+3724,3724,FedEx,In Transit,12,Overnight
+3725,3725,UPS,Delayed,8,Standard
+3726,3726,USPS,Returned,8,Overnight
+3727,3727,USPS,Delayed,7,Overnight
+3728,3728,DHL,Returned,7,Overnight
+3729,3729,FedEx,Delayed,2,Overnight
+3730,3730,DHL,Delayed,4,Express
+3731,3731,USPS,In Transit,8,Express
+3732,3732,FedEx,In Transit,1,Overnight
+3733,3733,UPS,In Transit,11,Express
+3734,3734,UPS,Delayed,4,Overnight
+3735,3735,UPS,Delayed,12,Express
+3736,3736,USPS,In Transit,12,Standard
+3737,3737,FedEx,Delivered,3,Express
+3738,3738,DHL,Delayed,14,Overnight
+3739,3739,UPS,Delayed,6,Express
+3740,3740,UPS,Delayed,8,Overnight
+3741,3741,DHL,Delivered,6,Standard
+3742,3742,FedEx,In Transit,10,Standard
+3743,3743,FedEx,Delivered,9,Express
+3744,3744,UPS,Returned,1,Overnight
+3745,3745,FedEx,Delayed,11,Overnight
+3746,3746,USPS,Returned,14,Overnight
+3747,3747,UPS,In Transit,4,Overnight
+3748,3748,USPS,Delivered,6,Standard
+3749,3749,UPS,Delayed,11,Overnight
+3750,3750,USPS,Returned,1,Express
+3751,3751,USPS,Delivered,14,Express
+3752,3752,UPS,In Transit,13,Overnight
+3753,3753,USPS,Delivered,13,Standard
+3754,3754,FedEx,In Transit,7,Standard
+3755,3755,FedEx,Delayed,8,Express
+3756,3756,UPS,Delayed,9,Standard
+3757,3757,DHL,Delivered,5,Overnight
+3758,3758,DHL,Delivered,11,Standard
+3759,3759,USPS,Returned,7,Standard
+3760,3760,FedEx,Delayed,14,Express
+3761,3761,FedEx,Delivered,5,Standard
+3762,3762,FedEx,Returned,9,Standard
+3763,3763,UPS,Returned,4,Standard
+3764,3764,FedEx,In Transit,14,Express
+3765,3765,DHL,Returned,9,Express
+3766,3766,UPS,Delivered,1,Standard
+3767,3767,USPS,In Transit,4,Express
+3768,3768,UPS,Delayed,1,Overnight
+3769,3769,USPS,Returned,7,Standard
+3770,3770,USPS,In Transit,1,Overnight
+3771,3771,DHL,Delivered,8,Overnight
+3772,3772,FedEx,Delivered,1,Standard
+3773,3773,UPS,Returned,3,Overnight
+3774,3774,USPS,In Transit,11,Standard
+3775,3775,UPS,Delivered,3,Express
+3776,3776,UPS,Returned,10,Standard
+3777,3777,FedEx,In Transit,13,Standard
+3778,3778,DHL,Delivered,10,Standard
+3779,3779,USPS,Delivered,12,Standard
+3780,3780,USPS,Delayed,5,Express
+3781,3781,UPS,Delayed,1,Overnight
+3782,3782,FedEx,Returned,10,Express
+3783,3783,USPS,Delivered,8,Overnight
+3784,3784,UPS,Returned,8,Overnight
+3785,3785,USPS,Delayed,11,Standard
+3786,3786,USPS,Delayed,9,Standard
+3787,3787,FedEx,Delivered,1,Overnight
+3788,3788,USPS,In Transit,14,Express
+3789,3789,FedEx,Returned,2,Overnight
+3790,3790,USPS,Delivered,14,Overnight
+3791,3791,UPS,Returned,1,Express
+3792,3792,FedEx,Delivered,4,Overnight
+3793,3793,UPS,Delivered,5,Express
+3794,3794,FedEx,Returned,11,Express
+3795,3795,FedEx,Delivered,7,Standard
+3796,3796,DHL,Returned,7,Standard
+3797,3797,FedEx,Delayed,3,Overnight
+3798,3798,DHL,Returned,4,Overnight
+3799,3799,FedEx,Returned,2,Standard
+3800,3800,DHL,Delayed,1,Overnight
+3801,3801,DHL,Delayed,8,Overnight
+3802,3802,DHL,In Transit,7,Overnight
+3803,3803,UPS,In Transit,12,Express
+3804,3804,UPS,Delayed,12,Standard
+3805,3805,UPS,Returned,14,Express
+3806,3806,FedEx,In Transit,9,Overnight
+3807,3807,USPS,Delivered,2,Express
+3808,3808,UPS,Returned,4,Standard
+3809,3809,UPS,Delivered,14,Overnight
+3810,3810,DHL,Delivered,1,Express
+3811,3811,USPS,Delayed,2,Overnight
+3812,3812,FedEx,In Transit,9,Standard
+3813,3813,FedEx,Returned,6,Express
+3814,3814,USPS,Delivered,8,Standard
+3815,3815,FedEx,Delayed,13,Overnight
+3816,3816,USPS,Delivered,11,Standard
+3817,3817,UPS,Delayed,9,Standard
+3818,3818,FedEx,Delivered,1,Standard
+3819,3819,FedEx,In Transit,5,Express
+3820,3820,FedEx,Returned,7,Overnight
+3821,3821,USPS,Returned,12,Express
+3822,3822,USPS,Delivered,3,Overnight
+3823,3823,USPS,Delayed,8,Express
+3824,3824,USPS,Delivered,2,Standard
+3825,3825,UPS,Returned,4,Standard
+3826,3826,UPS,Returned,7,Standard
+3827,3827,USPS,Delivered,9,Express
+3828,3828,FedEx,Delayed,5,Overnight
+3829,3829,USPS,Returned,3,Standard
+3830,3830,DHL,Delivered,10,Standard
+3831,3831,FedEx,In Transit,10,Express
+3832,3832,USPS,Delayed,7,Overnight
+3833,3833,USPS,In Transit,10,Overnight
+3834,3834,UPS,Returned,11,Standard
+3835,3835,DHL,In Transit,3,Express
+3836,3836,DHL,Returned,7,Express
+3837,3837,USPS,Returned,1,Overnight
+3838,3838,FedEx,Delayed,13,Standard
+3839,3839,USPS,Delivered,10,Standard
+3840,3840,FedEx,Delivered,10,Standard
+3841,3841,UPS,In Transit,6,Overnight
+3842,3842,DHL,Delayed,6,Express
+3843,3843,FedEx,In Transit,1,Express
+3844,3844,UPS,Returned,7,Express
+3845,3845,UPS,Returned,5,Standard
+3846,3846,DHL,Delayed,9,Express
+3847,3847,DHL,In Transit,11,Express
+3848,3848,DHL,Delayed,9,Standard
+3849,3849,UPS,Delivered,4,Standard
+3850,3850,FedEx,In Transit,13,Express
+3851,3851,DHL,In Transit,3,Express
+3852,3852,USPS,In Transit,2,Overnight
+3853,3853,UPS,Delivered,13,Standard
+3854,3854,USPS,In Transit,1,Overnight
+3855,3855,UPS,In Transit,8,Overnight
+3856,3856,UPS,Delayed,10,Overnight
+3857,3857,UPS,Delivered,8,Overnight
+3858,3858,FedEx,Returned,10,Standard
+3859,3859,FedEx,In Transit,14,Overnight
+3860,3860,FedEx,In Transit,14,Express
+3861,3861,UPS,Delivered,9,Overnight
+3862,3862,DHL,In Transit,7,Standard
+3863,3863,UPS,Delivered,7,Express
+3864,3864,FedEx,In Transit,14,Express
+3865,3865,DHL,Returned,3,Overnight
+3866,3866,DHL,In Transit,12,Express
+3867,3867,DHL,Returned,2,Express
+3868,3868,UPS,Delayed,1,Express
+3869,3869,DHL,Delivered,2,Overnight
+3870,3870,FedEx,Delayed,1,Express
+3871,3871,DHL,Returned,9,Overnight
+3872,3872,FedEx,Delayed,9,Overnight
+3873,3873,UPS,Returned,5,Standard
+3874,3874,DHL,Delayed,8,Standard
+3875,3875,FedEx,In Transit,8,Express
+3876,3876,USPS,Delivered,2,Standard
+3877,3877,FedEx,Delayed,11,Standard
+3878,3878,UPS,Returned,3,Standard
+3879,3879,UPS,Delivered,14,Express
+3880,3880,UPS,In Transit,11,Overnight
+3881,3881,USPS,Delivered,12,Express
+3882,3882,FedEx,Delivered,12,Standard
+3883,3883,USPS,Delivered,1,Standard
+3884,3884,FedEx,Delayed,6,Standard
+3885,3885,FedEx,Delivered,14,Overnight
+3886,3886,UPS,Delayed,14,Standard
+3887,3887,UPS,Returned,6,Overnight
+3888,3888,USPS,Delivered,5,Express
+3889,3889,UPS,In Transit,6,Standard
+3890,3890,UPS,In Transit,9,Overnight
+3891,3891,USPS,Returned,1,Express
+3892,3892,DHL,Returned,13,Overnight
+3893,3893,USPS,Returned,2,Overnight
+3894,3894,UPS,Delayed,11,Overnight
+3895,3895,DHL,Delivered,4,Express
+3896,3896,FedEx,Delayed,5,Overnight
+3897,3897,USPS,Delivered,4,Standard
+3898,3898,FedEx,Delivered,14,Standard
+3899,3899,DHL,Delayed,9,Overnight
+3900,3900,UPS,Delayed,9,Express
+3901,3901,USPS,Delayed,5,Standard
+3902,3902,UPS,Returned,8,Overnight
+3903,3903,USPS,Delayed,2,Overnight
+3904,3904,USPS,Returned,7,Standard
+3905,3905,UPS,Returned,11,Express
+3906,3906,USPS,In Transit,8,Standard
+3907,3907,USPS,Delayed,11,Standard
+3908,3908,UPS,Delivered,8,Overnight
+3909,3909,USPS,Delayed,14,Express
+3910,3910,FedEx,In Transit,5,Express
+3911,3911,DHL,Delayed,8,Overnight
+3912,3912,USPS,Delayed,2,Express
+3913,3913,USPS,In Transit,7,Overnight
+3914,3914,FedEx,In Transit,6,Overnight
+3915,3915,FedEx,Delayed,4,Standard
+3916,3916,UPS,In Transit,4,Overnight
+3917,3917,USPS,Returned,7,Standard
+3918,3918,UPS,In Transit,6,Overnight
+3919,3919,FedEx,Returned,5,Overnight
+3920,3920,USPS,Returned,13,Standard
+3921,3921,DHL,Delayed,12,Express
+3922,3922,UPS,Delayed,7,Express
+3923,3923,DHL,Delivered,8,Express
+3924,3924,FedEx,Delayed,13,Standard
+3925,3925,FedEx,In Transit,13,Overnight
+3926,3926,UPS,Delayed,10,Express
+3927,3927,FedEx,Delivered,13,Standard
+3928,3928,USPS,Returned,5,Express
+3929,3929,FedEx,Delayed,4,Overnight
+3930,3930,UPS,Delivered,1,Express
+3931,3931,FedEx,Delayed,4,Express
+3932,3932,FedEx,Returned,2,Express
+3933,3933,UPS,Delayed,1,Overnight
+3934,3934,FedEx,In Transit,7,Express
+3935,3935,FedEx,Delayed,1,Overnight
+3936,3936,UPS,Delayed,10,Overnight
+3937,3937,UPS,In Transit,6,Express
+3938,3938,FedEx,Delayed,5,Standard
+3939,3939,USPS,Delivered,8,Standard
+3940,3940,DHL,Delayed,10,Standard
+3941,3941,UPS,Returned,1,Overnight
+3942,3942,FedEx,Delivered,12,Overnight
+3943,3943,UPS,Delivered,2,Overnight
+3944,3944,DHL,Delivered,10,Express
+3945,3945,FedEx,Delayed,2,Standard
+3946,3946,DHL,Delivered,7,Express
+3947,3947,UPS,Delivered,1,Standard
+3948,3948,DHL,In Transit,12,Express
+3949,3949,USPS,Delivered,14,Express
+3950,3950,FedEx,In Transit,2,Standard
+3951,3951,UPS,Delivered,8,Standard
+3952,3952,USPS,Delivered,4,Express
+3953,3953,UPS,Returned,5,Overnight
+3954,3954,USPS,Delivered,11,Express
+3955,3955,USPS,Delayed,7,Express
+3956,3956,USPS,In Transit,7,Standard
+3957,3957,DHL,Returned,6,Standard
+3958,3958,FedEx,In Transit,9,Express
+3959,3959,FedEx,Delayed,13,Overnight
+3960,3960,UPS,Delayed,6,Express
+3961,3961,FedEx,Returned,3,Express
+3962,3962,FedEx,Returned,2,Standard
+3963,3963,DHL,Delayed,6,Standard
+3964,3964,USPS,Delivered,11,Express
+3965,3965,USPS,Returned,12,Overnight
+3966,3966,USPS,Delivered,14,Overnight
+3967,3967,FedEx,Delayed,13,Overnight
+3968,3968,UPS,In Transit,1,Standard
+3969,3969,UPS,Delivered,2,Express
+3970,3970,FedEx,Delayed,1,Express
+3971,3971,DHL,Delivered,9,Overnight
+3972,3972,UPS,Delayed,4,Overnight
+3973,3973,FedEx,In Transit,9,Standard
+3974,3974,FedEx,In Transit,8,Standard
+3975,3975,UPS,Delivered,3,Overnight
+3976,3976,FedEx,Delivered,12,Standard
+3977,3977,FedEx,In Transit,3,Express
+3978,3978,UPS,In Transit,12,Standard
+3979,3979,FedEx,Delivered,3,Overnight
+3980,3980,UPS,Delayed,10,Standard
+3981,3981,USPS,Returned,2,Overnight
+3982,3982,DHL,Delivered,5,Express
+3983,3983,UPS,In Transit,5,Standard
+3984,3984,USPS,Delayed,10,Standard
+3985,3985,DHL,Returned,11,Express
+3986,3986,DHL,In Transit,12,Overnight
+3987,3987,FedEx,Delivered,5,Standard
+3988,3988,USPS,In Transit,10,Overnight
+3989,3989,DHL,Delayed,1,Express
+3990,3990,UPS,Returned,10,Express
+3991,3991,USPS,Delayed,11,Express
+3992,3992,USPS,Delayed,8,Standard
+3993,3993,DHL,Delivered,1,Express
+3994,3994,USPS,Delayed,2,Express
+3995,3995,UPS,Returned,13,Standard
+3996,3996,DHL,In Transit,3,Express
+3997,3997,UPS,Returned,14,Overnight
+3998,3998,USPS,Delayed,2,Overnight
+3999,3999,DHL,Delivered,7,Standard
+4000,4000,FedEx,Returned,2,Express
+4001,4001,DHL,In Transit,3,Express
+4002,4002,FedEx,Delayed,13,Express
+4003,4003,FedEx,Returned,11,Express
+4004,4004,UPS,Returned,1,Standard
+4005,4005,DHL,Delayed,1,Overnight
+4006,4006,FedEx,Returned,5,Standard
+4007,4007,FedEx,In Transit,7,Express
+4008,4008,USPS,Returned,9,Express
+4009,4009,FedEx,Delayed,9,Standard
+4010,4010,DHL,Delivered,13,Standard
+4011,4011,FedEx,Delayed,7,Standard
+4012,4012,USPS,In Transit,13,Overnight
+4013,4013,UPS,Delayed,4,Overnight
+4014,4014,UPS,Delivered,11,Overnight
+4015,4015,FedEx,Delivered,4,Standard
+4016,4016,DHL,Delivered,2,Overnight
+4017,4017,UPS,Delivered,12,Overnight
+4018,4018,DHL,Returned,2,Overnight
+4019,4019,USPS,Returned,4,Standard
+4020,4020,DHL,Delayed,10,Standard
+4021,4021,DHL,Delivered,7,Express
+4022,4022,UPS,Delivered,1,Express
+4023,4023,FedEx,Delayed,10,Standard
+4024,4024,FedEx,Returned,2,Standard
+4025,4025,FedEx,Delayed,2,Overnight
+4026,4026,USPS,In Transit,2,Standard
+4027,4027,UPS,Delayed,4,Express
+4028,4028,USPS,Returned,5,Overnight
+4029,4029,USPS,Delivered,1,Express
+4030,4030,USPS,In Transit,10,Standard
+4031,4031,UPS,In Transit,6,Standard
+4032,4032,FedEx,Delayed,5,Standard
+4033,4033,FedEx,Delivered,6,Standard
+4034,4034,UPS,In Transit,8,Express
+4035,4035,FedEx,In Transit,2,Overnight
+4036,4036,USPS,Delayed,9,Express
+4037,4037,FedEx,Delivered,11,Standard
+4038,4038,DHL,In Transit,5,Overnight
+4039,4039,USPS,Delivered,12,Standard
+4040,4040,DHL,In Transit,8,Standard
+4041,4041,FedEx,Delayed,3,Overnight
+4042,4042,FedEx,Returned,13,Express
+4043,4043,UPS,Returned,12,Express
+4044,4044,UPS,Delayed,12,Express
+4045,4045,FedEx,Delayed,4,Overnight
+4046,4046,UPS,In Transit,8,Standard
+4047,4047,UPS,In Transit,12,Express
+4048,4048,USPS,Delivered,10,Overnight
+4049,4049,USPS,In Transit,2,Express
+4050,4050,UPS,Returned,1,Express
+4051,4051,UPS,Delivered,12,Express
+4052,4052,DHL,Delivered,6,Express
+4053,4053,FedEx,In Transit,1,Express
+4054,4054,USPS,Delayed,2,Standard
+4055,4055,UPS,Delivered,13,Standard
+4056,4056,USPS,Returned,12,Standard
+4057,4057,UPS,Delayed,10,Express
+4058,4058,UPS,In Transit,8,Express
+4059,4059,USPS,In Transit,1,Overnight
+4060,4060,USPS,Delivered,11,Overnight
+4061,4061,USPS,Returned,5,Standard
+4062,4062,USPS,Returned,8,Standard
+4063,4063,UPS,Delayed,12,Standard
+4064,4064,USPS,Delivered,8,Express
+4065,4065,FedEx,Returned,5,Standard
+4066,4066,USPS,In Transit,13,Express
+4067,4067,UPS,Delayed,5,Overnight
+4068,4068,UPS,In Transit,1,Standard
+4069,4069,UPS,Returned,4,Overnight
+4070,4070,FedEx,Returned,7,Standard
+4071,4071,FedEx,Returned,7,Standard
+4072,4072,FedEx,Delayed,2,Overnight
+4073,4073,FedEx,Returned,8,Express
+4074,4074,DHL,In Transit,5,Express
+4075,4075,UPS,Delivered,11,Overnight
+4076,4076,UPS,In Transit,11,Standard
+4077,4077,UPS,Delivered,11,Overnight
+4078,4078,UPS,In Transit,11,Overnight
+4079,4079,DHL,Delivered,10,Standard
+4080,4080,UPS,Delayed,13,Express
+4081,4081,DHL,Returned,1,Overnight
+4082,4082,FedEx,Returned,7,Overnight
+4083,4083,DHL,Delayed,8,Standard
+4084,4084,UPS,Delivered,7,Express
+4085,4085,FedEx,Returned,2,Standard
+4086,4086,UPS,Returned,11,Express
+4087,4087,UPS,In Transit,3,Standard
+4088,4088,DHL,In Transit,3,Standard
+4089,4089,DHL,Delayed,5,Standard
+4090,4090,DHL,In Transit,9,Overnight
+4091,4091,USPS,Delivered,7,Overnight
+4092,4092,USPS,Delivered,10,Overnight
+4093,4093,DHL,Returned,11,Standard
+4094,4094,UPS,Delivered,7,Overnight
+4095,4095,USPS,Returned,13,Overnight
+4096,4096,UPS,Delivered,14,Overnight
+4097,4097,UPS,In Transit,11,Standard
+4098,4098,USPS,Delivered,12,Overnight
+4099,4099,DHL,Returned,6,Overnight
+4100,4100,DHL,Delivered,7,Express
+4101,4101,UPS,Returned,10,Standard
+4102,4102,USPS,In Transit,2,Standard
+4103,4103,DHL,In Transit,8,Standard
+4104,4104,DHL,Delivered,9,Overnight
+4105,4105,UPS,Delivered,13,Overnight
+4106,4106,UPS,In Transit,12,Express
+4107,4107,USPS,In Transit,9,Overnight
+4108,4108,FedEx,Delayed,14,Overnight
+4109,4109,DHL,Delayed,2,Overnight
+4110,4110,UPS,Delivered,2,Overnight
+4111,4111,FedEx,Delayed,2,Overnight
+4112,4112,DHL,In Transit,10,Express
+4113,4113,USPS,In Transit,8,Overnight
+4114,4114,DHL,Delivered,1,Express
+4115,4115,UPS,Delivered,2,Overnight
+4116,4116,FedEx,Delivered,14,Express
+4117,4117,UPS,Returned,6,Standard
+4118,4118,USPS,Returned,5,Overnight
+4119,4119,UPS,Returned,10,Overnight
+4120,4120,DHL,Returned,2,Express
+4121,4121,FedEx,Delayed,13,Standard
+4122,4122,DHL,Delivered,10,Overnight
+4123,4123,UPS,Returned,4,Overnight
+4124,4124,USPS,Returned,5,Overnight
+4125,4125,UPS,In Transit,1,Express
+4126,4126,FedEx,Delivered,4,Express
+4127,4127,UPS,Delivered,6,Express
+4128,4128,FedEx,Delayed,9,Express
+4129,4129,USPS,In Transit,7,Express
+4130,4130,DHL,Delivered,4,Express
+4131,4131,FedEx,In Transit,10,Overnight
+4132,4132,FedEx,Returned,1,Overnight
+4133,4133,DHL,Delayed,2,Express
+4134,4134,FedEx,Returned,4,Express
+4135,4135,UPS,Delayed,10,Express
+4136,4136,FedEx,Delivered,3,Express
+4137,4137,UPS,Delivered,13,Express
+4138,4138,USPS,Delayed,3,Express
+4139,4139,DHL,In Transit,14,Overnight
+4140,4140,DHL,Delayed,2,Overnight
+4141,4141,DHL,Delayed,9,Express
+4142,4142,USPS,Delivered,9,Standard
+4143,4143,USPS,Returned,14,Express
+4144,4144,UPS,Delayed,6,Express
+4145,4145,USPS,Delivered,10,Overnight
+4146,4146,FedEx,Delayed,11,Overnight
+4147,4147,USPS,Returned,2,Standard
+4148,4148,FedEx,Delayed,10,Express
+4149,4149,USPS,Returned,5,Standard
+4150,4150,DHL,Delivered,8,Overnight
+4151,4151,DHL,In Transit,1,Express
+4152,4152,FedEx,Delivered,5,Overnight
+4153,4153,DHL,Returned,11,Overnight
+4154,4154,USPS,Delayed,14,Standard
+4155,4155,UPS,Delayed,13,Express
+4156,4156,UPS,Delivered,8,Standard
+4157,4157,FedEx,Delayed,4,Overnight
+4158,4158,DHL,Returned,10,Overnight
+4159,4159,DHL,Delivered,13,Standard
+4160,4160,DHL,Delivered,8,Overnight
+4161,4161,UPS,Delayed,1,Standard
+4162,4162,DHL,Delivered,13,Standard
+4163,4163,USPS,In Transit,10,Express
+4164,4164,UPS,Delayed,10,Overnight
+4165,4165,USPS,Returned,8,Standard
+4166,4166,USPS,Delayed,5,Express
+4167,4167,UPS,Delayed,12,Standard
+4168,4168,UPS,In Transit,11,Standard
+4169,4169,UPS,Delivered,9,Overnight
+4170,4170,DHL,Delivered,8,Express
+4171,4171,FedEx,Returned,2,Express
+4172,4172,FedEx,Delayed,8,Overnight
+4173,4173,DHL,Delivered,14,Overnight
+4174,4174,FedEx,Delivered,12,Express
+4175,4175,FedEx,Delayed,11,Express
+4176,4176,DHL,Delivered,7,Overnight
+4177,4177,DHL,Returned,6,Overnight
+4178,4178,USPS,Delayed,6,Express
+4179,4179,USPS,Returned,14,Express
+4180,4180,DHL,In Transit,8,Express
+4181,4181,FedEx,Delayed,8,Standard
+4182,4182,USPS,In Transit,14,Express
+4183,4183,FedEx,Delayed,11,Overnight
+4184,4184,UPS,Returned,14,Standard
+4185,4185,FedEx,In Transit,3,Standard
+4186,4186,DHL,In Transit,12,Express
+4187,4187,DHL,Delayed,1,Express
+4188,4188,USPS,Returned,12,Express
+4189,4189,UPS,Delivered,3,Overnight
+4190,4190,DHL,Delayed,11,Express
+4191,4191,UPS,Delivered,9,Overnight
+4192,4192,DHL,In Transit,1,Overnight
+4193,4193,FedEx,Delivered,12,Express
+4194,4194,DHL,Delivered,14,Overnight
+4195,4195,FedEx,Delayed,11,Standard
+4196,4196,USPS,In Transit,3,Standard
+4197,4197,USPS,Delayed,7,Standard
+4198,4198,UPS,Returned,5,Express
+4199,4199,USPS,Delayed,7,Standard
+4200,4200,UPS,Delayed,1,Express
+4201,4201,USPS,In Transit,10,Standard
+4202,4202,DHL,Returned,5,Overnight
+4203,4203,UPS,In Transit,13,Express
+4204,4204,UPS,In Transit,2,Express
+4205,4205,UPS,In Transit,7,Overnight
+4206,4206,USPS,Returned,2,Express
+4207,4207,USPS,Delayed,3,Standard
+4208,4208,FedEx,Returned,1,Express
+4209,4209,USPS,Delivered,4,Overnight
+4210,4210,USPS,Returned,11,Express
+4211,4211,FedEx,In Transit,2,Overnight
+4212,4212,FedEx,Returned,6,Express
+4213,4213,FedEx,Delayed,4,Standard
+4214,4214,DHL,Delivered,2,Express
+4215,4215,UPS,In Transit,9,Express
+4216,4216,UPS,In Transit,9,Overnight
+4217,4217,FedEx,In Transit,14,Standard
+4218,4218,UPS,Delayed,7,Overnight
+4219,4219,DHL,Delivered,4,Express
+4220,4220,USPS,In Transit,6,Express
+4221,4221,FedEx,Delivered,9,Standard
+4222,4222,DHL,In Transit,14,Express
+4223,4223,DHL,In Transit,8,Express
+4224,4224,USPS,Delayed,2,Express
+4225,4225,UPS,Delivered,3,Standard
+4226,4226,DHL,Delivered,2,Express
+4227,4227,UPS,Delivered,4,Overnight
+4228,4228,UPS,Delayed,7,Overnight
+4229,4229,FedEx,Returned,1,Express
+4230,4230,FedEx,Delayed,5,Express
+4231,4231,DHL,Returned,5,Overnight
+4232,4232,DHL,Delayed,9,Express
+4233,4233,FedEx,In Transit,3,Express
+4234,4234,USPS,In Transit,2,Overnight
+4235,4235,DHL,In Transit,11,Standard
+4236,4236,UPS,Delayed,1,Overnight
+4237,4237,FedEx,Delivered,8,Express
+4238,4238,UPS,In Transit,6,Standard
+4239,4239,USPS,Returned,7,Overnight
+4240,4240,FedEx,Delivered,5,Overnight
+4241,4241,DHL,In Transit,10,Overnight
+4242,4242,FedEx,Returned,11,Overnight
+4243,4243,UPS,Delayed,11,Overnight
+4244,4244,FedEx,Delayed,14,Standard
+4245,4245,FedEx,In Transit,1,Standard
+4246,4246,DHL,In Transit,2,Express
+4247,4247,UPS,Returned,12,Express
+4248,4248,DHL,Delayed,11,Express
+4249,4249,USPS,Delayed,2,Express
+4250,4250,DHL,Returned,2,Overnight
+4251,4251,FedEx,Delivered,1,Overnight
+4252,4252,USPS,Returned,3,Express
+4253,4253,DHL,Delivered,12,Overnight
+4254,4254,UPS,Delivered,14,Standard
+4255,4255,UPS,Returned,1,Overnight
+4256,4256,USPS,In Transit,11,Overnight
+4257,4257,USPS,In Transit,6,Express
+4258,4258,USPS,Delayed,4,Standard
+4259,4259,DHL,Returned,10,Standard
+4260,4260,UPS,In Transit,5,Express
+4261,4261,DHL,Delivered,13,Standard
+4262,4262,FedEx,In Transit,1,Express
+4263,4263,USPS,Returned,5,Express
+4264,4264,USPS,In Transit,7,Overnight
+4265,4265,UPS,In Transit,11,Standard
+4266,4266,UPS,Delayed,12,Overnight
+4267,4267,DHL,Delayed,4,Express
+4268,4268,FedEx,Delayed,8,Overnight
+4269,4269,UPS,In Transit,6,Overnight
+4270,4270,UPS,Delivered,12,Express
+4271,4271,DHL,Delivered,14,Overnight
+4272,4272,USPS,Returned,4,Overnight
+4273,4273,DHL,Delayed,10,Express
+4274,4274,UPS,Delivered,5,Express
+4275,4275,UPS,Delayed,11,Overnight
+4276,4276,USPS,Delivered,9,Standard
+4277,4277,USPS,Delivered,2,Express
+4278,4278,DHL,Returned,13,Overnight
+4279,4279,FedEx,Delivered,12,Overnight
+4280,4280,FedEx,Delayed,14,Standard
+4281,4281,USPS,Delivered,11,Express
+4282,4282,UPS,Returned,6,Express
+4283,4283,UPS,In Transit,1,Express
+4284,4284,USPS,Delivered,6,Overnight
+4285,4285,DHL,Returned,2,Overnight
+4286,4286,UPS,In Transit,2,Express
+4287,4287,FedEx,Delayed,9,Overnight
+4288,4288,FedEx,Delayed,9,Express
+4289,4289,UPS,Returned,10,Express
+4290,4290,FedEx,In Transit,9,Standard
+4291,4291,UPS,Delayed,10,Overnight
+4292,4292,DHL,Delayed,4,Express
+4293,4293,DHL,Delayed,13,Express
+4294,4294,FedEx,Delayed,11,Standard
+4295,4295,UPS,Delivered,12,Overnight
+4296,4296,DHL,Returned,2,Overnight
+4297,4297,UPS,Delayed,9,Standard
+4298,4298,FedEx,In Transit,1,Standard
+4299,4299,UPS,In Transit,3,Standard
+4300,4300,UPS,Delivered,1,Standard
+4301,4301,DHL,Delivered,13,Express
+4302,4302,DHL,Delivered,6,Express
+4303,4303,DHL,Delayed,4,Standard
+4304,4304,USPS,Delayed,2,Overnight
+4305,4305,UPS,Delayed,10,Overnight
+4306,4306,USPS,Delayed,3,Standard
+4307,4307,UPS,Delayed,7,Overnight
+4308,4308,USPS,Delivered,4,Standard
+4309,4309,FedEx,In Transit,6,Overnight
+4310,4310,DHL,Delayed,10,Overnight
+4311,4311,UPS,Delivered,1,Standard
+4312,4312,USPS,Returned,2,Express
+4313,4313,DHL,Delivered,8,Overnight
+4314,4314,UPS,In Transit,3,Express
+4315,4315,UPS,In Transit,11,Standard
+4316,4316,FedEx,Delivered,3,Express
+4317,4317,FedEx,In Transit,10,Overnight
+4318,4318,FedEx,Delivered,9,Standard
+4319,4319,FedEx,Returned,8,Overnight
+4320,4320,USPS,Returned,12,Overnight
+4321,4321,UPS,Returned,8,Overnight
+4322,4322,UPS,Delayed,3,Express
+4323,4323,UPS,Delayed,14,Standard
+4324,4324,DHL,In Transit,12,Express
+4325,4325,DHL,In Transit,8,Standard
+4326,4326,UPS,Returned,10,Overnight
+4327,4327,UPS,In Transit,8,Express
+4328,4328,DHL,In Transit,7,Standard
+4329,4329,USPS,Delivered,5,Standard
+4330,4330,DHL,In Transit,3,Overnight
+4331,4331,UPS,In Transit,9,Standard
+4332,4332,DHL,Delivered,3,Standard
+4333,4333,DHL,Returned,1,Express
+4334,4334,UPS,Delivered,12,Standard
+4335,4335,DHL,In Transit,10,Standard
+4336,4336,DHL,In Transit,12,Overnight
+4337,4337,DHL,Returned,7,Standard
+4338,4338,UPS,Delivered,9,Overnight
+4339,4339,USPS,Returned,9,Standard
+4340,4340,FedEx,Delayed,1,Express
+4341,4341,USPS,In Transit,8,Standard
+4342,4342,DHL,Delayed,13,Standard
+4343,4343,DHL,Delayed,9,Express
+4344,4344,DHL,Returned,8,Overnight
+4345,4345,USPS,In Transit,11,Express
+4346,4346,UPS,In Transit,9,Express
+4347,4347,DHL,Delayed,11,Express
+4348,4348,USPS,In Transit,7,Standard
+4349,4349,DHL,Delayed,13,Standard
+4350,4350,DHL,In Transit,9,Overnight
+4351,4351,USPS,Delivered,10,Standard
+4352,4352,DHL,Delayed,4,Overnight
+4353,4353,USPS,Delayed,14,Standard
+4354,4354,UPS,Returned,13,Standard
+4355,4355,DHL,Returned,11,Overnight
+4356,4356,UPS,Delayed,13,Express
+4357,4357,UPS,In Transit,12,Express
+4358,4358,UPS,Delayed,6,Standard
+4359,4359,UPS,Delivered,10,Express
+4360,4360,UPS,Delivered,1,Overnight
+4361,4361,USPS,In Transit,8,Standard
+4362,4362,FedEx,Delivered,14,Standard
+4363,4363,USPS,Delivered,3,Overnight
+4364,4364,USPS,In Transit,14,Express
+4365,4365,USPS,Delayed,9,Express
+4366,4366,DHL,In Transit,11,Express
+4367,4367,FedEx,Delayed,8,Standard
+4368,4368,FedEx,Delivered,4,Standard
+4369,4369,UPS,Delivered,1,Standard
+4370,4370,DHL,Delayed,4,Express
+4371,4371,DHL,In Transit,6,Express
+4372,4372,FedEx,Returned,1,Overnight
+4373,4373,DHL,In Transit,12,Standard
+4374,4374,FedEx,Delivered,13,Standard
+4375,4375,USPS,Returned,9,Overnight
+4376,4376,FedEx,Returned,14,Express
+4377,4377,UPS,Delayed,14,Express
+4378,4378,FedEx,Delivered,3,Overnight
+4379,4379,DHL,Delivered,13,Standard
+4380,4380,DHL,Delivered,13,Express
+4381,4381,UPS,Delayed,7,Express
+4382,4382,FedEx,Delayed,1,Express
+4383,4383,USPS,In Transit,3,Overnight
+4384,4384,USPS,Returned,14,Standard
+4385,4385,FedEx,In Transit,7,Overnight
+4386,4386,USPS,Delayed,4,Express
+4387,4387,FedEx,Delivered,2,Express
+4388,4388,DHL,Returned,14,Express
+4389,4389,UPS,Delivered,8,Overnight
+4390,4390,USPS,Delayed,11,Express
+4391,4391,UPS,Delivered,11,Overnight
+4392,4392,USPS,In Transit,10,Express
+4393,4393,UPS,In Transit,3,Standard
+4394,4394,DHL,Returned,3,Overnight
+4395,4395,USPS,Delivered,7,Standard
+4396,4396,USPS,Returned,7,Express
+4397,4397,USPS,Delayed,7,Express
+4398,4398,DHL,Returned,12,Standard
+4399,4399,DHL,In Transit,13,Standard
+4400,4400,USPS,Delivered,10,Standard
+4401,4401,DHL,Returned,10,Standard
+4402,4402,UPS,Delayed,14,Express
+4403,4403,FedEx,Delivered,6,Standard
+4404,4404,USPS,Delayed,4,Express
+4405,4405,USPS,Delayed,2,Standard
+4406,4406,USPS,Delivered,7,Standard
+4407,4407,UPS,In Transit,13,Overnight
+4408,4408,USPS,In Transit,12,Overnight
+4409,4409,UPS,Returned,4,Standard
+4410,4410,UPS,Delivered,6,Overnight
+4411,4411,DHL,Delivered,2,Standard
+4412,4412,USPS,In Transit,12,Standard
+4413,4413,FedEx,Returned,12,Standard
+4414,4414,FedEx,Delayed,9,Express
+4415,4415,USPS,In Transit,11,Express
+4416,4416,UPS,Returned,14,Express
+4417,4417,USPS,Delivered,4,Overnight
+4418,4418,DHL,Delayed,13,Express
+4419,4419,DHL,Delivered,10,Overnight
+4420,4420,DHL,Returned,3,Overnight
+4421,4421,FedEx,In Transit,3,Express
+4422,4422,DHL,Returned,1,Express
+4423,4423,DHL,Returned,13,Overnight
+4424,4424,UPS,In Transit,5,Standard
+4425,4425,FedEx,In Transit,5,Overnight
+4426,4426,USPS,Delivered,10,Overnight
+4427,4427,USPS,In Transit,1,Overnight
+4428,4428,DHL,Returned,12,Standard
+4429,4429,USPS,Returned,14,Express
+4430,4430,FedEx,Returned,7,Express
+4431,4431,USPS,Returned,8,Standard
+4432,4432,DHL,Returned,2,Overnight
+4433,4433,DHL,Returned,9,Standard
+4434,4434,FedEx,Delivered,13,Standard
+4435,4435,UPS,In Transit,9,Overnight
+4436,4436,UPS,In Transit,14,Standard
+4437,4437,UPS,Delivered,4,Standard
+4438,4438,UPS,Delayed,11,Overnight
+4439,4439,USPS,Returned,12,Standard
+4440,4440,DHL,In Transit,3,Express
+4441,4441,DHL,Delayed,5,Standard
+4442,4442,USPS,In Transit,1,Overnight
+4443,4443,FedEx,Delivered,2,Overnight
+4444,4444,USPS,Delayed,9,Overnight
+4445,4445,USPS,Returned,11,Standard
+4446,4446,UPS,Returned,13,Standard
+4447,4447,UPS,Delivered,9,Express
+4448,4448,UPS,Returned,11,Overnight
+4449,4449,DHL,In Transit,11,Standard
+4450,4450,FedEx,Delayed,9,Standard
+4451,4451,DHL,Returned,13,Overnight
+4452,4452,FedEx,Returned,11,Standard
+4453,4453,USPS,In Transit,7,Express
+4454,4454,UPS,Delivered,8,Standard
+4455,4455,DHL,Returned,8,Standard
+4456,4456,FedEx,Returned,5,Standard
+4457,4457,FedEx,Delivered,2,Standard
+4458,4458,DHL,In Transit,10,Standard
+4459,4459,USPS,Delivered,6,Overnight
+4460,4460,USPS,Delayed,2,Express
+4461,4461,USPS,In Transit,14,Overnight
+4462,4462,DHL,Returned,6,Overnight
+4463,4463,DHL,In Transit,6,Standard
+4464,4464,UPS,Returned,12,Overnight
+4465,4465,UPS,Delivered,7,Express
+4466,4466,USPS,In Transit,11,Express
+4467,4467,UPS,Returned,11,Standard
+4468,4468,UPS,Delivered,7,Express
+4469,4469,DHL,Delivered,13,Standard
+4470,4470,FedEx,Delayed,5,Express
+4471,4471,FedEx,In Transit,14,Standard
+4472,4472,FedEx,Delivered,3,Overnight
+4473,4473,FedEx,Returned,9,Express
+4474,4474,FedEx,Delayed,8,Overnight
+4475,4475,FedEx,Delivered,10,Express
+4476,4476,USPS,Delivered,8,Express
+4477,4477,USPS,Delayed,11,Express
+4478,4478,UPS,Delayed,6,Express
+4479,4479,UPS,Delayed,12,Overnight
+4480,4480,FedEx,Delayed,14,Express
+4481,4481,DHL,Delivered,9,Overnight
+4482,4482,UPS,Returned,4,Standard
+4483,4483,DHL,Delivered,14,Standard
+4484,4484,UPS,Delayed,6,Express
+4485,4485,UPS,Delivered,8,Standard
+4486,4486,DHL,In Transit,11,Express
+4487,4487,USPS,In Transit,7,Overnight
+4488,4488,DHL,Returned,6,Express
+4489,4489,FedEx,Returned,10,Express
+4490,4490,FedEx,Delayed,10,Express
+4491,4491,FedEx,Delivered,14,Overnight
+4492,4492,UPS,Delivered,12,Express
+4493,4493,USPS,Delivered,7,Overnight
+4494,4494,FedEx,Delayed,11,Overnight
+4495,4495,DHL,In Transit,14,Express
+4496,4496,FedEx,Returned,6,Overnight
+4497,4497,DHL,In Transit,4,Overnight
+4498,4498,FedEx,Delivered,14,Overnight
+4499,4499,DHL,Returned,5,Overnight
+4500,4500,USPS,In Transit,9,Express
+4501,4501,UPS,Returned,9,Express
+4502,4502,USPS,Delayed,3,Express
+4503,4503,UPS,Delayed,4,Overnight
+4504,4504,USPS,Delayed,1,Express
+4505,4505,DHL,In Transit,7,Express
+4506,4506,FedEx,In Transit,6,Express
+4507,4507,DHL,In Transit,14,Express
+4508,4508,USPS,In Transit,12,Overnight
+4509,4509,FedEx,In Transit,4,Overnight
+4510,4510,UPS,In Transit,5,Express
+4511,4511,FedEx,Delivered,4,Standard
+4512,4512,DHL,Delivered,14,Overnight
+4513,4513,UPS,Returned,7,Standard
+4514,4514,UPS,Delayed,9,Express
+4515,4515,DHL,In Transit,1,Standard
+4516,4516,DHL,In Transit,9,Standard
+4517,4517,DHL,Delayed,11,Standard
+4518,4518,UPS,Delayed,13,Overnight
+4519,4519,DHL,Delivered,7,Overnight
+4520,4520,UPS,In Transit,10,Overnight
+4521,4521,USPS,In Transit,2,Standard
+4522,4522,FedEx,In Transit,7,Overnight
+4523,4523,UPS,Delivered,4,Express
+4524,4524,UPS,In Transit,9,Overnight
+4525,4525,UPS,Delivered,11,Express
+4526,4526,UPS,Returned,14,Express
+4527,4527,USPS,In Transit,3,Overnight
+4528,4528,FedEx,In Transit,4,Express
+4529,4529,DHL,Delivered,4,Express
+4530,4530,USPS,Delayed,2,Overnight
+4531,4531,UPS,Delivered,5,Standard
+4532,4532,UPS,Returned,6,Overnight
+4533,4533,UPS,Returned,13,Express
+4534,4534,DHL,Delivered,2,Overnight
+4535,4535,FedEx,Delayed,13,Overnight
+4536,4536,USPS,Delayed,1,Standard
+4537,4537,DHL,Delivered,11,Standard
+4538,4538,UPS,Delivered,11,Standard
+4539,4539,DHL,Delivered,9,Overnight
+4540,4540,UPS,Delayed,5,Standard
+4541,4541,USPS,Returned,5,Express
+4542,4542,FedEx,Delayed,5,Standard
+4543,4543,DHL,Delayed,9,Overnight
+4544,4544,USPS,Returned,2,Standard
+4545,4545,DHL,Delivered,7,Standard
+4546,4546,USPS,Delivered,3,Overnight
+4547,4547,UPS,In Transit,1,Express
+4548,4548,FedEx,Returned,9,Overnight
+4549,4549,USPS,Delivered,7,Standard
+4550,4550,FedEx,In Transit,8,Standard
+4551,4551,UPS,In Transit,12,Overnight
+4552,4552,USPS,Delayed,14,Overnight
+4553,4553,USPS,Delayed,5,Standard
+4554,4554,UPS,In Transit,9,Standard
+4555,4555,USPS,In Transit,13,Overnight
+4556,4556,DHL,Delayed,3,Standard
+4557,4557,UPS,In Transit,10,Express
+4558,4558,FedEx,Returned,10,Express
+4559,4559,UPS,Delayed,14,Express
+4560,4560,DHL,Delayed,11,Overnight
+4561,4561,UPS,Delayed,13,Overnight
+4562,4562,UPS,Delivered,14,Standard
+4563,4563,FedEx,Returned,6,Overnight
+4564,4564,FedEx,Returned,2,Express
+4565,4565,DHL,Delivered,6,Express
+4566,4566,USPS,In Transit,13,Standard
+4567,4567,USPS,Delivered,3,Express
+4568,4568,FedEx,Delivered,7,Standard
+4569,4569,USPS,Delayed,4,Overnight
+4570,4570,UPS,Delivered,2,Standard
+4571,4571,USPS,In Transit,10,Express
+4572,4572,UPS,Returned,7,Standard
+4573,4573,DHL,In Transit,2,Standard
+4574,4574,FedEx,Delayed,2,Overnight
+4575,4575,USPS,Delivered,4,Standard
+4576,4576,USPS,Delivered,11,Express
+4577,4577,DHL,In Transit,2,Standard
+4578,4578,FedEx,Returned,13,Express
+4579,4579,FedEx,Delivered,12,Overnight
+4580,4580,FedEx,Delayed,9,Standard
+4581,4581,USPS,Delayed,9,Standard
+4582,4582,UPS,Delivered,2,Standard
+4583,4583,FedEx,Delayed,7,Overnight
+4584,4584,UPS,Returned,8,Express
+4585,4585,USPS,Delivered,11,Overnight
+4586,4586,UPS,Delayed,8,Express
+4587,4587,UPS,Delayed,14,Standard
+4588,4588,UPS,Delayed,10,Express
+4589,4589,FedEx,Delayed,1,Overnight
+4590,4590,UPS,Returned,2,Standard
+4591,4591,DHL,Returned,13,Overnight
+4592,4592,USPS,Delivered,10,Standard
+4593,4593,FedEx,Delayed,11,Express
+4594,4594,UPS,Returned,3,Overnight
+4595,4595,FedEx,In Transit,12,Standard
+4596,4596,UPS,Returned,12,Express
+4597,4597,UPS,Delivered,1,Express
+4598,4598,DHL,Delivered,8,Overnight
+4599,4599,USPS,In Transit,1,Express
+4600,4600,DHL,In Transit,7,Standard
+4601,4601,FedEx,Delivered,11,Express
+4602,4602,UPS,Delivered,8,Express
+4603,4603,DHL,In Transit,5,Overnight
+4604,4604,UPS,In Transit,5,Standard
+4605,4605,DHL,Delayed,5,Standard
+4606,4606,UPS,Delivered,14,Standard
+4607,4607,USPS,Returned,1,Overnight
+4608,4608,FedEx,Delivered,9,Express
+4609,4609,UPS,In Transit,10,Overnight
+4610,4610,DHL,Returned,8,Standard
+4611,4611,DHL,Delivered,3,Express
+4612,4612,UPS,Delivered,1,Overnight
+4613,4613,UPS,Returned,6,Express
+4614,4614,DHL,Delayed,2,Standard
+4615,4615,UPS,In Transit,13,Express
+4616,4616,DHL,Delivered,5,Express
+4617,4617,UPS,Returned,10,Standard
+4618,4618,DHL,In Transit,4,Standard
+4619,4619,FedEx,Delivered,13,Express
+4620,4620,FedEx,Delivered,4,Express
+4621,4621,DHL,Delivered,11,Express
+4622,4622,UPS,Delayed,2,Overnight
+4623,4623,UPS,Delayed,14,Overnight
+4624,4624,UPS,Returned,5,Standard
+4625,4625,DHL,Delayed,5,Standard
+4626,4626,UPS,In Transit,4,Standard
+4627,4627,UPS,In Transit,3,Standard
+4628,4628,USPS,Returned,4,Overnight
+4629,4629,DHL,Delayed,4,Overnight
+4630,4630,UPS,Returned,6,Standard
+4631,4631,FedEx,Returned,3,Overnight
+4632,4632,USPS,Returned,5,Express
+4633,4633,FedEx,Delivered,4,Express
+4634,4634,DHL,Returned,5,Standard
+4635,4635,FedEx,In Transit,10,Express
+4636,4636,FedEx,In Transit,8,Overnight
+4637,4637,DHL,In Transit,7,Express
+4638,4638,USPS,Delivered,11,Standard
+4639,4639,USPS,In Transit,7,Express
+4640,4640,DHL,Returned,13,Standard
+4641,4641,FedEx,Returned,13,Standard
+4642,4642,FedEx,Returned,6,Overnight
+4643,4643,DHL,Delayed,1,Express
+4644,4644,USPS,Returned,12,Overnight
+4645,4645,FedEx,Returned,3,Standard
+4646,4646,DHL,Delayed,6,Overnight
+4647,4647,USPS,Returned,9,Standard
+4648,4648,USPS,In Transit,9,Express
+4649,4649,DHL,Returned,3,Standard
+4650,4650,DHL,Delivered,14,Express
+4651,4651,USPS,Returned,14,Overnight
+4652,4652,FedEx,Returned,5,Standard
+4653,4653,DHL,In Transit,7,Overnight
+4654,4654,DHL,Delivered,2,Overnight
+4655,4655,USPS,In Transit,10,Overnight
+4656,4656,FedEx,Delivered,6,Express
+4657,4657,FedEx,Delayed,13,Overnight
+4658,4658,DHL,In Transit,14,Express
+4659,4659,UPS,In Transit,8,Standard
+4660,4660,UPS,Delayed,13,Overnight
+4661,4661,UPS,In Transit,1,Standard
+4662,4662,FedEx,In Transit,1,Standard
+4663,4663,USPS,Delivered,4,Express
+4664,4664,DHL,In Transit,12,Overnight
+4665,4665,USPS,In Transit,2,Standard
+4666,4666,UPS,In Transit,7,Express
+4667,4667,FedEx,Returned,3,Standard
+4668,4668,USPS,In Transit,13,Overnight
+4669,4669,USPS,Delayed,12,Standard
+4670,4670,DHL,Delivered,3,Standard
+4671,4671,DHL,Delivered,10,Overnight
+4672,4672,USPS,Returned,1,Standard
+4673,4673,FedEx,Returned,9,Standard
+4674,4674,DHL,In Transit,7,Overnight
+4675,4675,FedEx,Delayed,9,Standard
+4676,4676,FedEx,Returned,1,Standard
+4677,4677,DHL,In Transit,7,Express
+4678,4678,UPS,Delayed,7,Overnight
+4679,4679,USPS,In Transit,3,Standard
+4680,4680,UPS,Returned,5,Express
+4681,4681,FedEx,Delayed,11,Express
+4682,4682,USPS,Delivered,11,Express
+4683,4683,USPS,Delayed,12,Express
+4684,4684,USPS,Delayed,3,Express
+4685,4685,FedEx,Returned,6,Express
+4686,4686,USPS,In Transit,5,Express
+4687,4687,FedEx,In Transit,2,Standard
+4688,4688,UPS,Returned,11,Express
+4689,4689,USPS,Returned,13,Overnight
+4690,4690,FedEx,In Transit,11,Express
+4691,4691,USPS,In Transit,14,Standard
+4692,4692,DHL,Returned,4,Overnight
+4693,4693,USPS,Returned,3,Overnight
+4694,4694,DHL,Delivered,10,Standard
+4695,4695,DHL,Delayed,12,Standard
+4696,4696,USPS,In Transit,3,Standard
+4697,4697,DHL,In Transit,9,Express
+4698,4698,FedEx,In Transit,8,Standard
+4699,4699,DHL,Delivered,2,Overnight
+4700,4700,USPS,In Transit,1,Express
+4701,4701,USPS,Delayed,7,Overnight
+4702,4702,UPS,Returned,12,Standard
+4703,4703,FedEx,In Transit,3,Overnight
+4704,4704,USPS,Delivered,8,Express
+4705,4705,UPS,Delayed,13,Overnight
+4706,4706,UPS,Returned,8,Express
+4707,4707,UPS,Delivered,8,Standard
+4708,4708,FedEx,Returned,4,Express
+4709,4709,DHL,In Transit,8,Standard
+4710,4710,FedEx,Delivered,5,Express
+4711,4711,FedEx,Delivered,14,Standard
+4712,4712,UPS,Returned,2,Overnight
+4713,4713,UPS,Delivered,9,Overnight
+4714,4714,USPS,Delivered,9,Overnight
+4715,4715,USPS,In Transit,10,Express
+4716,4716,DHL,Delivered,6,Express
+4717,4717,USPS,Returned,10,Standard
+4718,4718,UPS,Returned,2,Standard
+4719,4719,UPS,Delivered,12,Express
+4720,4720,FedEx,Delivered,6,Express
+4721,4721,FedEx,Returned,10,Express
+4722,4722,USPS,Delayed,5,Overnight
+4723,4723,FedEx,Returned,12,Standard
+4724,4724,UPS,Returned,14,Express
+4725,4725,USPS,Delivered,1,Overnight
+4726,4726,FedEx,Delayed,12,Standard
+4727,4727,USPS,Returned,9,Overnight
+4728,4728,DHL,In Transit,14,Standard
+4729,4729,FedEx,Delivered,9,Standard
+4730,4730,USPS,In Transit,10,Express
+4731,4731,DHL,Returned,3,Standard
+4732,4732,UPS,Delayed,10,Overnight
+4733,4733,FedEx,Delayed,1,Standard
+4734,4734,USPS,In Transit,11,Express
+4735,4735,UPS,Delivered,8,Express
+4736,4736,FedEx,Delayed,13,Express
+4737,4737,FedEx,Delivered,14,Express
+4738,4738,DHL,Delayed,9,Express
+4739,4739,UPS,Delayed,2,Overnight
+4740,4740,USPS,Delivered,4,Express
+4741,4741,DHL,Delayed,6,Standard
+4742,4742,DHL,Delivered,7,Standard
+4743,4743,USPS,Delivered,14,Overnight
+4744,4744,USPS,Delayed,10,Standard
+4745,4745,UPS,Delayed,5,Express
+4746,4746,FedEx,Delivered,11,Overnight
+4747,4747,DHL,Delivered,8,Express
+4748,4748,DHL,Delivered,8,Express
+4749,4749,USPS,In Transit,10,Standard
+4750,4750,UPS,Returned,13,Standard
+4751,4751,DHL,In Transit,1,Standard
+4752,4752,UPS,Delayed,5,Overnight
+4753,4753,USPS,Delivered,5,Overnight
+4754,4754,UPS,Delayed,2,Express
+4755,4755,FedEx,Delayed,14,Standard
+4756,4756,UPS,Delivered,4,Express
+4757,4757,USPS,Delivered,8,Overnight
+4758,4758,USPS,In Transit,5,Overnight
+4759,4759,USPS,Returned,3,Express
+4760,4760,FedEx,In Transit,8,Express
+4761,4761,FedEx,Delayed,8,Express
+4762,4762,UPS,Returned,14,Standard
+4763,4763,UPS,Delivered,7,Express
+4764,4764,USPS,Returned,11,Standard
+4765,4765,DHL,Delayed,3,Express
+4766,4766,FedEx,In Transit,4,Standard
+4767,4767,UPS,Delivered,2,Standard
+4768,4768,UPS,Delivered,12,Standard
+4769,4769,UPS,Delayed,3,Standard
+4770,4770,DHL,Delayed,5,Standard
+4771,4771,UPS,Delivered,11,Overnight
+4772,4772,UPS,Delivered,6,Express
+4773,4773,FedEx,In Transit,8,Overnight
+4774,4774,UPS,Delivered,12,Express
+4775,4775,DHL,In Transit,2,Overnight
+4776,4776,FedEx,In Transit,10,Standard
+4777,4777,FedEx,Delayed,5,Overnight
+4778,4778,DHL,Returned,11,Express
+4779,4779,UPS,Delivered,9,Standard
+4780,4780,UPS,In Transit,13,Express
+4781,4781,UPS,Delivered,7,Overnight
+4782,4782,DHL,In Transit,2,Express
+4783,4783,FedEx,Delivered,10,Standard
+4784,4784,USPS,In Transit,5,Standard
+4785,4785,FedEx,In Transit,4,Overnight
+4786,4786,DHL,Delayed,8,Standard
+4787,4787,DHL,In Transit,8,Standard
+4788,4788,FedEx,Returned,3,Standard
+4789,4789,FedEx,In Transit,12,Overnight
+4790,4790,FedEx,Delivered,12,Overnight
+4791,4791,USPS,In Transit,9,Standard
+4792,4792,USPS,Delivered,7,Overnight
+4793,4793,USPS,Delayed,5,Express
+4794,4794,UPS,In Transit,9,Express
+4795,4795,DHL,Delivered,1,Standard
+4796,4796,UPS,In Transit,11,Standard
+4797,4797,UPS,In Transit,12,Express
+4798,4798,USPS,In Transit,3,Standard
+4799,4799,UPS,Returned,7,Standard
+4800,4800,DHL,Delivered,14,Express
+4801,4801,UPS,Delivered,5,Overnight
+4802,4802,USPS,Returned,10,Overnight
+4803,4803,USPS,Returned,10,Express
+4804,4804,DHL,In Transit,2,Overnight
+4805,4805,USPS,In Transit,11,Express
+4806,4806,UPS,In Transit,10,Overnight
+4807,4807,USPS,Delivered,14,Standard
+4808,4808,FedEx,Delivered,12,Express
+4809,4809,UPS,Delivered,8,Standard
+4810,4810,USPS,In Transit,9,Overnight
+4811,4811,FedEx,Returned,11,Overnight
+4812,4812,UPS,Delayed,11,Standard
+4813,4813,DHL,Delayed,1,Standard
+4814,4814,USPS,Delivered,8,Standard
+4815,4815,FedEx,Delivered,5,Overnight
+4816,4816,FedEx,Returned,9,Standard
+4817,4817,DHL,In Transit,3,Standard
+4818,4818,USPS,Delayed,8,Overnight
+4819,4819,USPS,Delivered,13,Express
+4820,4820,FedEx,Delayed,13,Standard
+4821,4821,UPS,In Transit,10,Overnight
+4822,4822,USPS,In Transit,12,Standard
+4823,4823,FedEx,Delivered,7,Overnight
+4824,4824,UPS,In Transit,7,Standard
+4825,4825,UPS,Delivered,13,Overnight
+4826,4826,DHL,Delivered,4,Express
+4827,4827,DHL,In Transit,2,Standard
+4828,4828,FedEx,Delivered,9,Overnight
+4829,4829,DHL,Delayed,6,Overnight
+4830,4830,FedEx,Delayed,2,Express
+4831,4831,UPS,Delayed,7,Overnight
+4832,4832,USPS,Returned,2,Express
+4833,4833,UPS,In Transit,2,Overnight
+4834,4834,UPS,In Transit,7,Express
+4835,4835,FedEx,Delayed,2,Express
+4836,4836,UPS,Delivered,10,Overnight
+4837,4837,FedEx,In Transit,9,Express
+4838,4838,USPS,Delivered,1,Express
+4839,4839,FedEx,Returned,10,Standard
+4840,4840,UPS,Delivered,5,Express
+4841,4841,UPS,Delayed,7,Overnight
+4842,4842,FedEx,Delivered,4,Standard
+4843,4843,USPS,Returned,11,Express
+4844,4844,USPS,Delayed,5,Overnight
+4845,4845,UPS,Returned,13,Overnight
+4846,4846,FedEx,Returned,7,Overnight
+4847,4847,FedEx,Delivered,13,Express
+4848,4848,UPS,Delayed,6,Express
+4849,4849,DHL,Delayed,10,Standard
+4850,4850,DHL,Delivered,12,Overnight
+4851,4851,FedEx,In Transit,1,Express
+4852,4852,UPS,Delayed,12,Overnight
+4853,4853,USPS,Delayed,11,Overnight
+4854,4854,USPS,Delayed,14,Overnight
+4855,4855,USPS,Delayed,6,Express
+4856,4856,UPS,In Transit,1,Standard
+4857,4857,UPS,In Transit,5,Overnight
+4858,4858,USPS,In Transit,1,Standard
+4859,4859,FedEx,In Transit,3,Overnight
+4860,4860,FedEx,Delivered,3,Standard
+4861,4861,FedEx,In Transit,6,Express
+4862,4862,DHL,Returned,2,Express
+4863,4863,UPS,In Transit,4,Standard
+4864,4864,USPS,Delayed,2,Overnight
+4865,4865,USPS,Returned,9,Overnight
+4866,4866,DHL,Delivered,5,Overnight
+4867,4867,DHL,In Transit,10,Standard
+4868,4868,FedEx,In Transit,1,Express
+4869,4869,DHL,Delayed,6,Express
+4870,4870,FedEx,Delayed,10,Express
+4871,4871,DHL,In Transit,5,Overnight
+4872,4872,UPS,In Transit,10,Overnight
+4873,4873,USPS,Delayed,10,Express
+4874,4874,DHL,Delivered,10,Standard
+4875,4875,FedEx,Delivered,13,Standard
+4876,4876,USPS,Delayed,5,Express
+4877,4877,DHL,Delayed,9,Standard
+4878,4878,UPS,Delayed,13,Express
+4879,4879,DHL,Delayed,12,Express
+4880,4880,USPS,Delivered,13,Overnight
+4881,4881,UPS,Returned,6,Standard
+4882,4882,UPS,Delayed,12,Standard
+4883,4883,DHL,Delayed,2,Express
+4884,4884,UPS,In Transit,9,Standard
+4885,4885,DHL,Delivered,5,Standard
+4886,4886,USPS,Returned,13,Overnight
+4887,4887,UPS,Returned,1,Standard
+4888,4888,DHL,In Transit,5,Overnight
+4889,4889,FedEx,In Transit,8,Overnight
+4890,4890,FedEx,In Transit,9,Overnight
+4891,4891,FedEx,Delivered,5,Standard
+4892,4892,USPS,Delayed,11,Overnight
+4893,4893,DHL,Delivered,3,Overnight
+4894,4894,DHL,In Transit,13,Standard
+4895,4895,UPS,Returned,1,Standard
+4896,4896,UPS,In Transit,9,Express
+4897,4897,USPS,Delivered,13,Standard
+4898,4898,UPS,Returned,10,Overnight
+4899,4899,UPS,In Transit,10,Standard
+4900,4900,FedEx,Returned,11,Express
+4901,4901,USPS,In Transit,2,Standard
+4902,4902,USPS,Returned,2,Express
+4903,4903,USPS,In Transit,12,Overnight
+4904,4904,DHL,Returned,2,Standard
+4905,4905,USPS,Delayed,9,Express
+4906,4906,DHL,Delivered,5,Standard
+4907,4907,USPS,In Transit,3,Overnight
+4908,4908,UPS,In Transit,2,Overnight
+4909,4909,FedEx,Delivered,2,Standard
+4910,4910,UPS,Delivered,6,Standard
+4911,4911,USPS,Delivered,10,Overnight
+4912,4912,DHL,Delivered,3,Overnight
+4913,4913,FedEx,Returned,13,Standard
+4914,4914,DHL,Delivered,11,Express
+4915,4915,UPS,Delivered,6,Express
+4916,4916,USPS,Delivered,12,Express
+4917,4917,UPS,Delayed,13,Express
+4918,4918,DHL,Delayed,13,Standard
+4919,4919,UPS,Returned,5,Standard
+4920,4920,DHL,Delivered,9,Overnight
+4921,4921,USPS,In Transit,13,Overnight
+4922,4922,UPS,Delivered,9,Express
+4923,4923,UPS,In Transit,5,Standard
+4924,4924,FedEx,Returned,13,Standard
+4925,4925,UPS,Delivered,8,Express
+4926,4926,UPS,In Transit,6,Express
+4927,4927,USPS,Delayed,6,Standard
+4928,4928,USPS,Delivered,9,Express
+4929,4929,FedEx,Delayed,5,Overnight
+4930,4930,DHL,Returned,10,Overnight
+4931,4931,FedEx,Returned,7,Express
+4932,4932,FedEx,Delivered,10,Standard
+4933,4933,FedEx,Returned,3,Express
+4934,4934,UPS,In Transit,4,Express
+4935,4935,FedEx,Returned,12,Express
+4936,4936,DHL,Delayed,2,Express
+4937,4937,DHL,Delayed,6,Standard
+4938,4938,FedEx,In Transit,5,Express
+4939,4939,UPS,Returned,2,Overnight
+4940,4940,UPS,In Transit,2,Overnight
+4941,4941,DHL,In Transit,7,Overnight
+4942,4942,DHL,Returned,2,Express
+4943,4943,DHL,In Transit,3,Standard
+4944,4944,FedEx,Delivered,13,Express
+4945,4945,USPS,Returned,9,Standard
+4946,4946,UPS,Returned,10,Overnight
+4947,4947,USPS,In Transit,11,Standard
+4948,4948,DHL,Delivered,10,Express
+4949,4949,DHL,Returned,14,Standard
+4950,4950,FedEx,Delayed,10,Express
+4951,4951,UPS,Returned,13,Standard
+4952,4952,UPS,Delivered,10,Standard
+4953,4953,DHL,In Transit,1,Express
+4954,4954,UPS,Returned,4,Standard
+4955,4955,UPS,Delivered,7,Express
+4956,4956,FedEx,Delivered,5,Overnight
+4957,4957,UPS,In Transit,10,Overnight
+4958,4958,UPS,Returned,11,Express
+4959,4959,DHL,Delivered,9,Overnight
+4960,4960,FedEx,Delivered,4,Overnight
+4961,4961,USPS,In Transit,1,Standard
+4962,4962,USPS,In Transit,3,Standard
+4963,4963,USPS,Returned,10,Overnight
+4964,4964,UPS,Returned,4,Express
+4965,4965,UPS,Delivered,4,Standard
+4966,4966,DHL,Returned,3,Standard
+4967,4967,UPS,Delivered,6,Standard
+4968,4968,DHL,In Transit,2,Standard
+4969,4969,DHL,In Transit,6,Overnight
+4970,4970,USPS,Delayed,12,Standard
+4971,4971,DHL,Delivered,6,Standard
+4972,4972,USPS,Delayed,10,Overnight
+4973,4973,UPS,In Transit,6,Overnight
+4974,4974,UPS,Returned,6,Standard
+4975,4975,UPS,Returned,9,Standard
+4976,4976,UPS,In Transit,5,Standard
+4977,4977,FedEx,Delivered,8,Standard
+4978,4978,DHL,Delivered,6,Standard
+4979,4979,DHL,Delivered,9,Standard
+4980,4980,FedEx,Delivered,3,Standard
+4981,4981,USPS,Returned,6,Overnight
+4982,4982,FedEx,Returned,5,Overnight
+4983,4983,USPS,Delivered,12,Overnight
+4984,4984,UPS,Returned,1,Express
+4985,4985,UPS,In Transit,2,Standard
+4986,4986,USPS,In Transit,7,Overnight
+4987,4987,FedEx,In Transit,11,Express
+4988,4988,DHL,Delivered,8,Express
+4989,4989,UPS,Returned,3,Overnight
+4990,4990,DHL,Returned,7,Overnight
+4991,4991,DHL,Returned,12,Standard
+4992,4992,UPS,Delivered,11,Standard
+4993,4993,USPS,In Transit,1,Overnight
+4994,4994,DHL,Delivered,7,Overnight
+4995,4995,FedEx,Delivered,3,Express
+4996,4996,UPS,Delivered,7,Express
+4997,4997,FedEx,Returned,2,Standard
+4998,4998,FedEx,Delivered,14,Standard
+4999,4999,DHL,Returned,11,Standard
+5000,5000,UPS,Delivered,2,Standard

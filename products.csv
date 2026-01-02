@@ -1,0 +1,101 @@
+product_id,product_name,category,brand,unit_price,stock_quantity,warehouse_id
+1,Draw Product,Clothing,"Mcmillan, Perez and Romero",66.31,368,1
+2,Let Product,Beauty,Peterson Ltd,151.22,834,3
+3,Organization Product,Clothing,Smith Group,141.98,804,3
+4,Third Product,Books,Bass-Conway,433.13,525,5
+5,Food Product,Home,Stephens-Townsend,365.89,948,2
+6,Rate Product,Beauty,Thompson PLC,112.38,329,1
+7,Positive Product,Books,Sosa and Sons,73.86,582,9
+8,Recent Product,Clothing,Wright-Hobbs,292.88,453,5
+9,Soon Product,Electronics,Koch PLC,345.76,524,7
+10,Understand Product,Clothing,Ruiz Inc,117.71,956,1
+11,Main Product,Beauty,"Grant, Christian and Conley",469.93,750,1
+12,Rich Product,Beauty,"Ellis, Mccormick and Merritt",139.09,184,1
+13,Real Product,Clothing,Scott-Harrell,417.73,50,3
+14,Sort Product,Home,Harris Group,228.94,467,4
+15,Understand Product,Clothing,Smith and Sons,164.86,912,4
+16,Series Product,Beauty,"Walker, Hayes and Zuniga",429.92,305,1
+17,Economic Product,Books,Doyle-Mack,486.51,228,5
+18,Door Product,Beauty,"Rogers, Bowman and Johnson",244.86,330,9
+19,Produce Product,Home,"Harris, Watson and Gonzales",279.35,215,8
+20,Medical Product,Home,"Lam, Morrison and Robertson",160.72,490,7
+21,State Product,Clothing,"Orozco, Norton and Fernandez",312.71,329,1
+22,Environmental Product,Electronics,Hicks-Harrington,133.13,760,9
+23,Research Product,Home,Stone-Morgan,335.89,578,2
+24,Me Product,Beauty,Rogers-Butler,456.07,880,10
+25,Force Product,Home,Lopez Inc,271.84,494,6
+26,Every Product,Home,Harrell Ltd,450.81,42,10
+27,Weight Product,Books,James PLC,395.96,842,4
+28,Drug Product,Electronics,Haynes PLC,40.36,350,3
+29,Especially Product,Books,"Clark, Taylor and Walter",439.98,727,10
+30,Leader Product,Books,Hill-Contreras,373.03,598,4
+31,Of Product,Beauty,"Love, Craig and Moreno",237.67,502,2
+32,Year Product,Books,Barnett Inc,244.82,361,2
+33,In Product,Home,Porter PLC,392.41,256,8
+34,Suggest Product,Beauty,"Baxter, Marshall and Smith",178.17,627,6
+35,Table Product,Beauty,Benjamin and Sons,151.89,918,1
+36,Upon Product,Beauty,"Williams, Murray and French",291.85,675,6
+37,Expert Product,Electronics,Ortega-Mayer,17.87,309,3
+38,Must Product,Books,Morris and Sons,214.36,455,7
+39,Party Product,Beauty,"Huff, Castro and Pratt",33.3,586,3
+40,Apply Product,Home,Gibbs Inc,76.75,657,4
+41,Edge Product,Electronics,Schmidt Inc,394.71,713,4
+42,During Product,Home,Diaz LLC,315.73,331,8
+43,Recent Product,Electronics,"Neal, Hill and Wagner",109.9,544,9
+44,Enter Product,Home,Garcia-Edwards,434.26,540,5
+45,Whole Product,Beauty,Rodriguez Ltd,276.72,762,9
+46,Today Product,Electronics,Downs LLC,134.52,106,8
+47,Imagine Product,Electronics,Black-Mueller,246.4,94,1
+48,Best Product,Clothing,Morgan-Fleming,181.01,575,8
+49,Thousand Product,Books,Anderson-Green,313.44,139,9
+50,Point Product,Clothing,Tucker Inc,498.87,639,7
+51,Herself Product,Books,Phillips-Travis,332.89,258,9
+52,Play Product,Clothing,"Cook, Smith and Berry",213.28,588,5
+53,Something Product,Home,"Jordan, Montoya and Vargas",283.9,748,7
+54,Threat Product,Books,Frazier-Hardy,278.37,934,4
+55,Practice Product,Home,"Alvarado, Hall and Waters",345.23,483,10
+56,Moment Product,Home,Mcconnell and Sons,352.41,279,5
+57,Recent Product,Clothing,Mcbride and Sons,274.26,90,10
+58,Really Product,Books,"Buck, Wood and Wolf",239.76,76,2
+59,Anyone Product,Clothing,"Hall, Davis and Allen",292.84,184,7
+60,Answer Product,Home,"Jones, Clark and Edwards",136.19,203,5
+61,Scene Product,Clothing,Jensen LLC,210.39,853,1
+62,Ago Product,Electronics,"Frost, Davis and Tanner",67.94,909,1
+63,Particular Product,Beauty,Hughes Group,224.13,875,2
+64,Wrong Product,Home,"Dixon, Jordan and Flowers",327.19,663,1
+65,Realize Product,Books,"Marshall, Hunter and Jackson",235.45,338,2
+66,Company Product,Beauty,Goodman-Reyes,274.62,183,3
+67,It Product,Clothing,Montgomery LLC,432.2,221,1
+68,Turn Product,Electronics,West-Walker,294.36,844,5
+69,Product Product,Beauty,"Johnson, Martin and Payne",19.0,565,3
+70,Citizen Product,Books,Lewis-Evans,394.91,897,1
+71,Assume Product,Books,Myers Group,158.76,262,10
+72,Hour Product,Beauty,Mendez and Sons,198.59,849,4
+73,Raise Product,Electronics,Carter Ltd,483.8,391,9
+74,Heart Product,Clothing,Vega-Thornton,424.01,197,3
+75,Sit Product,Home,Anderson Inc,163.01,534,8
+76,Sort Product,Home,Mathews-Banks,123.93,95,1
+77,Floor Product,Books,Miller-Brown,205.9,754,6
+78,Edge Product,Books,Elliott Inc,115.65,742,5
+79,Drive Product,Home,Butler Inc,379.0,952,8
+80,Important Product,Home,"Davis, Myers and Stout",43.64,265,4
+81,At Product,Clothing,Brown PLC,10.36,478,9
+82,Show Product,Books,Taylor Inc,224.92,739,6
+83,Cover Product,Home,Haney-Lynn,11.48,992,7
+84,Behind Product,Home,Riley LLC,325.4,916,10
+85,Activity Product,Beauty,"Dixon, Levy and Foster",353.64,34,6
+86,Over Product,Home,Carroll Inc,37.85,537,8
+87,Event Product,Clothing,"White, Nelson and Morgan",464.12,681,2
+88,Tv Product,Beauty,Pena-Jones,143.78,908,4
+89,Because Product,Electronics,Yoder PLC,495.44,331,10
+90,Woman Product,Electronics,Santiago-Torres,448.9,176,2
+91,Ball Product,Home,Perry-Owens,225.15,144,8
+92,Well Product,Clothing,"Cunningham, Nash and Lynn",196.53,700,1
+93,Marriage Product,Electronics,"Lin, Powell and Delgado",276.3,546,4
+94,As Product,Electronics,"Brown, Morgan and Allison",323.52,667,5
+95,Left Product,Books,Black LLC,67.05,466,2
+96,Rather Product,Beauty,Jackson Inc,17.07,651,7
+97,What Product,Clothing,Hull Group,480.29,206,6
+98,Fear Product,Clothing,Summers PLC,213.97,252,9
+99,Include Product,Beauty,Collins Ltd,113.12,709,7
+100,Once Product,Books,Ward-Forbes,405.4,423,5
